@@ -7,6 +7,9 @@ from time import sleep
 import ctypes
 from colorama import Fore, Style, init
 
+
+ctypes.windll.kernel32.SetConsoleTitleW("Blum Hacking by Argona")
+
 # Инициализация colorama
 init(autoreset=True)
 
