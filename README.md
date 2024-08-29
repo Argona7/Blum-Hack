@@ -86,7 +86,7 @@ After that, the program will create a json document called **_refresh_tokens_** 
 
 ## How to get "query"
 
-**You have to follow the same pattern as in [How to track a request](#how-to-track-a-request) Only you need to track down the PROVIDER_TELEGRAM_MINI_APP request. To trace it you need to stay out of bloom for 1 day. After that you just need to copy the body of the request**
+**You have to follow the same pattern as in [How to track a request](#how-to-track-a-request) Only you need to track down the PROVIDER_TELEGRAM_MINI_APP request. To trace it you need to stay out of Blum for 1 day. After that you just need to copy the body of the request**
 
 
 * ### [Guide on how to get Access token and Refresh Token](#how-to-track-a-request)
