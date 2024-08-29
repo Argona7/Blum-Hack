@@ -4,7 +4,7 @@ A program that automates actions in the crypto game “Blum”
 
 # Quick Start
 
-*  Download [latest version from Releases page](https://github.com/Argona7/Blum-Hack/releases), and run the program.
+*  Download [latest version from Releases page](https://github.com/Argona7/Blum-Hack/releases), and **run the program as administrator**.
 
 # How does it work 
 
@@ -39,7 +39,7 @@ The refresh request should be sent after an hour from the previous request.
 
 # How to track a request
 
-**In order to trace the request you need to [run Blum in web telegram and bypass the protection](https://www.youtube.com/watch?v=IirK5IDyNVU). With the help of the ***DevTools*** in the ***Network*** section you will be able to find the request “refresh”**
+In order to trace the request you need to [run Blum in web telegram and bypass the protection](https://www.youtube.com/watch?v=IirK5IDyNVU). With the help of the ***DevTools*** in the ***Network*** section you will be able to find the request **refresh**
 
 ###
 
@@ -86,14 +86,14 @@ After that, the program will create a json document called **_refresh_tokens_** 
 
 ## How to get "query"
 
-**You have to follow the same pattern as in [How to track a request](#how-to-track-a-request) Only you need to track down the PROVIDER_TELEGRAM_MINI_APP request. To trace it you need to stay out of Blum for 1 day. After that you just need to copy the body of the request**
+You have to follow the same pattern as in [How to track a request](#how-to-track-a-request) Only you need to track down the **PROVIDER_TELEGRAM_MINI_APP** request. To trace it you need to stay out of Blum for 1 day. After that you just need to copy the body of the request
 
 
 * ### [Guide on how to get Access token and Refresh Token](#how-to-track-a-request)
 
-**After that, once you have properly modified the file, restart the application
+After that, once you have properly modified the file, restart the application
 You will be prompted to exclude accounts from the automation list, simply type the account name or account names with a space.  
-Enjoy the app!**
+Enjoy the app!
 
 # Farewell and Final Thoughts
 
