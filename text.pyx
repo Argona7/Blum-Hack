@@ -10,14 +10,15 @@ from colorama import Fore, Style, init
 
 ctypes.windll.kernel32.SetConsoleTitleW("Blum Hacking by Argona")
 
+# Инициализация colorama
 init(autoreset=True)
 
 
 cpdef void clear_console():
-
+    # Для Windows
     if os.name == 'nt':
         os.system('cls')
-  
+    # Для Unix-подобных систем
     else:
         os.system('clear')
 
@@ -44,38 +45,38 @@ def get_terminal_size(int default_columns=150, int default_lines=40) -> tuple:
 
 @cython.cfunc
 def print_text_with_effect(text: cython.str, color: cython.str=Fore.RED, float speed=0.02):
-   
+    # Разбиваем текст на строки
     lines = text.strip('\n').splitlines()
 
-  
+    # Получаем размеры консоли
     columns, total_lines = get_terminal_size()
 
-   
+    # Находим максимальную длину строки
     cdef int max_length = max(len(line) for line in lines)
 
-    
+    # Вычисляем отступы для центрирования текста
     cdef int vertical_padding = (total_lines - len(lines)) // 2
     cdef int horizontal_padding = (columns - max_length) // 2
 
-  
+    # Печать текста по символам в 9 строках
     cdef int i
     for i in range(max_length):
-        stdout.write("\033[H\033[J") 
+        stdout.write("\033[H\033[J")  # Очистка экрана
         for _ in range(vertical_padding):
-            print()
+            print()  # Добавляем вертикальный отступ
         for line in lines:
             print(' ' * horizontal_padding + color + line[:i] + Style.RESET_ALL)
         stdout.flush()
         sleep(speed)
 
-
+    # Оставляем текст на экране на 1 секунду
     sleep(1)
 
-
+    # Стираем текст по символам
     for i in range(max_length, -1, -1):
-        stdout.write("\033[H\033[J") 
+        stdout.write("\033[H\033[J")  # Очистка экрана
         for _ in range(vertical_padding):
-            print() 
+            print()  # Добавляем вертикальный отступ
         for line in lines:
             print(' ' * horizontal_padding + color + line[:i] + Style.RESET_ALL)
         stdout.flush()
@@ -83,6 +84,7 @@ def print_text_with_effect(text: cython.str, color: cython.str=Fore.RED, float s
 
 
 cpdef void print_name():
+    # Устанавливаем размер консоли
     set_console_size(columns=150, lines=40)
 
     text = """

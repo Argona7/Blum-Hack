@@ -2402,16 +2402,16 @@ static const char __pyx_k_e[] = "e";
 static const char __pyx_k_f[] = "f";
 static const char __pyx_k_r[] = "r";
 static const char __pyx_k_w[] = "w";
-static const char __pyx_k__2[] = "";
-static const char __pyx_k__4[] = "-";
-static const char __pyx_k__6[] = " : ";
-static const char __pyx_k__7[] = "~";
-static const char __pyx_k__8[] = " ";
-static const char __pyx_k__9[] = "\n";
+static const char __pyx_k__3[] = "";
+static const char __pyx_k__5[] = "-";
+static const char __pyx_k__8[] = " : ";
+static const char __pyx_k__9[] = "~";
 static const char __pyx_k_os[] = "os";
-static const char __pyx_k__10[] = "*";
-static const char __pyx_k__11[] = ".";
-static const char __pyx_k__13[] = "?";
+static const char __pyx_k__10[] = " ";
+static const char __pyx_k__11[] = "\n";
+static const char __pyx_k__12[] = "*";
+static const char __pyx_k__13[] = ".";
+static const char __pyx_k__15[] = "?";
 static const char __pyx_k_a_2[] = "a";
 static const char __pyx_k_b_2[] = "b";
 static const char __pyx_k_f_a[] = "f-a";
@@ -2461,11 +2461,14 @@ static const char __pyx_k_params[] = "params";
 static const char __pyx_k_points[] = "points";
 static const char __pyx_k_random[] = "random";
 static const char __pyx_k_balance[] = "balance";
+static const char __pyx_k_choices[] = "choices";
 static const char __pyx_k_endTime[] = "endTime";
 static const char __pyx_k_farming[] = "farming";
 static const char __pyx_k_headers[] = "headers";
 static const char __pyx_k_randint[] = "randint";
 static const char __pyx_k_refresh[] = "refresh";
+static const char __pyx_k_uniform[] = "uniform";
+static const char __pyx_k_weights[] = "weights";
 static const char __pyx_k_accounts[] = "accounts";
 static const char __pyx_k_colorama[] = "colorama";
 static const char __pyx_k_encoding[] = "encoding";
@@ -2644,13 +2647,13 @@ typedef struct {
   PyObject *__pyx_kp_u_Trying_to_get_points_for_friends;
   PyObject *__pyx_kp_u_Which_accounts_to_exclude_from_t;
   PyObject *__pyx_n_s_YELLOW;
-  PyObject *__pyx_n_s__10;
+  PyObject *__pyx_kp_u__10;
   PyObject *__pyx_kp_u__11;
-  PyObject *__pyx_n_s__13;
-  PyObject *__pyx_kp_u__2;
-  PyObject *__pyx_kp_u__4;
-  PyObject *__pyx_kp_u__6;
-  PyObject *__pyx_kp_u__7;
+  PyObject *__pyx_n_s__12;
+  PyObject *__pyx_kp_u__13;
+  PyObject *__pyx_n_s__15;
+  PyObject *__pyx_kp_u__3;
+  PyObject *__pyx_kp_u__5;
   PyObject *__pyx_kp_u__8;
   PyObject *__pyx_kp_u__9;
   PyObject *__pyx_kp_u_a;
@@ -2670,6 +2673,7 @@ typedef struct {
   PyObject *__pyx_n_s_blum_automation;
   PyObject *__pyx_kp_s_blum_automation_pyx;
   PyObject *__pyx_n_u_c;
+  PyObject *__pyx_n_s_choices;
   PyObject *__pyx_n_u_claimBalance;
   PyObject *__pyx_kp_u_claim_farm;
   PyObject *__pyx_kp_u_claim_points_for_friends;
@@ -2753,13 +2757,18 @@ typedef struct {
   PyObject *__pyx_n_u_timestamp;
   PyObject *__pyx_kp_u_timestamp_2;
   PyObject *__pyx_n_u_token;
+  PyObject *__pyx_n_s_uniform;
   PyObject *__pyx_kp_u_user_agent;
   PyObject *__pyx_kp_u_utf_8;
   PyObject *__pyx_n_u_w;
   PyObject *__pyx_kp_u_was_not_found;
-  PyObject *__pyx_float_0_4;
+  PyObject *__pyx_n_s_weights;
+  PyObject *__pyx_float_0_8;
   PyObject *__pyx_float_1_5;
   PyObject *__pyx_float_2_5;
+  PyObject *__pyx_float_3_5;
+  PyObject *__pyx_float_0_38;
+  PyObject *__pyx_float_0_62;
   PyObject *__pyx_float_30_5;
   PyObject *__pyx_int_0;
   PyObject *__pyx_int_1;
@@ -2768,17 +2777,20 @@ typedef struct {
   PyObject *__pyx_int_4;
   PyObject *__pyx_int_5;
   PyObject *__pyx_int_9;
+  PyObject *__pyx_int_190;
   PyObject *__pyx_int_200;
-  PyObject *__pyx_int_230;
-  PyObject *__pyx_int_250;
+  PyObject *__pyx_int_220;
+  PyObject *__pyx_int_240;
   PyObject *__pyx_int_1000;
   PyObject *__pyx_int_3600;
   PyObject *__pyx_int_28800000;
   PyObject *__pyx_int_neg_180;
   PyObject *__pyx_tuple_;
-  PyObject *__pyx_tuple__3;
-  PyObject *__pyx_tuple__5;
-  PyObject *__pyx_codeobj__12;
+  PyObject *__pyx_tuple__2;
+  PyObject *__pyx_tuple__4;
+  PyObject *__pyx_tuple__6;
+  PyObject *__pyx_tuple__7;
+  PyObject *__pyx_codeobj__14;
 } __pyx_mstate;
 
 #if CYTHON_USE_MODULE_STATE
@@ -2873,13 +2885,13 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_u_Trying_to_get_points_for_friends);
   Py_CLEAR(clear_module_state->__pyx_kp_u_Which_accounts_to_exclude_from_t);
   Py_CLEAR(clear_module_state->__pyx_n_s_YELLOW);
-  Py_CLEAR(clear_module_state->__pyx_n_s__10);
+  Py_CLEAR(clear_module_state->__pyx_kp_u__10);
   Py_CLEAR(clear_module_state->__pyx_kp_u__11);
-  Py_CLEAR(clear_module_state->__pyx_n_s__13);
-  Py_CLEAR(clear_module_state->__pyx_kp_u__2);
-  Py_CLEAR(clear_module_state->__pyx_kp_u__4);
-  Py_CLEAR(clear_module_state->__pyx_kp_u__6);
-  Py_CLEAR(clear_module_state->__pyx_kp_u__7);
+  Py_CLEAR(clear_module_state->__pyx_n_s__12);
+  Py_CLEAR(clear_module_state->__pyx_kp_u__13);
+  Py_CLEAR(clear_module_state->__pyx_n_s__15);
+  Py_CLEAR(clear_module_state->__pyx_kp_u__3);
+  Py_CLEAR(clear_module_state->__pyx_kp_u__5);
   Py_CLEAR(clear_module_state->__pyx_kp_u__8);
   Py_CLEAR(clear_module_state->__pyx_kp_u__9);
   Py_CLEAR(clear_module_state->__pyx_kp_u_a);
@@ -2899,6 +2911,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_blum_automation);
   Py_CLEAR(clear_module_state->__pyx_kp_s_blum_automation_pyx);
   Py_CLEAR(clear_module_state->__pyx_n_u_c);
+  Py_CLEAR(clear_module_state->__pyx_n_s_choices);
   Py_CLEAR(clear_module_state->__pyx_n_u_claimBalance);
   Py_CLEAR(clear_module_state->__pyx_kp_u_claim_farm);
   Py_CLEAR(clear_module_state->__pyx_kp_u_claim_points_for_friends);
@@ -2982,13 +2995,18 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_u_timestamp);
   Py_CLEAR(clear_module_state->__pyx_kp_u_timestamp_2);
   Py_CLEAR(clear_module_state->__pyx_n_u_token);
+  Py_CLEAR(clear_module_state->__pyx_n_s_uniform);
   Py_CLEAR(clear_module_state->__pyx_kp_u_user_agent);
   Py_CLEAR(clear_module_state->__pyx_kp_u_utf_8);
   Py_CLEAR(clear_module_state->__pyx_n_u_w);
   Py_CLEAR(clear_module_state->__pyx_kp_u_was_not_found);
-  Py_CLEAR(clear_module_state->__pyx_float_0_4);
+  Py_CLEAR(clear_module_state->__pyx_n_s_weights);
+  Py_CLEAR(clear_module_state->__pyx_float_0_8);
   Py_CLEAR(clear_module_state->__pyx_float_1_5);
   Py_CLEAR(clear_module_state->__pyx_float_2_5);
+  Py_CLEAR(clear_module_state->__pyx_float_3_5);
+  Py_CLEAR(clear_module_state->__pyx_float_0_38);
+  Py_CLEAR(clear_module_state->__pyx_float_0_62);
   Py_CLEAR(clear_module_state->__pyx_float_30_5);
   Py_CLEAR(clear_module_state->__pyx_int_0);
   Py_CLEAR(clear_module_state->__pyx_int_1);
@@ -2997,17 +3015,20 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_int_4);
   Py_CLEAR(clear_module_state->__pyx_int_5);
   Py_CLEAR(clear_module_state->__pyx_int_9);
+  Py_CLEAR(clear_module_state->__pyx_int_190);
   Py_CLEAR(clear_module_state->__pyx_int_200);
-  Py_CLEAR(clear_module_state->__pyx_int_230);
-  Py_CLEAR(clear_module_state->__pyx_int_250);
+  Py_CLEAR(clear_module_state->__pyx_int_220);
+  Py_CLEAR(clear_module_state->__pyx_int_240);
   Py_CLEAR(clear_module_state->__pyx_int_1000);
   Py_CLEAR(clear_module_state->__pyx_int_3600);
   Py_CLEAR(clear_module_state->__pyx_int_28800000);
   Py_CLEAR(clear_module_state->__pyx_int_neg_180);
   Py_CLEAR(clear_module_state->__pyx_tuple_);
-  Py_CLEAR(clear_module_state->__pyx_tuple__3);
-  Py_CLEAR(clear_module_state->__pyx_tuple__5);
-  Py_CLEAR(clear_module_state->__pyx_codeobj__12);
+  Py_CLEAR(clear_module_state->__pyx_tuple__2);
+  Py_CLEAR(clear_module_state->__pyx_tuple__4);
+  Py_CLEAR(clear_module_state->__pyx_tuple__6);
+  Py_CLEAR(clear_module_state->__pyx_tuple__7);
+  Py_CLEAR(clear_module_state->__pyx_codeobj__14);
   return 0;
 }
 #endif
@@ -3080,13 +3101,13 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_u_Trying_to_get_points_for_friends);
   Py_VISIT(traverse_module_state->__pyx_kp_u_Which_accounts_to_exclude_from_t);
   Py_VISIT(traverse_module_state->__pyx_n_s_YELLOW);
-  Py_VISIT(traverse_module_state->__pyx_n_s__10);
+  Py_VISIT(traverse_module_state->__pyx_kp_u__10);
   Py_VISIT(traverse_module_state->__pyx_kp_u__11);
-  Py_VISIT(traverse_module_state->__pyx_n_s__13);
-  Py_VISIT(traverse_module_state->__pyx_kp_u__2);
-  Py_VISIT(traverse_module_state->__pyx_kp_u__4);
-  Py_VISIT(traverse_module_state->__pyx_kp_u__6);
-  Py_VISIT(traverse_module_state->__pyx_kp_u__7);
+  Py_VISIT(traverse_module_state->__pyx_n_s__12);
+  Py_VISIT(traverse_module_state->__pyx_kp_u__13);
+  Py_VISIT(traverse_module_state->__pyx_n_s__15);
+  Py_VISIT(traverse_module_state->__pyx_kp_u__3);
+  Py_VISIT(traverse_module_state->__pyx_kp_u__5);
   Py_VISIT(traverse_module_state->__pyx_kp_u__8);
   Py_VISIT(traverse_module_state->__pyx_kp_u__9);
   Py_VISIT(traverse_module_state->__pyx_kp_u_a);
@@ -3106,6 +3127,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_blum_automation);
   Py_VISIT(traverse_module_state->__pyx_kp_s_blum_automation_pyx);
   Py_VISIT(traverse_module_state->__pyx_n_u_c);
+  Py_VISIT(traverse_module_state->__pyx_n_s_choices);
   Py_VISIT(traverse_module_state->__pyx_n_u_claimBalance);
   Py_VISIT(traverse_module_state->__pyx_kp_u_claim_farm);
   Py_VISIT(traverse_module_state->__pyx_kp_u_claim_points_for_friends);
@@ -3189,13 +3211,18 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_u_timestamp);
   Py_VISIT(traverse_module_state->__pyx_kp_u_timestamp_2);
   Py_VISIT(traverse_module_state->__pyx_n_u_token);
+  Py_VISIT(traverse_module_state->__pyx_n_s_uniform);
   Py_VISIT(traverse_module_state->__pyx_kp_u_user_agent);
   Py_VISIT(traverse_module_state->__pyx_kp_u_utf_8);
   Py_VISIT(traverse_module_state->__pyx_n_u_w);
   Py_VISIT(traverse_module_state->__pyx_kp_u_was_not_found);
-  Py_VISIT(traverse_module_state->__pyx_float_0_4);
+  Py_VISIT(traverse_module_state->__pyx_n_s_weights);
+  Py_VISIT(traverse_module_state->__pyx_float_0_8);
   Py_VISIT(traverse_module_state->__pyx_float_1_5);
   Py_VISIT(traverse_module_state->__pyx_float_2_5);
+  Py_VISIT(traverse_module_state->__pyx_float_3_5);
+  Py_VISIT(traverse_module_state->__pyx_float_0_38);
+  Py_VISIT(traverse_module_state->__pyx_float_0_62);
   Py_VISIT(traverse_module_state->__pyx_float_30_5);
   Py_VISIT(traverse_module_state->__pyx_int_0);
   Py_VISIT(traverse_module_state->__pyx_int_1);
@@ -3204,17 +3231,20 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_int_4);
   Py_VISIT(traverse_module_state->__pyx_int_5);
   Py_VISIT(traverse_module_state->__pyx_int_9);
+  Py_VISIT(traverse_module_state->__pyx_int_190);
   Py_VISIT(traverse_module_state->__pyx_int_200);
-  Py_VISIT(traverse_module_state->__pyx_int_230);
-  Py_VISIT(traverse_module_state->__pyx_int_250);
+  Py_VISIT(traverse_module_state->__pyx_int_220);
+  Py_VISIT(traverse_module_state->__pyx_int_240);
   Py_VISIT(traverse_module_state->__pyx_int_1000);
   Py_VISIT(traverse_module_state->__pyx_int_3600);
   Py_VISIT(traverse_module_state->__pyx_int_28800000);
   Py_VISIT(traverse_module_state->__pyx_int_neg_180);
   Py_VISIT(traverse_module_state->__pyx_tuple_);
-  Py_VISIT(traverse_module_state->__pyx_tuple__3);
-  Py_VISIT(traverse_module_state->__pyx_tuple__5);
-  Py_VISIT(traverse_module_state->__pyx_codeobj__12);
+  Py_VISIT(traverse_module_state->__pyx_tuple__2);
+  Py_VISIT(traverse_module_state->__pyx_tuple__4);
+  Py_VISIT(traverse_module_state->__pyx_tuple__6);
+  Py_VISIT(traverse_module_state->__pyx_tuple__7);
+  Py_VISIT(traverse_module_state->__pyx_codeobj__14);
   return 0;
 }
 #endif
@@ -3299,13 +3329,13 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_u_Trying_to_get_points_for_friends __pyx_mstate_global->__pyx_kp_u_Trying_to_get_points_for_friends
 #define __pyx_kp_u_Which_accounts_to_exclude_from_t __pyx_mstate_global->__pyx_kp_u_Which_accounts_to_exclude_from_t
 #define __pyx_n_s_YELLOW __pyx_mstate_global->__pyx_n_s_YELLOW
-#define __pyx_n_s__10 __pyx_mstate_global->__pyx_n_s__10
+#define __pyx_kp_u__10 __pyx_mstate_global->__pyx_kp_u__10
 #define __pyx_kp_u__11 __pyx_mstate_global->__pyx_kp_u__11
-#define __pyx_n_s__13 __pyx_mstate_global->__pyx_n_s__13
-#define __pyx_kp_u__2 __pyx_mstate_global->__pyx_kp_u__2
-#define __pyx_kp_u__4 __pyx_mstate_global->__pyx_kp_u__4
-#define __pyx_kp_u__6 __pyx_mstate_global->__pyx_kp_u__6
-#define __pyx_kp_u__7 __pyx_mstate_global->__pyx_kp_u__7
+#define __pyx_n_s__12 __pyx_mstate_global->__pyx_n_s__12
+#define __pyx_kp_u__13 __pyx_mstate_global->__pyx_kp_u__13
+#define __pyx_n_s__15 __pyx_mstate_global->__pyx_n_s__15
+#define __pyx_kp_u__3 __pyx_mstate_global->__pyx_kp_u__3
+#define __pyx_kp_u__5 __pyx_mstate_global->__pyx_kp_u__5
 #define __pyx_kp_u__8 __pyx_mstate_global->__pyx_kp_u__8
 #define __pyx_kp_u__9 __pyx_mstate_global->__pyx_kp_u__9
 #define __pyx_kp_u_a __pyx_mstate_global->__pyx_kp_u_a
@@ -3325,6 +3355,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_blum_automation __pyx_mstate_global->__pyx_n_s_blum_automation
 #define __pyx_kp_s_blum_automation_pyx __pyx_mstate_global->__pyx_kp_s_blum_automation_pyx
 #define __pyx_n_u_c __pyx_mstate_global->__pyx_n_u_c
+#define __pyx_n_s_choices __pyx_mstate_global->__pyx_n_s_choices
 #define __pyx_n_u_claimBalance __pyx_mstate_global->__pyx_n_u_claimBalance
 #define __pyx_kp_u_claim_farm __pyx_mstate_global->__pyx_kp_u_claim_farm
 #define __pyx_kp_u_claim_points_for_friends __pyx_mstate_global->__pyx_kp_u_claim_points_for_friends
@@ -3408,13 +3439,18 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_u_timestamp __pyx_mstate_global->__pyx_n_u_timestamp
 #define __pyx_kp_u_timestamp_2 __pyx_mstate_global->__pyx_kp_u_timestamp_2
 #define __pyx_n_u_token __pyx_mstate_global->__pyx_n_u_token
+#define __pyx_n_s_uniform __pyx_mstate_global->__pyx_n_s_uniform
 #define __pyx_kp_u_user_agent __pyx_mstate_global->__pyx_kp_u_user_agent
 #define __pyx_kp_u_utf_8 __pyx_mstate_global->__pyx_kp_u_utf_8
 #define __pyx_n_u_w __pyx_mstate_global->__pyx_n_u_w
 #define __pyx_kp_u_was_not_found __pyx_mstate_global->__pyx_kp_u_was_not_found
-#define __pyx_float_0_4 __pyx_mstate_global->__pyx_float_0_4
+#define __pyx_n_s_weights __pyx_mstate_global->__pyx_n_s_weights
+#define __pyx_float_0_8 __pyx_mstate_global->__pyx_float_0_8
 #define __pyx_float_1_5 __pyx_mstate_global->__pyx_float_1_5
 #define __pyx_float_2_5 __pyx_mstate_global->__pyx_float_2_5
+#define __pyx_float_3_5 __pyx_mstate_global->__pyx_float_3_5
+#define __pyx_float_0_38 __pyx_mstate_global->__pyx_float_0_38
+#define __pyx_float_0_62 __pyx_mstate_global->__pyx_float_0_62
 #define __pyx_float_30_5 __pyx_mstate_global->__pyx_float_30_5
 #define __pyx_int_0 __pyx_mstate_global->__pyx_int_0
 #define __pyx_int_1 __pyx_mstate_global->__pyx_int_1
@@ -3423,17 +3459,20 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_int_4 __pyx_mstate_global->__pyx_int_4
 #define __pyx_int_5 __pyx_mstate_global->__pyx_int_5
 #define __pyx_int_9 __pyx_mstate_global->__pyx_int_9
+#define __pyx_int_190 __pyx_mstate_global->__pyx_int_190
 #define __pyx_int_200 __pyx_mstate_global->__pyx_int_200
-#define __pyx_int_230 __pyx_mstate_global->__pyx_int_230
-#define __pyx_int_250 __pyx_mstate_global->__pyx_int_250
+#define __pyx_int_220 __pyx_mstate_global->__pyx_int_220
+#define __pyx_int_240 __pyx_mstate_global->__pyx_int_240
 #define __pyx_int_1000 __pyx_mstate_global->__pyx_int_1000
 #define __pyx_int_3600 __pyx_mstate_global->__pyx_int_3600
 #define __pyx_int_28800000 __pyx_mstate_global->__pyx_int_28800000
 #define __pyx_int_neg_180 __pyx_mstate_global->__pyx_int_neg_180
 #define __pyx_tuple_ __pyx_mstate_global->__pyx_tuple_
-#define __pyx_tuple__3 __pyx_mstate_global->__pyx_tuple__3
-#define __pyx_tuple__5 __pyx_mstate_global->__pyx_tuple__5
-#define __pyx_codeobj__12 __pyx_mstate_global->__pyx_codeobj__12
+#define __pyx_tuple__2 __pyx_mstate_global->__pyx_tuple__2
+#define __pyx_tuple__4 __pyx_mstate_global->__pyx_tuple__4
+#define __pyx_tuple__6 __pyx_mstate_global->__pyx_tuple__6
+#define __pyx_tuple__7 __pyx_mstate_global->__pyx_tuple__7
+#define __pyx_codeobj__14 __pyx_mstate_global->__pyx_codeobj__14
 /* #### Code section: module_code ### */
 
 /* "blum_automation.pyx":24
@@ -3838,7 +3877,7 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  *             data = json.load(file)
  *             if not data["accounts"]:             # <<<<<<<<<<<<<<
  *                 print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "Accounts need to be added!")
- *                 time.sleep(1)
+ *                 time.sleep(uniform(1.5,2.5))
  */
             __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_v_data, __pyx_n_u_accounts); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 41, __pyx_L8_error)
             __Pyx_GOTREF(__pyx_t_1);
@@ -3851,7 +3890,7 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  *             data = json.load(file)
  *             if not data["accounts"]:
  *                 print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "Accounts need to be added!")             # <<<<<<<<<<<<<<
- *                 time.sleep(1)
+ *                 time.sleep(uniform(1.5,2.5))
  *                 return False
  */
               __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Fore); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 42, __pyx_L8_error)
@@ -3879,7 +3918,7 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
               /* "blum_automation.pyx":43
  *             if not data["accounts"]:
  *                 print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "Accounts need to be added!")
- *                 time.sleep(1)             # <<<<<<<<<<<<<<
+ *                 time.sleep(uniform(1.5,2.5))             # <<<<<<<<<<<<<<
  *                 return False
  * 
  */
@@ -3887,6 +3926,11 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
               __Pyx_GOTREF(__pyx_t_3);
               __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_sleep); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 43, __pyx_L8_error)
               __Pyx_GOTREF(__pyx_t_2);
+              __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+              __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_uniform); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 43, __pyx_L8_error)
+              __Pyx_GOTREF(__pyx_t_3);
+              __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 43, __pyx_L8_error)
+              __Pyx_GOTREF(__pyx_t_7);
               __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
               __pyx_t_3 = NULL;
               __pyx_t_4 = 0;
@@ -3903,9 +3947,10 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
               }
               #endif
               {
-                PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_int_1};
+                PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_t_7};
                 __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
                 __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+                __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
                 if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 43, __pyx_L8_error)
                 __Pyx_GOTREF(__pyx_t_1);
                 __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -3914,7 +3959,7 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
 
               /* "blum_automation.pyx":44
  *                 print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "Accounts need to be added!")
- *                 time.sleep(1)
+ *                 time.sleep(uniform(1.5,2.5))
  *                 return False             # <<<<<<<<<<<<<<
  * 
  *             accounts_names = list(data["accounts"].keys())
@@ -3929,7 +3974,7 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  *             data = json.load(file)
  *             if not data["accounts"]:             # <<<<<<<<<<<<<<
  *                 print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "Accounts need to be added!")
- *                 time.sleep(1)
+ *                 time.sleep(uniform(1.5,2.5))
  */
             }
 
@@ -3942,36 +3987,36 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  */
             __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_v_data, __pyx_n_u_accounts); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 46, __pyx_L8_error)
             __Pyx_GOTREF(__pyx_t_2);
-            __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_keys); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 46, __pyx_L8_error)
-            __Pyx_GOTREF(__pyx_t_3);
+            __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_keys); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 46, __pyx_L8_error)
+            __Pyx_GOTREF(__pyx_t_7);
             __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
             __pyx_t_2 = NULL;
             __pyx_t_4 = 0;
             #if CYTHON_UNPACK_METHODS
-            if (likely(PyMethod_Check(__pyx_t_3))) {
-              __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_3);
+            if (likely(PyMethod_Check(__pyx_t_7))) {
+              __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_7);
               if (likely(__pyx_t_2)) {
-                PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+                PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
                 __Pyx_INCREF(__pyx_t_2);
                 __Pyx_INCREF(function);
-                __Pyx_DECREF_SET(__pyx_t_3, function);
+                __Pyx_DECREF_SET(__pyx_t_7, function);
                 __pyx_t_4 = 1;
               }
             }
             #endif
             {
               PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
-              __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
+              __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
               __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
               if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 46, __pyx_L8_error)
               __Pyx_GOTREF(__pyx_t_1);
-              __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+              __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
             }
-            __pyx_t_3 = __Pyx_PySequence_ListKeepNew(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 46, __pyx_L8_error)
-            __Pyx_GOTREF(__pyx_t_3);
+            __pyx_t_7 = __Pyx_PySequence_ListKeepNew(__pyx_t_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 46, __pyx_L8_error)
+            __Pyx_GOTREF(__pyx_t_7);
             __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-            __pyx_v_accounts_names = ((PyObject*)__pyx_t_3);
-            __pyx_t_3 = 0;
+            __pyx_v_accounts_names = ((PyObject*)__pyx_t_7);
+            __pyx_t_7 = 0;
 
             /* "blum_automation.pyx":47
  * 
@@ -3980,20 +4025,20 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  *                 account = data["accounts"][i]
  *                 if (not account["refreshed"]) or (not account["timestamp"]) or (
  */
-            __pyx_t_3 = __pyx_v_accounts_names; __Pyx_INCREF(__pyx_t_3);
+            __pyx_t_7 = __pyx_v_accounts_names; __Pyx_INCREF(__pyx_t_7);
             __pyx_t_12 = 0;
             for (;;) {
               {
-                Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_3);
+                Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_7);
                 #if !CYTHON_ASSUME_SAFE_MACROS
                 if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 47, __pyx_L8_error)
                 #endif
                 if (__pyx_t_12 >= __pyx_temp) break;
               }
               #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-              __pyx_t_1 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_12); __Pyx_INCREF(__pyx_t_1); __pyx_t_12++; if (unlikely((0 < 0))) __PYX_ERR(0, 47, __pyx_L8_error)
+              __pyx_t_1 = PyList_GET_ITEM(__pyx_t_7, __pyx_t_12); __Pyx_INCREF(__pyx_t_1); __pyx_t_12++; if (unlikely((0 < 0))) __PYX_ERR(0, 47, __pyx_L8_error)
               #else
-              __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_3, __pyx_t_12); __pyx_t_12++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 47, __pyx_L8_error)
+              __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_7, __pyx_t_12); __pyx_t_12++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 47, __pyx_L8_error)
               __Pyx_GOTREF(__pyx_t_1);
               #endif
               __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_1);
@@ -4056,11 +4101,11 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
               __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
               __pyx_t_2 = __pyx_f_15blum_automation_get_farming_time(0.0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 50, __pyx_L8_error)
               __Pyx_GOTREF(__pyx_t_2);
-              __pyx_t_7 = PyObject_RichCompare(__pyx_t_1, __pyx_t_2, Py_LT); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 50, __pyx_L8_error)
+              __pyx_t_3 = PyObject_RichCompare(__pyx_t_1, __pyx_t_2, Py_LT); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 50, __pyx_L8_error)
               __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
               __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-              __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 50, __pyx_L8_error)
-              __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+              __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 50, __pyx_L8_error)
+              __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
               __pyx_t_11 = __pyx_t_5;
               __pyx_L18_bool_binop_done:;
 
@@ -4080,10 +4125,10 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  *                         continue
  *                     tokens[account["refresh_token"]] = [i, "refresh", account["query"]]
  */
-                __pyx_t_7 = __Pyx_PyObject_Dict_GetItem(__pyx_v_account, __pyx_n_u_refresh_token); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 51, __pyx_L8_error)
-                __Pyx_GOTREF(__pyx_t_7);
-                __pyx_t_11 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely((__pyx_t_11 < 0))) __PYX_ERR(0, 51, __pyx_L8_error)
-                __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+                __pyx_t_3 = __Pyx_PyObject_Dict_GetItem(__pyx_v_account, __pyx_n_u_refresh_token); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 51, __pyx_L8_error)
+                __Pyx_GOTREF(__pyx_t_3);
+                __pyx_t_11 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_11 < 0))) __PYX_ERR(0, 51, __pyx_L8_error)
+                __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
                 __pyx_t_5 = (!__pyx_t_11);
                 if (__pyx_t_5) {
 
@@ -4112,8 +4157,8 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  *                 else:
  *                     tokens[account["access_token"]] = [i, "access"]
  */
-                __pyx_t_7 = __Pyx_PyObject_Dict_GetItem(__pyx_v_account, __pyx_n_u_query); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 53, __pyx_L8_error)
-                __Pyx_GOTREF(__pyx_t_7);
+                __pyx_t_3 = __Pyx_PyObject_Dict_GetItem(__pyx_v_account, __pyx_n_u_query); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 53, __pyx_L8_error)
+                __Pyx_GOTREF(__pyx_t_3);
                 __pyx_t_2 = PyList_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 53, __pyx_L8_error)
                 __Pyx_GOTREF(__pyx_t_2);
                 __Pyx_INCREF(__pyx_v_i);
@@ -4122,13 +4167,13 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
                 __Pyx_INCREF(__pyx_n_u_refresh);
                 __Pyx_GIVEREF(__pyx_n_u_refresh);
                 if (__Pyx_PyList_SET_ITEM(__pyx_t_2, 1, __pyx_n_u_refresh)) __PYX_ERR(0, 53, __pyx_L8_error);
-                __Pyx_GIVEREF(__pyx_t_7);
-                if (__Pyx_PyList_SET_ITEM(__pyx_t_2, 2, __pyx_t_7)) __PYX_ERR(0, 53, __pyx_L8_error);
-                __pyx_t_7 = 0;
-                __pyx_t_7 = __Pyx_PyObject_Dict_GetItem(__pyx_v_account, __pyx_n_u_refresh_token); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 53, __pyx_L8_error)
-                __Pyx_GOTREF(__pyx_t_7);
-                if (unlikely((PyDict_SetItem(__pyx_v_tokens, __pyx_t_7, __pyx_t_2) < 0))) __PYX_ERR(0, 53, __pyx_L8_error)
-                __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+                __Pyx_GIVEREF(__pyx_t_3);
+                if (__Pyx_PyList_SET_ITEM(__pyx_t_2, 2, __pyx_t_3)) __PYX_ERR(0, 53, __pyx_L8_error);
+                __pyx_t_3 = 0;
+                __pyx_t_3 = __Pyx_PyObject_Dict_GetItem(__pyx_v_account, __pyx_n_u_refresh_token); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 53, __pyx_L8_error)
+                __Pyx_GOTREF(__pyx_t_3);
+                if (unlikely((PyDict_SetItem(__pyx_v_tokens, __pyx_t_3, __pyx_t_2) < 0))) __PYX_ERR(0, 53, __pyx_L8_error)
+                __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
                 __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
                 /* "blum_automation.pyx":49
@@ -4157,10 +4202,10 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
                 __Pyx_INCREF(__pyx_n_u_access);
                 __Pyx_GIVEREF(__pyx_n_u_access);
                 if (__Pyx_PyList_SET_ITEM(__pyx_t_2, 1, __pyx_n_u_access)) __PYX_ERR(0, 55, __pyx_L8_error);
-                __pyx_t_7 = __Pyx_PyObject_Dict_GetItem(__pyx_v_account, __pyx_n_u_access_token); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 55, __pyx_L8_error)
-                __Pyx_GOTREF(__pyx_t_7);
-                if (unlikely((PyDict_SetItem(__pyx_v_tokens, __pyx_t_7, __pyx_t_2) < 0))) __PYX_ERR(0, 55, __pyx_L8_error)
-                __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+                __pyx_t_3 = __Pyx_PyObject_Dict_GetItem(__pyx_v_account, __pyx_n_u_access_token); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 55, __pyx_L8_error)
+                __Pyx_GOTREF(__pyx_t_3);
+                if (unlikely((PyDict_SetItem(__pyx_v_tokens, __pyx_t_3, __pyx_t_2) < 0))) __PYX_ERR(0, 55, __pyx_L8_error)
+                __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
                 __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
               }
               __pyx_L17:;
@@ -4174,7 +4219,7 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  */
               __pyx_L15_continue:;
             }
-            __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+            __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
             /* "blum_automation.pyx":57
  *                     tokens[account["access_token"]] = [i, "access"]
@@ -4184,16 +4229,16 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  *     else:
  */
             __Pyx_XDECREF(__pyx_r);
-            __pyx_t_3 = PySequence_List(__pyx_v_accounts_names); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 57, __pyx_L8_error)
-            __Pyx_GOTREF(__pyx_t_3);
+            __pyx_t_7 = PySequence_List(__pyx_v_accounts_names); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 57, __pyx_L8_error)
+            __Pyx_GOTREF(__pyx_t_7);
             __pyx_t_2 = PyList_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 57, __pyx_L8_error)
             __Pyx_GOTREF(__pyx_t_2);
             __Pyx_INCREF(__pyx_v_tokens);
             __Pyx_GIVEREF(__pyx_v_tokens);
             if (__Pyx_PyList_SET_ITEM(__pyx_t_2, 0, __pyx_v_tokens)) __PYX_ERR(0, 57, __pyx_L8_error);
-            __Pyx_GIVEREF(__pyx_t_3);
-            if (__Pyx_PyList_SET_ITEM(__pyx_t_2, 1, __pyx_t_3)) __PYX_ERR(0, 57, __pyx_L8_error);
-            __pyx_t_3 = 0;
+            __Pyx_GIVEREF(__pyx_t_7);
+            if (__Pyx_PyList_SET_ITEM(__pyx_t_2, 1, __pyx_t_7)) __PYX_ERR(0, 57, __pyx_L8_error);
+            __pyx_t_7 = 0;
             __pyx_r = __pyx_t_2;
             __pyx_t_2 = 0;
             goto __pyx_L12_try_return;
@@ -4213,11 +4258,11 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           /*except:*/ {
             __Pyx_AddTraceback("blum_automation.get_refresh_token", __pyx_clineno, __pyx_lineno, __pyx_filename);
-            if (__Pyx_GetException(&__pyx_t_2, &__pyx_t_3, &__pyx_t_7) < 0) __PYX_ERR(0, 38, __pyx_L10_except_error)
+            if (__Pyx_GetException(&__pyx_t_2, &__pyx_t_7, &__pyx_t_3) < 0) __PYX_ERR(0, 38, __pyx_L10_except_error)
             __Pyx_XGOTREF(__pyx_t_2);
-            __Pyx_XGOTREF(__pyx_t_3);
             __Pyx_XGOTREF(__pyx_t_7);
-            __pyx_t_1 = PyTuple_Pack(3, __pyx_t_2, __pyx_t_3, __pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 38, __pyx_L10_except_error)
+            __Pyx_XGOTREF(__pyx_t_3);
+            __pyx_t_1 = PyTuple_Pack(3, __pyx_t_2, __pyx_t_7, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 38, __pyx_L10_except_error)
             __Pyx_GOTREF(__pyx_t_1);
             __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_t_1, NULL);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -4230,15 +4275,15 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
             __pyx_t_11 = (!__pyx_t_5);
             if (unlikely(__pyx_t_11)) {
               __Pyx_GIVEREF(__pyx_t_2);
-              __Pyx_GIVEREF(__pyx_t_3);
-              __Pyx_XGIVEREF(__pyx_t_7);
-              __Pyx_ErrRestoreWithState(__pyx_t_2, __pyx_t_3, __pyx_t_7);
-              __pyx_t_2 = 0; __pyx_t_3 = 0; __pyx_t_7 = 0; 
+              __Pyx_GIVEREF(__pyx_t_7);
+              __Pyx_XGIVEREF(__pyx_t_3);
+              __Pyx_ErrRestoreWithState(__pyx_t_2, __pyx_t_7, __pyx_t_3);
+              __pyx_t_2 = 0; __pyx_t_7 = 0; __pyx_t_3 = 0; 
               __PYX_ERR(0, 38, __pyx_L10_except_error)
             }
             __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-            __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+            __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
             goto __pyx_L9_exception_handled;
           }
           __pyx_L10_except_error:;
@@ -4263,7 +4308,7 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
       /*finally:*/ {
         /*normal exit:*/{
           if (__pyx_t_6) {
-            __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple_, NULL);
+            __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__2, NULL);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
             if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 38, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_10);
@@ -4275,7 +4320,7 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
           __pyx_t_10 = __pyx_r;
           __pyx_r = 0;
           if (__pyx_t_6) {
-            __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple_, NULL);
+            __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__2, NULL);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
             if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 38, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_9);
@@ -4320,14 +4365,14 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  *         }
  *         with open(tokens_file_path, 'w', encoding='utf-8') as file:
  */
-    __pyx_t_7 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 61, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_3 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 61, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 61, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (PyDict_SetItem(__pyx_t_7, __pyx_n_u_accounts, __pyx_t_3) < 0) __PYX_ERR(0, 61, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_v_data = __pyx_t_7;
-    __pyx_t_7 = 0;
+    __pyx_t_7 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 61, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_u_accounts, __pyx_t_7) < 0) __PYX_ERR(0, 61, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __pyx_v_data = __pyx_t_3;
+    __pyx_t_3 = 0;
 
     /* "blum_automation.pyx":63
  *             "accounts": {}
@@ -4337,49 +4382,49 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  *             print(
  */
     /*with:*/ {
-      __pyx_t_7 = PyTuple_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 63, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 63, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
       __Pyx_INCREF(__pyx_v_tokens_file_path);
       __Pyx_GIVEREF(__pyx_v_tokens_file_path);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_v_tokens_file_path)) __PYX_ERR(0, 63, __pyx_L1_error);
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_v_tokens_file_path)) __PYX_ERR(0, 63, __pyx_L1_error);
       __Pyx_INCREF(__pyx_n_u_w);
       __Pyx_GIVEREF(__pyx_n_u_w);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_7, 1, __pyx_n_u_w)) __PYX_ERR(0, 63, __pyx_L1_error);
-      __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 63, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_encoding, __pyx_kp_u_utf_8) < 0) __PYX_ERR(0, 63, __pyx_L1_error)
-      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_open, __pyx_t_7, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 63, __pyx_L1_error)
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_n_u_w)) __PYX_ERR(0, 63, __pyx_L1_error);
+      __pyx_t_7 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 63, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_7);
+      if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_encoding, __pyx_kp_u_utf_8) < 0) __PYX_ERR(0, 63, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_open, __pyx_t_3, __pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 63, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __pyx_t_6 = __Pyx_PyObject_LookupSpecial(__pyx_t_2, __pyx_n_s_exit); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 63, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_LookupSpecial(__pyx_t_2, __pyx_n_s_enter); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 63, __pyx_L27_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_3 = __Pyx_PyObject_LookupSpecial(__pyx_t_2, __pyx_n_s_enter); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 63, __pyx_L27_error)
+      __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_1 = NULL;
       __pyx_t_4 = 0;
       #if CYTHON_UNPACK_METHODS
-      if (likely(PyMethod_Check(__pyx_t_7))) {
-        __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_7);
+      if (likely(PyMethod_Check(__pyx_t_3))) {
+        __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_3);
         if (likely(__pyx_t_1)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
           __Pyx_INCREF(__pyx_t_1);
           __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_7, function);
+          __Pyx_DECREF_SET(__pyx_t_3, function);
           __pyx_t_4 = 1;
         }
       }
       #endif
       {
         PyObject *__pyx_callargs[2] = {__pyx_t_1, NULL};
-        __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
+        __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
         __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 63, __pyx_L27_error)
-        __Pyx_GOTREF(__pyx_t_3);
-        __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 63, __pyx_L27_error)
+        __Pyx_GOTREF(__pyx_t_7);
+        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
-      __pyx_t_7 = __pyx_t_3;
-      __pyx_t_3 = 0;
+      __pyx_t_3 = __pyx_t_7;
+      __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       /*try:*/ {
         {
@@ -4390,8 +4435,8 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
           __Pyx_XGOTREF(__pyx_t_9);
           __Pyx_XGOTREF(__pyx_t_8);
           /*try:*/ {
-            __pyx_v_file = __pyx_t_7;
-            __pyx_t_7 = 0;
+            __pyx_v_file = __pyx_t_3;
+            __pyx_t_3 = 0;
 
             /* "blum_automation.pyx":64
  *         }
@@ -4400,28 +4445,28 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  *             print(
  *                 Fore.LIGHTMAGENTA_EX + Style.BRIGHT + f"File not found. A new file has been created at the path: {tokens_file_path}")
  */
-            __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_json); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 64, __pyx_L31_error)
-            __Pyx_GOTREF(__pyx_t_7);
-            __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_dump); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 64, __pyx_L31_error)
+            __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_json); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 64, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_3);
+            __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_dump); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 64, __pyx_L31_error)
             __Pyx_GOTREF(__pyx_t_2);
-            __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-            __pyx_t_7 = PyTuple_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 64, __pyx_L31_error)
-            __Pyx_GOTREF(__pyx_t_7);
+            __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+            __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 64, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_3);
             __Pyx_INCREF(__pyx_v_data);
             __Pyx_GIVEREF(__pyx_v_data);
-            if (__Pyx_PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_v_data)) __PYX_ERR(0, 64, __pyx_L31_error);
+            if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_v_data)) __PYX_ERR(0, 64, __pyx_L31_error);
             __Pyx_INCREF(__pyx_v_file);
             __Pyx_GIVEREF(__pyx_v_file);
-            if (__Pyx_PyTuple_SET_ITEM(__pyx_t_7, 1, __pyx_v_file)) __PYX_ERR(0, 64, __pyx_L31_error);
-            __pyx_t_3 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 64, __pyx_L31_error)
-            __Pyx_GOTREF(__pyx_t_3);
-            if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_ensure_ascii, Py_False) < 0) __PYX_ERR(0, 64, __pyx_L31_error)
-            if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_indent, __pyx_int_4) < 0) __PYX_ERR(0, 64, __pyx_L31_error)
-            __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_7, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 64, __pyx_L31_error)
+            if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_v_file)) __PYX_ERR(0, 64, __pyx_L31_error);
+            __pyx_t_7 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 64, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_7);
+            if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_ensure_ascii, Py_False) < 0) __PYX_ERR(0, 64, __pyx_L31_error)
+            if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_indent, __pyx_int_4) < 0) __PYX_ERR(0, 64, __pyx_L31_error)
+            __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, __pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 64, __pyx_L31_error)
             __Pyx_GOTREF(__pyx_t_1);
             __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-            __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
             __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+            __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
             __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
             /* "blum_automation.pyx":66
@@ -4429,28 +4474,28 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  *             print(
  *                 Fore.LIGHTMAGENTA_EX + Style.BRIGHT + f"File not found. A new file has been created at the path: {tokens_file_path}")             # <<<<<<<<<<<<<<
  *             print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "Accounts need to be added!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  */
             __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Fore); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 66, __pyx_L31_error)
             __Pyx_GOTREF(__pyx_t_1);
-            __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_LIGHTMAGENTA_EX); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 66, __pyx_L31_error)
-            __Pyx_GOTREF(__pyx_t_3);
+            __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_LIGHTMAGENTA_EX); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 66, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_7);
             __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
             __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Style); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 66, __pyx_L31_error)
             __Pyx_GOTREF(__pyx_t_1);
-            __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 66, __pyx_L31_error)
-            __Pyx_GOTREF(__pyx_t_7);
-            __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-            __pyx_t_1 = PyNumber_Add(__pyx_t_3, __pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 66, __pyx_L31_error)
-            __Pyx_GOTREF(__pyx_t_1);
-            __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-            __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-            __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_kp_u_File_not_found_A_new_file_has_be, __pyx_v_tokens_file_path); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 66, __pyx_L31_error)
-            __Pyx_GOTREF(__pyx_t_7);
-            __pyx_t_3 = PyNumber_Add(__pyx_t_1, __pyx_t_7); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 66, __pyx_L31_error)
+            __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 66, __pyx_L31_error)
             __Pyx_GOTREF(__pyx_t_3);
             __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+            __pyx_t_1 = PyNumber_Add(__pyx_t_7, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 66, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_1);
             __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+            __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+            __pyx_t_3 = __Pyx_PyUnicode_Concat(__pyx_kp_u_File_not_found_A_new_file_has_be, __pyx_v_tokens_file_path); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 66, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_3);
+            __pyx_t_7 = PyNumber_Add(__pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 66, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_7);
+            __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+            __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
             /* "blum_automation.pyx":65
  *         with open(tokens_file_path, 'w', encoding='utf-8') as file:
@@ -4459,79 +4504,85 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
  *                 Fore.LIGHTMAGENTA_EX + Style.BRIGHT + f"File not found. A new file has been created at the path: {tokens_file_path}")
  *             print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "Accounts need to be added!")
  */
-            __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 65, __pyx_L31_error)
-            __Pyx_GOTREF(__pyx_t_7);
-            __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+            __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 65, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_3);
             __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+            __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
             /* "blum_automation.pyx":67
  *             print(
  *                 Fore.LIGHTMAGENTA_EX + Style.BRIGHT + f"File not found. A new file has been created at the path: {tokens_file_path}")
  *             print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "Accounts need to be added!")             # <<<<<<<<<<<<<<
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  *             return False
  */
-            __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 67, __pyx_L31_error)
-            __Pyx_GOTREF(__pyx_t_7);
-            __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_LIGHTMAGENTA_EX); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 67, __pyx_L31_error)
+            __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Fore); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 67, __pyx_L31_error)
             __Pyx_GOTREF(__pyx_t_3);
-            __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-            __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Style); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 67, __pyx_L31_error)
-            __Pyx_GOTREF(__pyx_t_7);
-            __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L31_error)
-            __Pyx_GOTREF(__pyx_t_1);
-            __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-            __pyx_t_7 = PyNumber_Add(__pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 67, __pyx_L31_error)
+            __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_LIGHTMAGENTA_EX); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 67, __pyx_L31_error)
             __Pyx_GOTREF(__pyx_t_7);
             __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-            __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-            __pyx_t_1 = PyNumber_Add(__pyx_t_7, __pyx_kp_u_Accounts_need_to_be_added); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L31_error)
+            __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Style); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 67, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_3);
+            __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L31_error)
             __Pyx_GOTREF(__pyx_t_1);
+            __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+            __pyx_t_3 = PyNumber_Add(__pyx_t_7, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 67, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_3);
             __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-            __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 67, __pyx_L31_error)
-            __Pyx_GOTREF(__pyx_t_7);
             __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-            __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+            __pyx_t_1 = PyNumber_Add(__pyx_t_3, __pyx_kp_u_Accounts_need_to_be_added); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_1);
+            __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+            __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 67, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_3);
+            __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+            __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
             /* "blum_automation.pyx":68
  *                 Fore.LIGHTMAGENTA_EX + Style.BRIGHT + f"File not found. A new file has been created at the path: {tokens_file_path}")
  *             print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "Accounts need to be added!")
- *             time.sleep(1)             # <<<<<<<<<<<<<<
+ *             time.sleep(uniform(1.5,2.5))             # <<<<<<<<<<<<<<
  *             return False
  * 
  */
             __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_time); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 68, __pyx_L31_error)
             __Pyx_GOTREF(__pyx_t_1);
-            __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_sleep); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 68, __pyx_L31_error)
-            __Pyx_GOTREF(__pyx_t_3);
+            __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_sleep); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 68, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_7);
+            __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+            __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_uniform); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 68, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_1);
+            __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 68, __pyx_L31_error)
+            __Pyx_GOTREF(__pyx_t_2);
             __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
             __pyx_t_1 = NULL;
             __pyx_t_4 = 0;
             #if CYTHON_UNPACK_METHODS
-            if (unlikely(PyMethod_Check(__pyx_t_3))) {
-              __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_3);
+            if (unlikely(PyMethod_Check(__pyx_t_7))) {
+              __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_7);
               if (likely(__pyx_t_1)) {
-                PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+                PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
                 __Pyx_INCREF(__pyx_t_1);
                 __Pyx_INCREF(function);
-                __Pyx_DECREF_SET(__pyx_t_3, function);
+                __Pyx_DECREF_SET(__pyx_t_7, function);
                 __pyx_t_4 = 1;
               }
             }
             #endif
             {
-              PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_int_1};
-              __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
+              PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_t_2};
+              __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
               __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-              if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 68, __pyx_L31_error)
-              __Pyx_GOTREF(__pyx_t_7);
-              __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+              __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+              if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 68, __pyx_L31_error)
+              __Pyx_GOTREF(__pyx_t_3);
+              __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
             }
-            __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+            __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
             /* "blum_automation.pyx":69
  *             print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "Accounts need to be added!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  *             return False             # <<<<<<<<<<<<<<
  * 
  * @cython.cfunc
@@ -4556,15 +4607,15 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           /*except:*/ {
             __Pyx_AddTraceback("blum_automation.get_refresh_token", __pyx_clineno, __pyx_lineno, __pyx_filename);
-            if (__Pyx_GetException(&__pyx_t_7, &__pyx_t_3, &__pyx_t_1) < 0) __PYX_ERR(0, 63, __pyx_L33_except_error)
-            __Pyx_XGOTREF(__pyx_t_7);
+            if (__Pyx_GetException(&__pyx_t_3, &__pyx_t_7, &__pyx_t_2) < 0) __PYX_ERR(0, 63, __pyx_L33_except_error)
             __Pyx_XGOTREF(__pyx_t_3);
-            __Pyx_XGOTREF(__pyx_t_1);
-            __pyx_t_2 = PyTuple_Pack(3, __pyx_t_7, __pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 63, __pyx_L33_except_error)
-            __Pyx_GOTREF(__pyx_t_2);
-            __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_t_2, NULL);
+            __Pyx_XGOTREF(__pyx_t_7);
+            __Pyx_XGOTREF(__pyx_t_2);
+            __pyx_t_1 = PyTuple_Pack(3, __pyx_t_3, __pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 63, __pyx_L33_except_error)
+            __Pyx_GOTREF(__pyx_t_1);
+            __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_t_1, NULL);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-            __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+            __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
             if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 63, __pyx_L33_except_error)
             __Pyx_GOTREF(__pyx_t_14);
             __pyx_t_11 = __Pyx_PyObject_IsTrue(__pyx_t_14);
@@ -4572,16 +4623,16 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
             if (__pyx_t_11 < 0) __PYX_ERR(0, 63, __pyx_L33_except_error)
             __pyx_t_5 = (!__pyx_t_11);
             if (unlikely(__pyx_t_5)) {
-              __Pyx_GIVEREF(__pyx_t_7);
               __Pyx_GIVEREF(__pyx_t_3);
-              __Pyx_XGIVEREF(__pyx_t_1);
-              __Pyx_ErrRestoreWithState(__pyx_t_7, __pyx_t_3, __pyx_t_1);
-              __pyx_t_7 = 0; __pyx_t_3 = 0; __pyx_t_1 = 0; 
+              __Pyx_GIVEREF(__pyx_t_7);
+              __Pyx_XGIVEREF(__pyx_t_2);
+              __Pyx_ErrRestoreWithState(__pyx_t_3, __pyx_t_7, __pyx_t_2);
+              __pyx_t_3 = 0; __pyx_t_7 = 0; __pyx_t_2 = 0; 
               __PYX_ERR(0, 63, __pyx_L33_except_error)
             }
-            __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
             __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-            __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+            __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+            __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
             goto __pyx_L32_exception_handled;
           }
           __pyx_L33_except_error:;
@@ -4606,7 +4657,7 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
       /*finally:*/ {
         /*normal exit:*/{
           if (__pyx_t_6) {
-            __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple_, NULL);
+            __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__2, NULL);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
             if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 63, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_8);
@@ -4618,7 +4669,7 @@ static PyObject *__pyx_f_15blum_automation_get_refresh_token(PyObject *__pyx_v_t
           __pyx_t_8 = __pyx_r;
           __pyx_r = 0;
           if (__pyx_t_6) {
-            __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple_, NULL);
+            __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__2, NULL);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
             if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 63, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_9);
@@ -4894,8 +4945,8 @@ static PyObject *__pyx_f_15blum_automation_PROVIDER_TELEGRAM_MINI_APP(PyObject *
  */
   /*else*/ {
     __Pyx_XDECREF(__pyx_r);
-    __Pyx_INCREF(__pyx_kp_u__2);
-    __pyx_r = __pyx_kp_u__2;
+    __Pyx_INCREF(__pyx_kp_u__3);
+    __pyx_r = __pyx_kp_u__3;
     goto __pyx_L0;
   }
 
@@ -5342,7 +5393,7 @@ static PyObject *__pyx_f_15blum_automation_get_access_tokens(PyObject *__pyx_v_q
           /*finally:*/ {
             /*normal exit:*/{
               if (__pyx_t_9) {
-                __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple_, NULL);
+                __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__2, NULL);
                 __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
                 if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 111, __pyx_L1_error)
                 __Pyx_GOTREF(__pyx_t_13);
@@ -5573,7 +5624,7 @@ static PyObject *__pyx_f_15blum_automation_get_access_tokens(PyObject *__pyx_v_q
           /*finally:*/ {
             /*normal exit:*/{
               if (__pyx_t_9) {
-                __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple_, NULL);
+                __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__2, NULL);
                 __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
                 if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 118, __pyx_L1_error)
                 __Pyx_GOTREF(__pyx_t_11);
@@ -5937,7 +5988,7 @@ static PyObject *__pyx_f_15blum_automation_get_access_tokens(PyObject *__pyx_v_q
           /*finally:*/ {
             /*normal exit:*/{
               if (__pyx_t_9) {
-                __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple_, NULL);
+                __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__2, NULL);
                 __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
                 if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 129, __pyx_L1_error)
                 __Pyx_GOTREF(__pyx_t_13);
@@ -6168,7 +6219,7 @@ static PyObject *__pyx_f_15blum_automation_get_access_tokens(PyObject *__pyx_v_q
           /*finally:*/ {
             /*normal exit:*/{
               if (__pyx_t_9) {
-                __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple_, NULL);
+                __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__2, NULL);
                 __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
                 if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 136, __pyx_L1_error)
                 __Pyx_GOTREF(__pyx_t_11);
@@ -6284,7 +6335,7 @@ static PyObject *__pyx_f_15blum_automation_get_access_tokens(PyObject *__pyx_v_q
  *                 print(Fore.LIGHTWHITE_EX + Style.BRIGHT + f"File {tokens_file_path} was not found.")
  *                 print(
  *                     Fore.LIGHTWHITE_EX + Style.BRIGHT + f"Record refresh token manually: {response_data['refresh']}\ntimestamp: {timestamp}")             # <<<<<<<<<<<<<<
- *                 time.sleep(1)
+ *                 time.sleep(uniform(1.5,2.5))
  *                 return True
  */
         __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_Fore); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 144, __pyx_L1_error)
@@ -6343,7 +6394,7 @@ static PyObject *__pyx_f_15blum_automation_get_access_tokens(PyObject *__pyx_v_q
  *                 print(Fore.LIGHTWHITE_EX + Style.BRIGHT + f"File {tokens_file_path} was not found.")
  *                 print(             # <<<<<<<<<<<<<<
  *                     Fore.LIGHTWHITE_EX + Style.BRIGHT + f"Record refresh token manually: {response_data['refresh']}\ntimestamp: {timestamp}")
- *                 time.sleep(1)
+ *                 time.sleep(uniform(1.5,2.5))
  */
         __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 143, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
@@ -6353,7 +6404,7 @@ static PyObject *__pyx_f_15blum_automation_get_access_tokens(PyObject *__pyx_v_q
         /* "blum_automation.pyx":145
  *                 print(
  *                     Fore.LIGHTWHITE_EX + Style.BRIGHT + f"Record refresh token manually: {response_data['refresh']}\ntimestamp: {timestamp}")
- *                 time.sleep(1)             # <<<<<<<<<<<<<<
+ *                 time.sleep(uniform(1.5,2.5))             # <<<<<<<<<<<<<<
  *                 return True
  *         else:
  */
@@ -6361,6 +6412,11 @@ static PyObject *__pyx_f_15blum_automation_get_access_tokens(PyObject *__pyx_v_q
         __Pyx_GOTREF(__pyx_t_7);
         __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_sleep); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 145, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_10);
+        __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+        __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_uniform); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 145, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_7);
+        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 145, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         __pyx_t_7 = NULL;
         __pyx_t_8 = 0;
@@ -6377,9 +6433,10 @@ static PyObject *__pyx_f_15blum_automation_get_access_tokens(PyObject *__pyx_v_q
         }
         #endif
         {
-          PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_int_1};
+          PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_t_2};
           __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+          __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
           if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 145, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_1);
           __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
@@ -6388,7 +6445,7 @@ static PyObject *__pyx_f_15blum_automation_get_access_tokens(PyObject *__pyx_v_q
 
         /* "blum_automation.pyx":146
  *                     Fore.LIGHTWHITE_EX + Style.BRIGHT + f"Record refresh token manually: {response_data['refresh']}\ntimestamp: {timestamp}")
- *                 time.sleep(1)
+ *                 time.sleep(uniform(1.5,2.5))
  *                 return True             # <<<<<<<<<<<<<<
  *         else:
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
@@ -6424,19 +6481,19 @@ static PyObject *__pyx_f_15blum_automation_get_access_tokens(PyObject *__pyx_v_q
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 148, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_1, __pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 148, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_1, __pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 148, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_1 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 148, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 148, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = PyNumber_Add(__pyx_t_10, __pyx_t_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 148, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_2 = PyNumber_Add(__pyx_t_10, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 148, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 148, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 148, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
       /* "blum_automation.pyx":149
@@ -6728,7 +6785,7 @@ static PyObject *__pyx_f_15blum_automation_get_account_info(PyObject *__pyx_v_he
  *         response_data = response.json()
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  */
     __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 164, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
@@ -6740,7 +6797,7 @@ static PyObject *__pyx_f_15blum_automation_get_account_info(PyObject *__pyx_v_he
  *         response_data = response.json()
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")             # <<<<<<<<<<<<<<
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  *             return response_data
  */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 165, __pyx_L1_error)
@@ -6759,7 +6816,7 @@ static PyObject *__pyx_f_15blum_automation_get_account_info(PyObject *__pyx_v_he
       /* "blum_automation.pyx":166
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)             # <<<<<<<<<<<<<<
+ *             time.sleep(uniform(1.5,2.5))             # <<<<<<<<<<<<<<
  *             return response_data
  *         else:
  */
@@ -6767,6 +6824,11 @@ static PyObject *__pyx_f_15blum_automation_get_account_info(PyObject *__pyx_v_he
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_sleep); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 166, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_uniform); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 166, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 166, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __pyx_t_7 = NULL;
       __pyx_t_8 = 0;
@@ -6783,9 +6845,10 @@ static PyObject *__pyx_f_15blum_automation_get_account_info(PyObject *__pyx_v_he
       }
       #endif
       {
-        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_int_1};
+        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_t_2};
         __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 166, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -6794,7 +6857,7 @@ static PyObject *__pyx_f_15blum_automation_get_account_info(PyObject *__pyx_v_he
 
       /* "blum_automation.pyx":167
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  *             return response_data             # <<<<<<<<<<<<<<
  *         else:
  *             print(response_data)
@@ -6810,7 +6873,7 @@ static PyObject *__pyx_f_15blum_automation_get_account_info(PyObject *__pyx_v_he
  *         response_data = response.json()
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  */
     }
 
@@ -6840,19 +6903,19 @@ static PyObject *__pyx_f_15blum_automation_get_account_info(PyObject *__pyx_v_he
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 170, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 170, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 170, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 170, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 170, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = PyNumber_Add(__pyx_t_1, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 170, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_2 = PyNumber_Add(__pyx_t_1, __pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 170, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 170, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 170, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
       /* "blum_automation.pyx":171
@@ -6864,16 +6927,16 @@ static PyObject *__pyx_f_15blum_automation_get_account_info(PyObject *__pyx_v_he
  */
       __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 171, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 171, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = PyNumber_Add(__pyx_t_7, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 171, __pyx_L1_error)
+      __pyx_t_6 = PyNumber_Add(__pyx_t_2, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 171, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 171, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
       /* "blum_automation.pyx":172
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
@@ -6903,13 +6966,13 @@ static PyObject *__pyx_f_15blum_automation_get_account_info(PyObject *__pyx_v_he
       #endif
       {
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_int_3};
-        __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
+        __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 172, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_7);
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 172, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       }
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
 
     /* "blum_automation.pyx":161
@@ -6931,16 +6994,16 @@ static PyObject *__pyx_f_15blum_automation_get_account_info(PyObject *__pyx_v_he
  */
   __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Fore); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 174, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 174, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 174, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyNumber_Add(__pyx_t_7, __pyx_kp_u_Failed_to_get_an_account_balance); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 174, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_kp_u_Failed_to_get_an_account_balance); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 174, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 174, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 174, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "blum_automation.pyx":175
  * 
@@ -7162,7 +7225,7 @@ static PyObject *__pyx_f_15blum_automation_get_daily_reward(PyObject *__pyx_v_he
  *         response = requests.post(url, headers=headers, params=params)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  */
     __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 189, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
@@ -7174,7 +7237,7 @@ static PyObject *__pyx_f_15blum_automation_get_daily_reward(PyObject *__pyx_v_he
  *         response = requests.post(url, headers=headers, params=params)
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")             # <<<<<<<<<<<<<<
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  *             return True
  */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 190, __pyx_L1_error)
@@ -7193,7 +7256,7 @@ static PyObject *__pyx_f_15blum_automation_get_daily_reward(PyObject *__pyx_v_he
       /* "blum_automation.pyx":191
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)             # <<<<<<<<<<<<<<
+ *             time.sleep(uniform(1.5,2.5))             # <<<<<<<<<<<<<<
  *             return True
  *         else:
  */
@@ -7201,6 +7264,11 @@ static PyObject *__pyx_f_15blum_automation_get_daily_reward(PyObject *__pyx_v_he
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_sleep); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 191, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_uniform); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 191, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 191, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __pyx_t_7 = NULL;
       __pyx_t_9 = 0;
@@ -7217,9 +7285,10 @@ static PyObject *__pyx_f_15blum_automation_get_daily_reward(PyObject *__pyx_v_he
       }
       #endif
       {
-        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_int_1};
+        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_t_2};
         __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 191, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -7228,7 +7297,7 @@ static PyObject *__pyx_f_15blum_automation_get_daily_reward(PyObject *__pyx_v_he
 
       /* "blum_automation.pyx":192
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  *             return True             # <<<<<<<<<<<<<<
  *         else:
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
@@ -7244,7 +7313,7 @@ static PyObject *__pyx_f_15blum_automation_get_daily_reward(PyObject *__pyx_v_he
  *         response = requests.post(url, headers=headers, params=params)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  */
     }
 
@@ -7263,19 +7332,19 @@ static PyObject *__pyx_f_15blum_automation_get_daily_reward(PyObject *__pyx_v_he
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 194, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 194, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 194, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 194, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 194, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = PyNumber_Add(__pyx_t_1, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 194, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_2 = PyNumber_Add(__pyx_t_1, __pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 194, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 194, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 194, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
       /* "blum_automation.pyx":195
@@ -7287,16 +7356,16 @@ static PyObject *__pyx_f_15blum_automation_get_daily_reward(PyObject *__pyx_v_he
  */
       __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 195, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 195, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 195, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = PyNumber_Add(__pyx_t_7, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 195, __pyx_L1_error)
+      __pyx_t_6 = PyNumber_Add(__pyx_t_2, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 195, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 195, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 195, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
       /* "blum_automation.pyx":196
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
@@ -7326,13 +7395,13 @@ static PyObject *__pyx_f_15blum_automation_get_daily_reward(PyObject *__pyx_v_he
       #endif
       {
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_int_3};
-        __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
+        __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 196, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_7);
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 196, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       }
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
 
     /* "blum_automation.pyx":187
@@ -7607,7 +7676,7 @@ static PyObject *__pyx_f_15blum_automation_farming_claim(PyObject *__pyx_v_heade
  *         response = requests.post(url, json=data, headers=headers)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  */
     __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
@@ -7619,7 +7688,7 @@ static PyObject *__pyx_f_15blum_automation_farming_claim(PyObject *__pyx_v_heade
  *         response = requests.post(url, json=data, headers=headers)
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")             # <<<<<<<<<<<<<<
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  *             return True
  */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 216, __pyx_L1_error)
@@ -7638,7 +7707,7 @@ static PyObject *__pyx_f_15blum_automation_farming_claim(PyObject *__pyx_v_heade
       /* "blum_automation.pyx":217
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)             # <<<<<<<<<<<<<<
+ *             time.sleep(uniform(1.5,2.5))             # <<<<<<<<<<<<<<
  *             return True
  *         else:
  */
@@ -7646,6 +7715,11 @@ static PyObject *__pyx_f_15blum_automation_farming_claim(PyObject *__pyx_v_heade
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_sleep); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 217, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_uniform); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 217, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 217, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __pyx_t_7 = NULL;
       __pyx_t_9 = 0;
@@ -7662,9 +7736,10 @@ static PyObject *__pyx_f_15blum_automation_farming_claim(PyObject *__pyx_v_heade
       }
       #endif
       {
-        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_int_1};
+        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_t_3};
         __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 217, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -7673,7 +7748,7 @@ static PyObject *__pyx_f_15blum_automation_farming_claim(PyObject *__pyx_v_heade
 
       /* "blum_automation.pyx":218
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  *             return True             # <<<<<<<<<<<<<<
  *         else:
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
@@ -7689,7 +7764,7 @@ static PyObject *__pyx_f_15blum_automation_farming_claim(PyObject *__pyx_v_heade
  *         response = requests.post(url, json=data, headers=headers)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  */
     }
 
@@ -7708,19 +7783,19 @@ static PyObject *__pyx_f_15blum_automation_farming_claim(PyObject *__pyx_v_heade
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 220, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 220, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 220, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 220, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 220, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = PyNumber_Add(__pyx_t_1, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 220, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __pyx_t_3 = PyNumber_Add(__pyx_t_1, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 220, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 220, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 220, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
       /* "blum_automation.pyx":221
@@ -7732,16 +7807,16 @@ static PyObject *__pyx_f_15blum_automation_farming_claim(PyObject *__pyx_v_heade
  */
       __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 221, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 221, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 221, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = PyNumber_Add(__pyx_t_7, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 221, __pyx_L1_error)
+      __pyx_t_6 = PyNumber_Add(__pyx_t_3, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 221, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 221, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 221, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
       /* "blum_automation.pyx":222
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
@@ -7771,13 +7846,13 @@ static PyObject *__pyx_f_15blum_automation_farming_claim(PyObject *__pyx_v_heade
       #endif
       {
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_int_3};
-        __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
+        __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 222, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_7);
+        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 222, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_3);
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       }
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     }
 
     /* "blum_automation.pyx":213
@@ -7811,16 +7886,16 @@ static PyObject *__pyx_f_15blum_automation_farming_claim(PyObject *__pyx_v_heade
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Fore); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 225, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 225, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 225, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyNumber_Add(__pyx_t_7, __pyx_kp_u_Failed_to_get_a_reward); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 225, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Add(__pyx_t_3, __pyx_kp_u_Failed_to_get_a_reward); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 225, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 225, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 225, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
   /* "blum_automation.pyx":226
  *     failed_request["claim farm"] = False
@@ -8072,7 +8147,7 @@ static PyObject *__pyx_f_15blum_automation_farming_start(PyObject *__pyx_v_heade
  *         response = requests.post(url, json=data, headers=headers)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  */
     __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 244, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
@@ -8084,7 +8159,7 @@ static PyObject *__pyx_f_15blum_automation_farming_start(PyObject *__pyx_v_heade
  *         response = requests.post(url, json=data, headers=headers)
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")             # <<<<<<<<<<<<<<
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  *             return True
  */
       __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 245, __pyx_L1_error)
@@ -8103,7 +8178,7 @@ static PyObject *__pyx_f_15blum_automation_farming_start(PyObject *__pyx_v_heade
       /* "blum_automation.pyx":246
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)             # <<<<<<<<<<<<<<
+ *             time.sleep(uniform(1.5,2.5))             # <<<<<<<<<<<<<<
  *             return True
  *         else:
  */
@@ -8111,6 +8186,11 @@ static PyObject *__pyx_f_15blum_automation_farming_start(PyObject *__pyx_v_heade
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_sleep); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 246, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_uniform); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 246, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 246, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __pyx_t_7 = NULL;
       __pyx_t_9 = 0;
@@ -8127,9 +8207,10 @@ static PyObject *__pyx_f_15blum_automation_farming_start(PyObject *__pyx_v_heade
       }
       #endif
       {
-        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_int_1};
+        PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_t_2};
         __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 246, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -8138,7 +8219,7 @@ static PyObject *__pyx_f_15blum_automation_farming_start(PyObject *__pyx_v_heade
 
       /* "blum_automation.pyx":247
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  *             return True             # <<<<<<<<<<<<<<
  *         else:
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
@@ -8154,7 +8235,7 @@ static PyObject *__pyx_f_15blum_automation_farming_start(PyObject *__pyx_v_heade
  *         response = requests.post(url, json=data, headers=headers)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  */
     }
 
@@ -8173,19 +8254,19 @@ static PyObject *__pyx_f_15blum_automation_farming_start(PyObject *__pyx_v_heade
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 249, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 249, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 249, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 249, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 249, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = PyNumber_Add(__pyx_t_1, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 249, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_2 = PyNumber_Add(__pyx_t_1, __pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 249, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 249, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 249, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
       /* "blum_automation.pyx":250
@@ -8197,16 +8278,16 @@ static PyObject *__pyx_f_15blum_automation_farming_start(PyObject *__pyx_v_heade
  */
       __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 250, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 250, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 250, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = PyNumber_Add(__pyx_t_7, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 250, __pyx_L1_error)
+      __pyx_t_6 = PyNumber_Add(__pyx_t_2, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 250, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 250, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 250, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
       /* "blum_automation.pyx":251
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
@@ -8236,13 +8317,13 @@ static PyObject *__pyx_f_15blum_automation_farming_start(PyObject *__pyx_v_heade
       #endif
       {
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_int_3};
-        __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
+        __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 251, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_7);
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 251, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       }
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
 
     /* "blum_automation.pyx":234
@@ -8276,16 +8357,16 @@ static PyObject *__pyx_f_15blum_automation_farming_start(PyObject *__pyx_v_heade
  */
   __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Fore); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 254, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 254, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 254, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyNumber_Add(__pyx_t_7, __pyx_kp_u_Failed_to_start_farming); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 254, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_kp_u_Failed_to_start_farming); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 254, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 254, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 254, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "blum_automation.pyx":255
  *     failed_request["start farm"] = False
@@ -8698,7 +8779,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __pyx_t_5 = 127;
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8711,7 +8792,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __pyx_t_6 = 0;
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8724,7 +8805,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __pyx_t_6 = 0;
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8741,7 +8822,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     PyTuple_SET_ITEM(__pyx_t_3, 3, __pyx_n_u_c);
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8754,7 +8835,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __pyx_t_6 = 0;
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8767,7 +8848,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __pyx_t_6 = 0;
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8780,7 +8861,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __pyx_t_6 = 0;
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8797,7 +8878,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     PyTuple_SET_ITEM(__pyx_t_3, 8, __pyx_kp_u_b);
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8814,7 +8895,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     PyTuple_SET_ITEM(__pyx_t_3, 10, __pyx_n_u_e);
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8825,13 +8906,13 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __Pyx_GIVEREF(__pyx_t_6);
     PyTuple_SET_ITEM(__pyx_t_3, 11, __pyx_t_6);
     __pyx_t_6 = 0;
-    __Pyx_INCREF(__pyx_kp_u__4);
+    __Pyx_INCREF(__pyx_kp_u__5);
     __pyx_t_4 += 1;
-    __Pyx_GIVEREF(__pyx_kp_u__4);
-    PyTuple_SET_ITEM(__pyx_t_3, 12, __pyx_kp_u__4);
+    __Pyx_GIVEREF(__pyx_kp_u__5);
+    PyTuple_SET_ITEM(__pyx_t_3, 12, __pyx_kp_u__5);
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8844,7 +8925,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __pyx_t_6 = 0;
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8857,7 +8938,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __pyx_t_6 = 0;
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8874,7 +8955,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     PyTuple_SET_ITEM(__pyx_t_3, 16, __pyx_kp_u_f_a);
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8887,7 +8968,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __pyx_t_6 = 0;
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8900,7 +8981,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __pyx_t_6 = 0;
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8917,7 +8998,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     PyTuple_SET_ITEM(__pyx_t_3, 20, __pyx_kp_u_a);
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8934,7 +9015,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     PyTuple_SET_ITEM(__pyx_t_3, 22, __pyx_n_u_e);
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8947,7 +9028,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __pyx_t_6 = 0;
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8960,7 +9041,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __pyx_t_6 = 0;
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8973,7 +9054,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     __pyx_t_6 = 0;
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -8990,7 +9071,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     PyTuple_SET_ITEM(__pyx_t_3, 27, __pyx_n_u_f);
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -9007,7 +9088,7 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
     PyTuple_SET_ITEM(__pyx_t_3, 29, __pyx_n_u_b_2);
     __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_randint); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
@@ -9444,6 +9525,8 @@ static PyObject *__pyx_f_15blum_automation_get_game_id(PyObject *__pyx_v_headers
  */
 
 static PyObject *__pyx_f_15blum_automation_game_claim_points(PyObject *__pyx_v_headers, PyObject *__pyx_v_game_id, PyObject *__pyx_v_max_attempts) {
+  PyObject *__pyx_v_weight = NULL;
+  PyObject *__pyx_v_random_choice = NULL;
   PyObject *__pyx_v_points = NULL;
   PyObject *__pyx_v_url = NULL;
   PyObject *__pyx_v_data = NULL;
@@ -9454,11 +9537,11 @@ static PyObject *__pyx_f_15blum_automation_game_claim_points(PyObject *__pyx_v_h
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
   PyObject *__pyx_t_3 = NULL;
-  Py_ssize_t __pyx_t_4;
-  PyObject *(*__pyx_t_5)(PyObject *);
-  PyObject *__pyx_t_6 = NULL;
-  PyObject *__pyx_t_7 = NULL;
-  int __pyx_t_8;
+  PyObject *__pyx_t_4 = NULL;
+  int __pyx_t_5;
+  Py_ssize_t __pyx_t_6;
+  PyObject *(*__pyx_t_7)(PyObject *);
+  PyObject *__pyx_t_8 = NULL;
   Py_ssize_t __pyx_t_9;
   Py_UCS4 __pyx_t_10;
   unsigned int __pyx_t_11;
@@ -9471,8 +9554,8 @@ static PyObject *__pyx_f_15blum_automation_game_claim_points(PyObject *__pyx_v_h
  * def game_claim_points(headers, game_id, max_attempts: int):
  * 
  *     print(Fore.YELLOW + Style.BRIGHT + "Trying to claim points......")             # <<<<<<<<<<<<<<
- *     points = randint(230, 250)
- *     url = "https://game-domain.blum.codes/api/v1/game/claim"
+ *     weight = [0.62, 0.38]
+ *     random_choice = choices([True,False], weights=weight)[0]
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Fore); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 310, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -9499,21 +9582,113 @@ static PyObject *__pyx_f_15blum_automation_game_claim_points(PyObject *__pyx_v_h
   /* "blum_automation.pyx":311
  * 
  *     print(Fore.YELLOW + Style.BRIGHT + "Trying to claim points......")
- *     points = randint(230, 250)             # <<<<<<<<<<<<<<
- *     url = "https://game-domain.blum.codes/api/v1/game/claim"
- *     data = {
+ *     weight = [0.62, 0.38]             # <<<<<<<<<<<<<<
+ *     random_choice = choices([True,False], weights=weight)[0]
+ *     if random_choice:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_randint); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 311, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 311, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 311, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_v_points = __pyx_t_3;
-  __pyx_t_3 = 0;
+  __Pyx_INCREF(__pyx_float_0_62);
+  __Pyx_GIVEREF(__pyx_float_0_62);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 0, __pyx_float_0_62)) __PYX_ERR(0, 311, __pyx_L1_error);
+  __Pyx_INCREF(__pyx_float_0_38);
+  __Pyx_GIVEREF(__pyx_float_0_38);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 1, __pyx_float_0_38)) __PYX_ERR(0, 311, __pyx_L1_error);
+  __pyx_v_weight = ((PyObject*)__pyx_t_1);
+  __pyx_t_1 = 0;
 
   /* "blum_automation.pyx":312
  *     print(Fore.YELLOW + Style.BRIGHT + "Trying to claim points......")
- *     points = randint(230, 250)
+ *     weight = [0.62, 0.38]
+ *     random_choice = choices([True,False], weights=weight)[0]             # <<<<<<<<<<<<<<
+ *     if random_choice:
+ *         points = randint(220, 240)
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_choices); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_3 = PyList_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_INCREF(Py_True);
+  __Pyx_GIVEREF(Py_True);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 0, Py_True)) __PYX_ERR(0, 312, __pyx_L1_error);
+  __Pyx_INCREF(Py_False);
+  __Pyx_GIVEREF(Py_False);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 1, Py_False)) __PYX_ERR(0, 312, __pyx_L1_error);
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_GIVEREF(__pyx_t_3);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_3)) __PYX_ERR(0, 312, __pyx_L1_error);
+  __pyx_t_3 = 0;
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_weights, __pyx_v_weight) < 0) __PYX_ERR(0, 312, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_4, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_v_random_choice = __pyx_t_3;
+  __pyx_t_3 = 0;
+
+  /* "blum_automation.pyx":313
+ *     weight = [0.62, 0.38]
+ *     random_choice = choices([True,False], weights=weight)[0]
+ *     if random_choice:             # <<<<<<<<<<<<<<
+ *         points = randint(220, 240)
+ *     else:
+ */
+  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_v_random_choice); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 313, __pyx_L1_error)
+  if (__pyx_t_5) {
+
+    /* "blum_automation.pyx":314
+ *     random_choice = choices([True,False], weights=weight)[0]
+ *     if random_choice:
+ *         points = randint(220, 240)             # <<<<<<<<<<<<<<
+ *     else:
+ *         points = randint(190,220)
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_randint); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 314, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 314, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_v_points = __pyx_t_4;
+    __pyx_t_4 = 0;
+
+    /* "blum_automation.pyx":313
+ *     weight = [0.62, 0.38]
+ *     random_choice = choices([True,False], weights=weight)[0]
+ *     if random_choice:             # <<<<<<<<<<<<<<
+ *         points = randint(220, 240)
+ *     else:
+ */
+    goto __pyx_L3;
+  }
+
+  /* "blum_automation.pyx":316
+ *         points = randint(220, 240)
+ *     else:
+ *         points = randint(190,220)             # <<<<<<<<<<<<<<
+ *     url = "https://game-domain.blum.codes/api/v1/game/claim"
+ *     data = {
+ */
+  /*else*/ {
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_randint); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 316, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 316, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_v_points = __pyx_t_3;
+    __pyx_t_3 = 0;
+  }
+  __pyx_L3:;
+
+  /* "blum_automation.pyx":317
+ *     else:
+ *         points = randint(190,220)
  *     url = "https://game-domain.blum.codes/api/v1/game/claim"             # <<<<<<<<<<<<<<
  *     data = {
  *         "gameId": game_id,
@@ -9521,196 +9696,196 @@ static PyObject *__pyx_f_15blum_automation_game_claim_points(PyObject *__pyx_v_h
   __Pyx_INCREF(__pyx_kp_u_https_game_domain_blum_codes_api_6);
   __pyx_v_url = __pyx_kp_u_https_game_domain_blum_codes_api_6;
 
-  /* "blum_automation.pyx":314
+  /* "blum_automation.pyx":319
  *     url = "https://game-domain.blum.codes/api/v1/game/claim"
  *     data = {
  *         "gameId": game_id,             # <<<<<<<<<<<<<<
  *         "points": points
  *     }
  */
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 314, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 319, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_u_gameId, __pyx_v_game_id) < 0) __PYX_ERR(0, 314, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_u_gameId, __pyx_v_game_id) < 0) __PYX_ERR(0, 319, __pyx_L1_error)
 
-  /* "blum_automation.pyx":315
+  /* "blum_automation.pyx":320
  *     data = {
  *         "gameId": game_id,
  *         "points": points             # <<<<<<<<<<<<<<
  *     }
  *     for attempt in range(max_attempts):
  */
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_u_points, __pyx_v_points) < 0) __PYX_ERR(0, 314, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_u_points, __pyx_v_points) < 0) __PYX_ERR(0, 319, __pyx_L1_error)
   __pyx_v_data = ((PyObject*)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "blum_automation.pyx":317
+  /* "blum_automation.pyx":322
  *         "points": points
  *     }
  *     for attempt in range(max_attempts):             # <<<<<<<<<<<<<<
  *         response = requests.post(url, json=data, headers=headers)
  *         if response.status_code == 200:
  */
-  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_v_max_attempts); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 317, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_v_max_attempts); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 322, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (likely(PyList_CheckExact(__pyx_t_3)) || PyTuple_CheckExact(__pyx_t_3)) {
-    __pyx_t_1 = __pyx_t_3; __Pyx_INCREF(__pyx_t_1);
-    __pyx_t_4 = 0;
-    __pyx_t_5 = NULL;
+    __pyx_t_4 = __pyx_t_3; __Pyx_INCREF(__pyx_t_4);
+    __pyx_t_6 = 0;
+    __pyx_t_7 = NULL;
   } else {
-    __pyx_t_4 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 317, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_5 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 317, __pyx_L1_error)
+    __pyx_t_6 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 322, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_7 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 322, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   for (;;) {
-    if (likely(!__pyx_t_5)) {
-      if (likely(PyList_CheckExact(__pyx_t_1))) {
+    if (likely(!__pyx_t_7)) {
+      if (likely(PyList_CheckExact(__pyx_t_4))) {
         {
-          Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_1);
+          Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_4);
           #if !CYTHON_ASSUME_SAFE_MACROS
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 317, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 322, __pyx_L1_error)
           #endif
-          if (__pyx_t_4 >= __pyx_temp) break;
+          if (__pyx_t_6 >= __pyx_temp) break;
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_4); __Pyx_INCREF(__pyx_t_3); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 317, __pyx_L1_error)
+        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_4, __pyx_t_6); __Pyx_INCREF(__pyx_t_3); __pyx_t_6++; if (unlikely((0 < 0))) __PYX_ERR(0, 322, __pyx_L1_error)
         #else
-        __pyx_t_3 = __Pyx_PySequence_ITEM(__pyx_t_1, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 317, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PySequence_ITEM(__pyx_t_4, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 322, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       } else {
         {
-          Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_1);
+          Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_4);
           #if !CYTHON_ASSUME_SAFE_MACROS
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 317, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 322, __pyx_L1_error)
           #endif
-          if (__pyx_t_4 >= __pyx_temp) break;
+          if (__pyx_t_6 >= __pyx_temp) break;
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_4); __Pyx_INCREF(__pyx_t_3); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 317, __pyx_L1_error)
+        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_4, __pyx_t_6); __Pyx_INCREF(__pyx_t_3); __pyx_t_6++; if (unlikely((0 < 0))) __PYX_ERR(0, 322, __pyx_L1_error)
         #else
-        __pyx_t_3 = __Pyx_PySequence_ITEM(__pyx_t_1, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 317, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PySequence_ITEM(__pyx_t_4, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 322, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       }
     } else {
-      __pyx_t_3 = __pyx_t_5(__pyx_t_1);
+      __pyx_t_3 = __pyx_t_7(__pyx_t_4);
       if (unlikely(!__pyx_t_3)) {
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 317, __pyx_L1_error)
+          else __PYX_ERR(0, 322, __pyx_L1_error)
         }
         break;
       }
       __Pyx_GOTREF(__pyx_t_3);
     }
-    if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_t_3))||((__pyx_t_3) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_3))) __PYX_ERR(0, 317, __pyx_L1_error)
+    if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_t_3))||((__pyx_t_3) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_3))) __PYX_ERR(0, 322, __pyx_L1_error)
     __Pyx_XDECREF_SET(__pyx_v_attempt, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "blum_automation.pyx":318
+    /* "blum_automation.pyx":323
  *     }
  *     for attempt in range(max_attempts):
  *         response = requests.post(url, json=data, headers=headers)             # <<<<<<<<<<<<<<
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_requests); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 318, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_requests); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 323, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_post); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 318, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_post); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 323, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 318, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 323, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(__pyx_v_url);
     __Pyx_GIVEREF(__pyx_v_url);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_v_url)) __PYX_ERR(0, 318, __pyx_L1_error);
-    __pyx_t_6 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 318, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_json, __pyx_v_data) < 0) __PYX_ERR(0, 318, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_headers, __pyx_v_headers) < 0) __PYX_ERR(0, 318, __pyx_L1_error)
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 318, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_v_url)) __PYX_ERR(0, 323, __pyx_L1_error);
+    __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 323, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_json, __pyx_v_data) < 0) __PYX_ERR(0, 323, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_headers, __pyx_v_headers) < 0) __PYX_ERR(0, 323, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 323, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __Pyx_XDECREF_SET(__pyx_v_response, __pyx_t_7);
-    __pyx_t_7 = 0;
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_XDECREF_SET(__pyx_v_response, __pyx_t_8);
+    __pyx_t_8 = 0;
 
-    /* "blum_automation.pyx":319
+    /* "blum_automation.pyx":324
  *     for attempt in range(max_attempts):
  *         response = requests.post(url, json=data, headers=headers)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
  *             print(Style.BRIGHT + Fore.LIGHTWHITE_EX + f"{response.text} : {points} points")
  */
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 319, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_8 = (__Pyx_PyInt_BoolEqObjC(__pyx_t_7, __pyx_int_200, 0xC8, 0)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 319, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (__pyx_t_8) {
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 324, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    __pyx_t_5 = (__Pyx_PyInt_BoolEqObjC(__pyx_t_8, __pyx_int_200, 0xC8, 0)); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 324, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    if (__pyx_t_5) {
 
-      /* "blum_automation.pyx":320
+      /* "blum_automation.pyx":325
  *         response = requests.post(url, json=data, headers=headers)
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")             # <<<<<<<<<<<<<<
  *             print(Style.BRIGHT + Fore.LIGHTWHITE_EX + f"{response.text} : {points} points")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 320, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_LIGHTGREEN_EX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 320, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = PyNumber_Add(__pyx_t_6, __pyx_kp_u_Successful); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 320, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 320, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_Fore); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 325, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_LIGHTGREEN_EX); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 325, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+      __pyx_t_8 = PyNumber_Add(__pyx_t_1, __pyx_kp_u_Successful); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 325, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_8); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 325, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "blum_automation.pyx":321
+      /* "blum_automation.pyx":326
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
  *             print(Style.BRIGHT + Fore.LIGHTWHITE_EX + f"{response.text} : {points} points")             # <<<<<<<<<<<<<<
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  *             return
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Style); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 321, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 321, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 321, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTWHITE_EX); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 321, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Style); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 326, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 326, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Fore); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 326, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_LIGHTWHITE_EX); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 326, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = PyNumber_Add(__pyx_t_7, __pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 321, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __pyx_t_1 = PyNumber_Add(__pyx_t_8, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 326, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = PyTuple_New(4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 321, __pyx_L1_error)
+      __pyx_t_3 = PyTuple_New(4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 326, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_9 = 0;
       __pyx_t_10 = 127;
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_text); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 321, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 321, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_text); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 326, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_8, __pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 326, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __pyx_t_10 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2) > __pyx_t_10) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2) : __pyx_t_10;
       __pyx_t_9 += __Pyx_PyUnicode_GET_LENGTH(__pyx_t_2);
       __Pyx_GIVEREF(__pyx_t_2);
       PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_2);
       __pyx_t_2 = 0;
-      __Pyx_INCREF(__pyx_kp_u__6);
+      __Pyx_INCREF(__pyx_kp_u__8);
       __pyx_t_9 += 3;
-      __Pyx_GIVEREF(__pyx_kp_u__6);
-      PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_kp_u__6);
-      __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_v_points, __pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 321, __pyx_L1_error)
+      __Pyx_GIVEREF(__pyx_kp_u__8);
+      PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_kp_u__8);
+      __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_v_points, __pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 326, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __pyx_t_10 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2) > __pyx_t_10) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2) : __pyx_t_10;
       __pyx_t_9 += __Pyx_PyUnicode_GET_LENGTH(__pyx_t_2);
@@ -9721,67 +9896,73 @@ static PyObject *__pyx_f_15blum_automation_game_claim_points(PyObject *__pyx_v_h
       __pyx_t_9 += 7;
       __Pyx_GIVEREF(__pyx_kp_u_points_2);
       PyTuple_SET_ITEM(__pyx_t_3, 3, __pyx_kp_u_points_2);
-      __pyx_t_2 = __Pyx_PyUnicode_Join(__pyx_t_3, 4, __pyx_t_9, __pyx_t_10); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 321, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyUnicode_Join(__pyx_t_3, 4, __pyx_t_9, __pyx_t_10); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 326, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = PyNumber_Add(__pyx_t_6, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 321, __pyx_L1_error)
+      __pyx_t_3 = PyNumber_Add(__pyx_t_1, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 326, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 321, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 326, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "blum_automation.pyx":322
+      /* "blum_automation.pyx":327
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
  *             print(Style.BRIGHT + Fore.LIGHTWHITE_EX + f"{response.text} : {points} points")
- *             time.sleep(1)             # <<<<<<<<<<<<<<
+ *             time.sleep(uniform(1.5,2.5))             # <<<<<<<<<<<<<<
  *             return
  *         else:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 322, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 327, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 322, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_sleep); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 327, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_uniform); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 327, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 327, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_t_3 = NULL;
       __pyx_t_11 = 0;
       #if CYTHON_UNPACK_METHODS
-      if (unlikely(PyMethod_Check(__pyx_t_6))) {
-        __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_6);
+      if (unlikely(PyMethod_Check(__pyx_t_1))) {
+        __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_1);
         if (likely(__pyx_t_3)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
           __Pyx_INCREF(__pyx_t_3);
           __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_6, function);
+          __Pyx_DECREF_SET(__pyx_t_1, function);
           __pyx_t_11 = 1;
         }
       }
       #endif
       {
-        PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_int_1};
-        __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
+        PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_t_8};
+        __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 322, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 327, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
-        __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       }
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "blum_automation.pyx":323
+      /* "blum_automation.pyx":328
  *             print(Style.BRIGHT + Fore.LIGHTWHITE_EX + f"{response.text} : {points} points")
- *             time.sleep(1)
+ *             time.sleep(uniform(1.5,2.5))
  *             return             # <<<<<<<<<<<<<<
  *         else:
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
  */
       __Pyx_XDECREF(__pyx_r);
       __pyx_r = Py_None; __Pyx_INCREF(Py_None);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       goto __pyx_L0;
 
-      /* "blum_automation.pyx":319
+      /* "blum_automation.pyx":324
  *     for attempt in range(max_attempts):
  *         response = requests.post(url, json=data, headers=headers)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
@@ -9790,94 +9971,94 @@ static PyObject *__pyx_f_15blum_automation_game_claim_points(PyObject *__pyx_v_h
  */
     }
 
-    /* "blum_automation.pyx":325
+    /* "blum_automation.pyx":330
  *             return
  *         else:
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")             # <<<<<<<<<<<<<<
  *             print(Fore.LIGHTBLACK_EX + "Attempting to reconnect")
- *             time.sleep(0.4)
+ *             time.sleep(0.8)
  */
     /*else*/ {
-      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Fore); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 325, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Fore); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 330, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 325, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 330, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 325, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 330, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_t_2, __pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 325, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_t_2, __pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 330, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_2 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 325, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_8); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 330, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = PyNumber_Add(__pyx_t_6, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 325, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+      __pyx_t_8 = PyNumber_Add(__pyx_t_1, __pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 330, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 325, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_8); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 330, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "blum_automation.pyx":326
+      /* "blum_automation.pyx":331
  *         else:
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
  *             print(Fore.LIGHTBLACK_EX + "Attempting to reconnect")             # <<<<<<<<<<<<<<
- *             time.sleep(0.4)
+ *             time.sleep(0.8)
  * 
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Fore); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 326, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Fore); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 331, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 326, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 331, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_2 = PyNumber_Add(__pyx_t_3, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 326, __pyx_L1_error)
+      __pyx_t_2 = PyNumber_Add(__pyx_t_8, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 331, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 326, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+      __pyx_t_8 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 331, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-      /* "blum_automation.pyx":327
+      /* "blum_automation.pyx":332
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
  *             print(Fore.LIGHTBLACK_EX + "Attempting to reconnect")
- *             time.sleep(0.4)             # <<<<<<<<<<<<<<
+ *             time.sleep(0.8)             # <<<<<<<<<<<<<<
  * 
  *     print(Fore.LIGHTRED_EX + "Failed to earn points!")
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 327, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 332, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 327, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_sleep); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 332, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_t_2 = NULL;
       __pyx_t_11 = 0;
       #if CYTHON_UNPACK_METHODS
-      if (unlikely(PyMethod_Check(__pyx_t_6))) {
-        __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_6);
+      if (unlikely(PyMethod_Check(__pyx_t_1))) {
+        __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_1);
         if (likely(__pyx_t_2)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
           __Pyx_INCREF(__pyx_t_2);
           __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_6, function);
+          __Pyx_DECREF_SET(__pyx_t_1, function);
           __pyx_t_11 = 1;
         }
       }
       #endif
       {
-        PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_float_0_4};
-        __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
+        PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_float_0_8};
+        __pyx_t_8 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_11, 1+__pyx_t_11);
         __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 327, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_3);
-        __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+        if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 332, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_8);
+        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       }
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     }
 
-    /* "blum_automation.pyx":317
+    /* "blum_automation.pyx":322
  *         "points": points
  *     }
  *     for attempt in range(max_attempts):             # <<<<<<<<<<<<<<
@@ -9885,29 +10066,29 @@ static PyObject *__pyx_f_15blum_automation_game_claim_points(PyObject *__pyx_v_h
  *         if response.status_code == 200:
  */
   }
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "blum_automation.pyx":329
- *             time.sleep(0.4)
+  /* "blum_automation.pyx":334
+ *             time.sleep(0.8)
  * 
  *     print(Fore.LIGHTRED_EX + "Failed to earn points!")             # <<<<<<<<<<<<<<
  *     return
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Fore); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 329, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 329, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyNumber_Add(__pyx_t_3, __pyx_kp_u_Failed_to_earn_points); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 329, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 329, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_Fore); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 334, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 334, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_4 = PyNumber_Add(__pyx_t_8, __pyx_kp_u_Failed_to_earn_points); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 334, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  __pyx_t_8 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_4); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 334, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-  /* "blum_automation.pyx":330
+  /* "blum_automation.pyx":335
  * 
  *     print(Fore.LIGHTRED_EX + "Failed to earn points!")
  *     return             # <<<<<<<<<<<<<<
@@ -9931,11 +10112,13 @@ static PyObject *__pyx_f_15blum_automation_game_claim_points(PyObject *__pyx_v_h
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_XDECREF(__pyx_t_7);
+  __Pyx_XDECREF(__pyx_t_4);
+  __Pyx_XDECREF(__pyx_t_8);
   __Pyx_AddTraceback("blum_automation.game_claim_points", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
+  __Pyx_XDECREF(__pyx_v_weight);
+  __Pyx_XDECREF(__pyx_v_random_choice);
   __Pyx_XDECREF(__pyx_v_points);
   __Pyx_XDECREF(__pyx_v_url);
   __Pyx_XDECREF(__pyx_v_data);
@@ -9946,7 +10129,7 @@ static PyObject *__pyx_f_15blum_automation_game_claim_points(PyObject *__pyx_v_h
   return __pyx_r;
 }
 
-/* "blum_automation.pyx":333
+/* "blum_automation.pyx":338
  * 
  * 
  * @cython.cfunc             # <<<<<<<<<<<<<<
@@ -9973,29 +10156,29 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("game", 1);
 
-  /* "blum_automation.pyx":337
+  /* "blum_automation.pyx":342
  *     global failed_request
  * 
  *     playPasses = account_info["playPasses"]             # <<<<<<<<<<<<<<
  *     if playPasses == 0:
  *         return False
  */
-  __pyx_t_1 = __Pyx_PyDict_GetItem(__pyx_v_account_info, __pyx_n_u_playPasses); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 337, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_GetItem(__pyx_v_account_info, __pyx_n_u_playPasses); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 342, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_playPasses = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "blum_automation.pyx":338
+  /* "blum_automation.pyx":343
  * 
  *     playPasses = account_info["playPasses"]
  *     if playPasses == 0:             # <<<<<<<<<<<<<<
  *         return False
  *     game_id = ""
  */
-  __pyx_t_2 = (__Pyx_PyInt_BoolEqObjC(__pyx_v_playPasses, __pyx_int_0, 0, 0)); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 338, __pyx_L1_error)
+  __pyx_t_2 = (__Pyx_PyInt_BoolEqObjC(__pyx_v_playPasses, __pyx_int_0, 0, 0)); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 343, __pyx_L1_error)
   if (__pyx_t_2) {
 
-    /* "blum_automation.pyx":339
+    /* "blum_automation.pyx":344
  *     playPasses = account_info["playPasses"]
  *     if playPasses == 0:
  *         return False             # <<<<<<<<<<<<<<
@@ -10007,7 +10190,7 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
     __pyx_r = Py_False;
     goto __pyx_L0;
 
-    /* "blum_automation.pyx":338
+    /* "blum_automation.pyx":343
  * 
  *     playPasses = account_info["playPasses"]
  *     if playPasses == 0:             # <<<<<<<<<<<<<<
@@ -10016,33 +10199,33 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
  */
   }
 
-  /* "blum_automation.pyx":340
+  /* "blum_automation.pyx":345
  *     if playPasses == 0:
  *         return False
  *     game_id = ""             # <<<<<<<<<<<<<<
  *     for _ in range(playPasses):
  *         game_id = get_game_id(headers, game_id, 3)
  */
-  __Pyx_INCREF(__pyx_kp_u__2);
-  __pyx_v_game_id = __pyx_kp_u__2;
+  __Pyx_INCREF(__pyx_kp_u__3);
+  __pyx_v_game_id = __pyx_kp_u__3;
 
-  /* "blum_automation.pyx":341
+  /* "blum_automation.pyx":346
  *         return False
  *     game_id = ""
  *     for _ in range(playPasses):             # <<<<<<<<<<<<<<
  *         game_id = get_game_id(headers, game_id, 3)
  *         if game_id:
  */
-  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_v_playPasses); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 341, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_v_playPasses); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 346, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (likely(PyList_CheckExact(__pyx_t_1)) || PyTuple_CheckExact(__pyx_t_1)) {
     __pyx_t_3 = __pyx_t_1; __Pyx_INCREF(__pyx_t_3);
     __pyx_t_4 = 0;
     __pyx_t_5 = NULL;
   } else {
-    __pyx_t_4 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 341, __pyx_L1_error)
+    __pyx_t_4 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 346, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_5 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 341, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 346, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   for (;;) {
@@ -10051,28 +10234,28 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
         {
           Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_3);
           #if !CYTHON_ASSUME_SAFE_MACROS
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 341, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 346, __pyx_L1_error)
           #endif
           if (__pyx_t_4 >= __pyx_temp) break;
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_1 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 341, __pyx_L1_error)
+        __pyx_t_1 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 346, __pyx_L1_error)
         #else
-        __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 341, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 346, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         #endif
       } else {
         {
           Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_3);
           #if !CYTHON_ASSUME_SAFE_MACROS
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 341, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 346, __pyx_L1_error)
           #endif
           if (__pyx_t_4 >= __pyx_temp) break;
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_1 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 341, __pyx_L1_error)
+        __pyx_t_1 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 346, __pyx_L1_error)
         #else
-        __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 341, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 346, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         #endif
       }
@@ -10082,7 +10265,7 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 341, __pyx_L1_error)
+          else __PYX_ERR(0, 346, __pyx_L1_error)
         }
         break;
       }
@@ -10091,40 +10274,40 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
     __Pyx_XDECREF_SET(__pyx_v__, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "blum_automation.pyx":342
+    /* "blum_automation.pyx":347
  *     game_id = ""
  *     for _ in range(playPasses):
  *         game_id = get_game_id(headers, game_id, 3)             # <<<<<<<<<<<<<<
  *         if game_id:
  *             time.sleep(30.5)
  */
-    if (!(likely(PyUnicode_CheckExact(__pyx_v_game_id))||((__pyx_v_game_id) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_v_game_id))) __PYX_ERR(0, 342, __pyx_L1_error)
-    if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 342, __pyx_L1_error)
-    __pyx_t_1 = __pyx_f_15blum_automation_get_game_id(__pyx_v_headers, ((PyObject*)__pyx_v_game_id), ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 342, __pyx_L1_error)
+    if (!(likely(PyUnicode_CheckExact(__pyx_v_game_id))||((__pyx_v_game_id) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_v_game_id))) __PYX_ERR(0, 347, __pyx_L1_error)
+    if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 347, __pyx_L1_error)
+    __pyx_t_1 = __pyx_f_15blum_automation_get_game_id(__pyx_v_headers, ((PyObject*)__pyx_v_game_id), ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 347, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_game_id, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "blum_automation.pyx":343
+    /* "blum_automation.pyx":348
  *     for _ in range(playPasses):
  *         game_id = get_game_id(headers, game_id, 3)
  *         if game_id:             # <<<<<<<<<<<<<<
  *             time.sleep(30.5)
  *             game_claim_points(headers, game_id, 3)
  */
-    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_game_id); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 343, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_game_id); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 348, __pyx_L1_error)
     if (__pyx_t_2) {
 
-      /* "blum_automation.pyx":344
+      /* "blum_automation.pyx":349
  *         game_id = get_game_id(headers, game_id, 3)
  *         if game_id:
  *             time.sleep(30.5)             # <<<<<<<<<<<<<<
  *             game_claim_points(headers, game_id, 3)
  *         else:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_time); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 344, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_time); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 349, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_sleep); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 344, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_sleep); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 349, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = NULL;
@@ -10145,25 +10328,25 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_float_30_5};
         __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 344, __pyx_L1_error)
+        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 349, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       }
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "blum_automation.pyx":345
+      /* "blum_automation.pyx":350
  *         if game_id:
  *             time.sleep(30.5)
  *             game_claim_points(headers, game_id, 3)             # <<<<<<<<<<<<<<
  *         else:
  *             time.sleep(2)
  */
-      if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 345, __pyx_L1_error)
-      __pyx_t_1 = __pyx_f_15blum_automation_game_claim_points(__pyx_v_headers, __pyx_v_game_id, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 345, __pyx_L1_error)
+      if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 350, __pyx_L1_error)
+      __pyx_t_1 = __pyx_f_15blum_automation_game_claim_points(__pyx_v_headers, __pyx_v_game_id, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 350, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "blum_automation.pyx":343
+      /* "blum_automation.pyx":348
  *     for _ in range(playPasses):
  *         game_id = get_game_id(headers, game_id, 3)
  *         if game_id:             # <<<<<<<<<<<<<<
@@ -10173,7 +10356,7 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
       goto __pyx_L6;
     }
 
-    /* "blum_automation.pyx":347
+    /* "blum_automation.pyx":352
  *             game_claim_points(headers, game_id, 3)
  *         else:
  *             time.sleep(2)             # <<<<<<<<<<<<<<
@@ -10181,9 +10364,9 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
  * 
  */
     /*else*/ {
-      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 347, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 352, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 347, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 352, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __pyx_t_7 = NULL;
@@ -10204,13 +10387,13 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
         PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_int_2};
         __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_8, 1+__pyx_t_8);
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 347, __pyx_L1_error)
+        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 352, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "blum_automation.pyx":348
+      /* "blum_automation.pyx":353
  *         else:
  *             time.sleep(2)
  *             return True             # <<<<<<<<<<<<<<
@@ -10225,7 +10408,7 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
     }
     __pyx_L6:;
 
-    /* "blum_automation.pyx":341
+    /* "blum_automation.pyx":346
  *         return False
  *     game_id = ""
  *     for _ in range(playPasses):             # <<<<<<<<<<<<<<
@@ -10235,7 +10418,7 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "blum_automation.pyx":350
+  /* "blum_automation.pyx":355
  *             return True
  * 
  *     return True             # <<<<<<<<<<<<<<
@@ -10247,7 +10430,7 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
   __pyx_r = Py_True;
   goto __pyx_L0;
 
-  /* "blum_automation.pyx":333
+  /* "blum_automation.pyx":338
  * 
  * 
  * @cython.cfunc             # <<<<<<<<<<<<<<
@@ -10272,7 +10455,7 @@ static PyObject *__pyx_f_15blum_automation_game(PyObject *__pyx_v_account_info, 
   return __pyx_r;
 }
 
-/* "blum_automation.pyx":353
+/* "blum_automation.pyx":358
  * 
  * 
  * @cython.cfunc             # <<<<<<<<<<<<<<
@@ -10300,36 +10483,36 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_friends_balance", 1);
 
-  /* "blum_automation.pyx":357
+  /* "blum_automation.pyx":362
  *     global failed_request
  * 
  *     print(Fore.YELLOW + Style.BRIGHT + "Trying to get a balance of points for friends......")             # <<<<<<<<<<<<<<
  *     url = "https://gateway.blum.codes/v1/friends/balance"
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Fore); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 357, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Fore); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 362, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_YELLOW); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 357, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_YELLOW); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 362, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Style); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 357, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Style); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 362, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 357, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 362, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyNumber_Add(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 357, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_Add(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 362, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyNumber_Add(__pyx_t_1, __pyx_kp_u_Trying_to_get_a_balance_of_point); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 357, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_t_1, __pyx_kp_u_Trying_to_get_a_balance_of_point); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 362, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 357, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 362, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "blum_automation.pyx":358
+  /* "blum_automation.pyx":363
  * 
  *     print(Fore.YELLOW + Style.BRIGHT + "Trying to get a balance of points for friends......")
  *     url = "https://gateway.blum.codes/v1/friends/balance"             # <<<<<<<<<<<<<<
@@ -10339,23 +10522,23 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
   __Pyx_INCREF(__pyx_kp_u_https_gateway_blum_codes_v1_frie);
   __pyx_v_url = __pyx_kp_u_https_gateway_blum_codes_v1_frie;
 
-  /* "blum_automation.pyx":360
+  /* "blum_automation.pyx":365
  *     url = "https://gateway.blum.codes/v1/friends/balance"
  * 
  *     for attempts in range(max_attempts):             # <<<<<<<<<<<<<<
  *         response = requests.get(url, headers=headers)
  *         if response.status_code == 200:
  */
-  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_v_max_attempts); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 360, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_v_max_attempts); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 365, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (likely(PyList_CheckExact(__pyx_t_1)) || PyTuple_CheckExact(__pyx_t_1)) {
     __pyx_t_3 = __pyx_t_1; __Pyx_INCREF(__pyx_t_3);
     __pyx_t_4 = 0;
     __pyx_t_5 = NULL;
   } else {
-    __pyx_t_4 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 360, __pyx_L1_error)
+    __pyx_t_4 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 365, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_5 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 360, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 365, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   for (;;) {
@@ -10364,28 +10547,28 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
         {
           Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_3);
           #if !CYTHON_ASSUME_SAFE_MACROS
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 360, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 365, __pyx_L1_error)
           #endif
           if (__pyx_t_4 >= __pyx_temp) break;
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_1 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 360, __pyx_L1_error)
+        __pyx_t_1 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 365, __pyx_L1_error)
         #else
-        __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 360, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 365, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         #endif
       } else {
         {
           Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_3);
           #if !CYTHON_ASSUME_SAFE_MACROS
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 360, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 365, __pyx_L1_error)
           #endif
           if (__pyx_t_4 >= __pyx_temp) break;
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_1 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 360, __pyx_L1_error)
+        __pyx_t_1 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 365, __pyx_L1_error)
         #else
-        __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 360, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 365, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         #endif
       }
@@ -10395,37 +10578,37 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 360, __pyx_L1_error)
+          else __PYX_ERR(0, 365, __pyx_L1_error)
         }
         break;
       }
       __Pyx_GOTREF(__pyx_t_1);
     }
-    if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_1))) __PYX_ERR(0, 360, __pyx_L1_error)
+    if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_1))) __PYX_ERR(0, 365, __pyx_L1_error)
     __Pyx_XDECREF_SET(__pyx_v_attempts, ((PyObject*)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "blum_automation.pyx":361
+    /* "blum_automation.pyx":366
  * 
  *     for attempts in range(max_attempts):
  *         response = requests.get(url, headers=headers)             # <<<<<<<<<<<<<<
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_requests); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 361, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_requests); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 366, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_get); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 361, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_get); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 366, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 361, __pyx_L1_error)
+    __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 366, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_INCREF(__pyx_v_url);
     __Pyx_GIVEREF(__pyx_v_url);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_url)) __PYX_ERR(0, 361, __pyx_L1_error);
-    __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 361, __pyx_L1_error)
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_url)) __PYX_ERR(0, 366, __pyx_L1_error);
+    __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 366, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_headers, __pyx_v_headers) < 0) __PYX_ERR(0, 361, __pyx_L1_error)
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_1, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 361, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_headers, __pyx_v_headers) < 0) __PYX_ERR(0, 366, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_1, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 366, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -10433,40 +10616,40 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
     __Pyx_XDECREF_SET(__pyx_v_response, __pyx_t_7);
     __pyx_t_7 = 0;
 
-    /* "blum_automation.pyx":362
+    /* "blum_automation.pyx":367
  *     for attempts in range(max_attempts):
  *         response = requests.get(url, headers=headers)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
  *             return response.json()["amountForClaim"]
  */
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 362, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 367, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_8 = (__Pyx_PyInt_BoolEqObjC(__pyx_t_7, __pyx_int_200, 0xC8, 0)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 362, __pyx_L1_error)
+    __pyx_t_8 = (__Pyx_PyInt_BoolEqObjC(__pyx_t_7, __pyx_int_200, 0xC8, 0)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 367, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     if (__pyx_t_8) {
 
-      /* "blum_automation.pyx":363
+      /* "blum_automation.pyx":368
  *         response = requests.get(url, headers=headers)
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")             # <<<<<<<<<<<<<<
  *             return response.json()["amountForClaim"]
  *         else:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 363, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 368, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_LIGHTGREEN_EX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 363, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_LIGHTGREEN_EX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 368, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = PyNumber_Add(__pyx_t_6, __pyx_kp_u_Successful); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 363, __pyx_L1_error)
+      __pyx_t_7 = PyNumber_Add(__pyx_t_6, __pyx_kp_u_Successful); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 368, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 363, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 368, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "blum_automation.pyx":364
+      /* "blum_automation.pyx":369
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
  *             return response.json()["amountForClaim"]             # <<<<<<<<<<<<<<
@@ -10474,7 +10657,7 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
  */
       __Pyx_XDECREF(__pyx_r);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_json); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 364, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_json); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 369, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_1 = NULL;
       __pyx_t_9 = 0;
@@ -10494,11 +10677,11 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
         PyObject *__pyx_callargs[2] = {__pyx_t_1, NULL};
         __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_9, 0+__pyx_t_9);
         __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 364, __pyx_L1_error)
+        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 369, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       }
-      __pyx_t_7 = __Pyx_PyObject_Dict_GetItem(__pyx_t_6, __pyx_n_u_amountForClaim); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 364, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_Dict_GetItem(__pyx_t_6, __pyx_n_u_amountForClaim); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 369, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_r = __pyx_t_7;
@@ -10506,7 +10689,7 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       goto __pyx_L0;
 
-      /* "blum_automation.pyx":362
+      /* "blum_automation.pyx":367
  *     for attempts in range(max_attempts):
  *         response = requests.get(url, headers=headers)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
@@ -10515,7 +10698,7 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
  */
     }
 
-    /* "blum_automation.pyx":366
+    /* "blum_automation.pyx":371
  *             return response.json()["amountForClaim"]
  *         else:
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")             # <<<<<<<<<<<<<<
@@ -10523,58 +10706,58 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
  *             time.sleep(3)
  */
     /*else*/ {
-      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 366, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 371, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 366, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 371, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 366, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 371, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 366, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 371, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 366, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 371, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_1 = PyNumber_Add(__pyx_t_6, __pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 366, __pyx_L1_error)
+      __pyx_t_1 = PyNumber_Add(__pyx_t_6, __pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 371, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 366, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 371, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "blum_automation.pyx":367
+      /* "blum_automation.pyx":372
  *         else:
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
  *             print(Fore.LIGHTBLACK_EX + "Attempting to reconnect")             # <<<<<<<<<<<<<<
  *             time.sleep(3)
  * 
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 367, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 372, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 367, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 372, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = PyNumber_Add(__pyx_t_1, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 367, __pyx_L1_error)
+      __pyx_t_7 = PyNumber_Add(__pyx_t_1, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 372, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 367, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 372, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "blum_automation.pyx":368
+      /* "blum_automation.pyx":373
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
  *             print(Fore.LIGHTBLACK_EX + "Attempting to reconnect")
  *             time.sleep(3)             # <<<<<<<<<<<<<<
  * 
  *     print(Fore.LIGHTRED_EX + "Failed to get a balance of points for friends")
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 368, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 373, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 368, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 373, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __pyx_t_7 = NULL;
@@ -10595,14 +10778,14 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
         PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_int_3};
         __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 368, __pyx_L1_error)
+        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 373, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
 
-    /* "blum_automation.pyx":360
+    /* "blum_automation.pyx":365
  *     url = "https://gateway.blum.codes/v1/friends/balance"
  * 
  *     for attempts in range(max_attempts):             # <<<<<<<<<<<<<<
@@ -10612,48 +10795,48 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "blum_automation.pyx":370
+  /* "blum_automation.pyx":375
  *             time.sleep(3)
  * 
  *     print(Fore.LIGHTRED_EX + "Failed to get a balance of points for friends")             # <<<<<<<<<<<<<<
  *     failed_request["get balance points for friends"] = False
  *     time.sleep(2)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Fore); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 370, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Fore); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 375, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 370, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 375, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyNumber_Add(__pyx_t_1, __pyx_kp_u_Failed_to_get_a_balance_of_point); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 370, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_t_1, __pyx_kp_u_Failed_to_get_a_balance_of_point); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 375, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 370, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 375, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "blum_automation.pyx":371
+  /* "blum_automation.pyx":376
  * 
  *     print(Fore.LIGHTRED_EX + "Failed to get a balance of points for friends")
  *     failed_request["get balance points for friends"] = False             # <<<<<<<<<<<<<<
  *     time.sleep(2)
  *     return False
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_failed_request); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 371, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_failed_request); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 376, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (unlikely((PyObject_SetItem(__pyx_t_1, __pyx_kp_u_get_balance_points_for_friends, Py_False) < 0))) __PYX_ERR(0, 371, __pyx_L1_error)
+  if (unlikely((PyObject_SetItem(__pyx_t_1, __pyx_kp_u_get_balance_points_for_friends, Py_False) < 0))) __PYX_ERR(0, 376, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "blum_automation.pyx":372
+  /* "blum_automation.pyx":377
  *     print(Fore.LIGHTRED_EX + "Failed to get a balance of points for friends")
  *     failed_request["get balance points for friends"] = False
  *     time.sleep(2)             # <<<<<<<<<<<<<<
  *     return False
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 372, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 377, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 372, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 377, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -10674,13 +10857,13 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
     PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_int_2};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 372, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 377, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "blum_automation.pyx":373
+  /* "blum_automation.pyx":378
  *     failed_request["get balance points for friends"] = False
  *     time.sleep(2)
  *     return False             # <<<<<<<<<<<<<<
@@ -10692,7 +10875,7 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
   __pyx_r = Py_False;
   goto __pyx_L0;
 
-  /* "blum_automation.pyx":353
+  /* "blum_automation.pyx":358
  * 
  * 
  * @cython.cfunc             # <<<<<<<<<<<<<<
@@ -10718,7 +10901,7 @@ static PyObject *__pyx_f_15blum_automation_get_friends_balance(PyObject *__pyx_v
   return __pyx_r;
 }
 
-/* "blum_automation.pyx":376
+/* "blum_automation.pyx":381
  * 
  * 
  * @cython.cfunc             # <<<<<<<<<<<<<<
@@ -10747,36 +10930,36 @@ static PyObject *__pyx_f_15blum_automation_friends_claim_points(PyObject *__pyx_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("friends_claim_points", 1);
 
-  /* "blum_automation.pyx":380
+  /* "blum_automation.pyx":385
  *     global failed_request
  * 
  *     print(Fore.YELLOW + Style.BRIGHT + "Trying to get points for friends......")             # <<<<<<<<<<<<<<
  *     url = "https://gateway.blum.codes/v1/friends/claim"
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Fore); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 380, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Fore); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_YELLOW); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 380, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_YELLOW); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Style); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 380, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Style); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 380, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyNumber_Add(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 380, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_Add(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyNumber_Add(__pyx_t_1, __pyx_kp_u_Trying_to_get_points_for_friends); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 380, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_t_1, __pyx_kp_u_Trying_to_get_points_for_friends); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 380, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "blum_automation.pyx":381
+  /* "blum_automation.pyx":386
  * 
  *     print(Fore.YELLOW + Style.BRIGHT + "Trying to get points for friends......")
  *     url = "https://gateway.blum.codes/v1/friends/claim"             # <<<<<<<<<<<<<<
@@ -10786,36 +10969,36 @@ static PyObject *__pyx_f_15blum_automation_friends_claim_points(PyObject *__pyx_
   __Pyx_INCREF(__pyx_kp_u_https_gateway_blum_codes_v1_frie_2);
   __pyx_v_url = __pyx_kp_u_https_gateway_blum_codes_v1_frie_2;
 
-  /* "blum_automation.pyx":384
+  /* "blum_automation.pyx":389
  * 
  *     data = {
  *         "claimBalance": amountForClaim             # <<<<<<<<<<<<<<
  *     }
  * 
  */
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 384, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 389, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_claimBalance, __pyx_v_amountForClaim) < 0) __PYX_ERR(0, 384, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_claimBalance, __pyx_v_amountForClaim) < 0) __PYX_ERR(0, 389, __pyx_L1_error)
   __pyx_v_data = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "blum_automation.pyx":387
+  /* "blum_automation.pyx":392
  *     }
  * 
  *     for attempt in range(max_attempts):             # <<<<<<<<<<<<<<
  *         response = requests.post(url, headers=headers, json=data)
  *         if response.status_code == 200:
  */
-  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_v_max_attempts); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 387, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_v_max_attempts); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 392, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (likely(PyList_CheckExact(__pyx_t_1)) || PyTuple_CheckExact(__pyx_t_1)) {
     __pyx_t_3 = __pyx_t_1; __Pyx_INCREF(__pyx_t_3);
     __pyx_t_4 = 0;
     __pyx_t_5 = NULL;
   } else {
-    __pyx_t_4 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 387, __pyx_L1_error)
+    __pyx_t_4 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 392, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_5 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 387, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 392, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   for (;;) {
@@ -10824,28 +11007,28 @@ static PyObject *__pyx_f_15blum_automation_friends_claim_points(PyObject *__pyx_
         {
           Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_3);
           #if !CYTHON_ASSUME_SAFE_MACROS
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 387, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 392, __pyx_L1_error)
           #endif
           if (__pyx_t_4 >= __pyx_temp) break;
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_1 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 387, __pyx_L1_error)
+        __pyx_t_1 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 392, __pyx_L1_error)
         #else
-        __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 387, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 392, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         #endif
       } else {
         {
           Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_3);
           #if !CYTHON_ASSUME_SAFE_MACROS
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 387, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 392, __pyx_L1_error)
           #endif
           if (__pyx_t_4 >= __pyx_temp) break;
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_1 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 387, __pyx_L1_error)
+        __pyx_t_1 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely((0 < 0))) __PYX_ERR(0, 392, __pyx_L1_error)
         #else
-        __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 387, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PySequence_ITEM(__pyx_t_3, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 392, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         #endif
       }
@@ -10855,38 +11038,38 @@ static PyObject *__pyx_f_15blum_automation_friends_claim_points(PyObject *__pyx_
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 387, __pyx_L1_error)
+          else __PYX_ERR(0, 392, __pyx_L1_error)
         }
         break;
       }
       __Pyx_GOTREF(__pyx_t_1);
     }
-    if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_1))) __PYX_ERR(0, 387, __pyx_L1_error)
+    if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_1))) __PYX_ERR(0, 392, __pyx_L1_error)
     __Pyx_XDECREF_SET(__pyx_v_attempt, ((PyObject*)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "blum_automation.pyx":388
+    /* "blum_automation.pyx":393
  * 
  *     for attempt in range(max_attempts):
  *         response = requests.post(url, headers=headers, json=data)             # <<<<<<<<<<<<<<
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_requests); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 388, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_requests); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 393, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_post); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 388, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_post); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 393, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 388, __pyx_L1_error)
+    __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 393, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_INCREF(__pyx_v_url);
     __Pyx_GIVEREF(__pyx_v_url);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_url)) __PYX_ERR(0, 388, __pyx_L1_error);
-    __pyx_t_6 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 388, __pyx_L1_error)
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_url)) __PYX_ERR(0, 393, __pyx_L1_error);
+    __pyx_t_6 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 393, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_headers, __pyx_v_headers) < 0) __PYX_ERR(0, 388, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_json, __pyx_v_data) < 0) __PYX_ERR(0, 388, __pyx_L1_error)
-    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_1, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 388, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_headers, __pyx_v_headers) < 0) __PYX_ERR(0, 393, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_json, __pyx_v_data) < 0) __PYX_ERR(0, 393, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_1, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 393, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -10894,40 +11077,40 @@ static PyObject *__pyx_f_15blum_automation_friends_claim_points(PyObject *__pyx_
     __Pyx_XDECREF_SET(__pyx_v_response, __pyx_t_7);
     __pyx_t_7 = 0;
 
-    /* "blum_automation.pyx":389
+    /* "blum_automation.pyx":394
  *     for attempt in range(max_attempts):
  *         response = requests.post(url, headers=headers, json=data)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
  *             return
  */
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 389, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 394, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_8 = (__Pyx_PyInt_BoolEqObjC(__pyx_t_7, __pyx_int_200, 0xC8, 0)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 389, __pyx_L1_error)
+    __pyx_t_8 = (__Pyx_PyInt_BoolEqObjC(__pyx_t_7, __pyx_int_200, 0xC8, 0)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 394, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     if (__pyx_t_8) {
 
-      /* "blum_automation.pyx":390
+      /* "blum_automation.pyx":395
  *         response = requests.post(url, headers=headers, json=data)
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")             # <<<<<<<<<<<<<<
  *             return
  *         else:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 390, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_Fore); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 395, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_LIGHTGREEN_EX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 390, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_LIGHTGREEN_EX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 395, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = PyNumber_Add(__pyx_t_6, __pyx_kp_u_Successful); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 390, __pyx_L1_error)
+      __pyx_t_7 = PyNumber_Add(__pyx_t_6, __pyx_kp_u_Successful); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 395, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 390, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 395, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "blum_automation.pyx":391
+      /* "blum_automation.pyx":396
  *         if response.status_code == 200:
  *             print(Fore.LIGHTGREEN_EX + "Successful!")
  *             return             # <<<<<<<<<<<<<<
@@ -10939,7 +11122,7 @@ static PyObject *__pyx_f_15blum_automation_friends_claim_points(PyObject *__pyx_
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       goto __pyx_L0;
 
-      /* "blum_automation.pyx":389
+      /* "blum_automation.pyx":394
  *     for attempt in range(max_attempts):
  *         response = requests.post(url, headers=headers, json=data)
  *         if response.status_code == 200:             # <<<<<<<<<<<<<<
@@ -10948,7 +11131,7 @@ static PyObject *__pyx_f_15blum_automation_friends_claim_points(PyObject *__pyx_
  */
     }
 
-    /* "blum_automation.pyx":393
+    /* "blum_automation.pyx":398
  *             return
  *         else:
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")             # <<<<<<<<<<<<<<
@@ -10956,58 +11139,58 @@ static PyObject *__pyx_f_15blum_automation_friends_claim_points(PyObject *__pyx_
  *             time.sleep(3)
  */
     /*else*/ {
-      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 393, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 398, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 393, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 398, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 393, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status_code); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 398, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 393, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 398, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 393, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error_status_code, __pyx_t_1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 398, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_1 = PyNumber_Add(__pyx_t_7, __pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 393, __pyx_L1_error)
+      __pyx_t_1 = PyNumber_Add(__pyx_t_7, __pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 398, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 393, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 398, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "blum_automation.pyx":394
+      /* "blum_automation.pyx":399
  *         else:
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
  *             print(Fore.LIGHTBLACK_EX + "Attempting to reconnect")             # <<<<<<<<<<<<<<
  *             time.sleep(3)
  * 
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 394, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 399, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 394, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 399, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = PyNumber_Add(__pyx_t_1, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 394, __pyx_L1_error)
+      __pyx_t_6 = PyNumber_Add(__pyx_t_1, __pyx_kp_u_Attempting_to_reconnect); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 399, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 394, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 399, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "blum_automation.pyx":395
+      /* "blum_automation.pyx":400
  *             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
  *             print(Fore.LIGHTBLACK_EX + "Attempting to reconnect")
  *             time.sleep(3)             # <<<<<<<<<<<<<<
  * 
  *     print(Fore.LIGHTRED_EX + "Failed to get points for friends!")
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_time); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 395, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_time); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 400, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_sleep); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 395, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_sleep); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 400, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = NULL;
@@ -11028,14 +11211,14 @@ static PyObject *__pyx_f_15blum_automation_friends_claim_points(PyObject *__pyx_
         PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_int_3};
         __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 395, __pyx_L1_error)
+        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 400, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       }
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
 
-    /* "blum_automation.pyx":387
+    /* "blum_automation.pyx":392
  *     }
  * 
  *     for attempt in range(max_attempts):             # <<<<<<<<<<<<<<
@@ -11045,48 +11228,48 @@ static PyObject *__pyx_f_15blum_automation_friends_claim_points(PyObject *__pyx_
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "blum_automation.pyx":397
+  /* "blum_automation.pyx":402
  *             time.sleep(3)
  * 
  *     print(Fore.LIGHTRED_EX + "Failed to get points for friends!")             # <<<<<<<<<<<<<<
  *     failed_request["claim points for friends"] = False
  *     time.sleep(2)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Fore); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 397, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Fore); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 402, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 397, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 402, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyNumber_Add(__pyx_t_1, __pyx_kp_u_Failed_to_get_points_for_friends); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 397, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_t_1, __pyx_kp_u_Failed_to_get_points_for_friends); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 402, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 397, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 402, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "blum_automation.pyx":398
+  /* "blum_automation.pyx":403
  * 
  *     print(Fore.LIGHTRED_EX + "Failed to get points for friends!")
  *     failed_request["claim points for friends"] = False             # <<<<<<<<<<<<<<
  *     time.sleep(2)
  *     return False
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_failed_request); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 398, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_failed_request); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 403, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (unlikely((PyObject_SetItem(__pyx_t_1, __pyx_kp_u_claim_points_for_friends, Py_False) < 0))) __PYX_ERR(0, 398, __pyx_L1_error)
+  if (unlikely((PyObject_SetItem(__pyx_t_1, __pyx_kp_u_claim_points_for_friends, Py_False) < 0))) __PYX_ERR(0, 403, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "blum_automation.pyx":399
+  /* "blum_automation.pyx":404
  *     print(Fore.LIGHTRED_EX + "Failed to get points for friends!")
  *     failed_request["claim points for friends"] = False
  *     time.sleep(2)             # <<<<<<<<<<<<<<
  *     return False
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 399, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 404, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_sleep); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 399, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_sleep); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 404, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -11107,13 +11290,13 @@ static PyObject *__pyx_f_15blum_automation_friends_claim_points(PyObject *__pyx_
     PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_int_2};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_9, 1+__pyx_t_9);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 399, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 404, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "blum_automation.pyx":400
+  /* "blum_automation.pyx":405
  *     failed_request["claim points for friends"] = False
  *     time.sleep(2)
  *     return False             # <<<<<<<<<<<<<<
@@ -11125,7 +11308,7 @@ static PyObject *__pyx_f_15blum_automation_friends_claim_points(PyObject *__pyx_
   __pyx_r = Py_False;
   goto __pyx_L0;
 
-  /* "blum_automation.pyx":376
+  /* "blum_automation.pyx":381
  * 
  * 
  * @cython.cfunc             # <<<<<<<<<<<<<<
@@ -11152,7 +11335,7 @@ static PyObject *__pyx_f_15blum_automation_friends_claim_points(PyObject *__pyx_
   return __pyx_r;
 }
 
-/* "blum_automation.pyx":403
+/* "blum_automation.pyx":408
  * 
  * 
  * @cython.cfunc             # <<<<<<<<<<<<<<
@@ -11176,52 +11359,52 @@ static PyObject *__pyx_f_15blum_automation_friends(PyObject *__pyx_v_headers) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("friends", 1);
 
-  /* "blum_automation.pyx":405
+  /* "blum_automation.pyx":410
  * @cython.cfunc
  * def friends(headers: dict):
  *     amountForClaim = get_friends_balance(headers, 3)             # <<<<<<<<<<<<<<
  *     if amountForClaim and float(amountForClaim) > 300:
  *         friends_claim_points(amountForClaim, headers, 3)
  */
-  if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 405, __pyx_L1_error)
-  __pyx_t_1 = __pyx_f_15blum_automation_get_friends_balance(__pyx_v_headers, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 405, __pyx_L1_error)
+  if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 410, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_15blum_automation_get_friends_balance(__pyx_v_headers, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 410, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_amountForClaim = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "blum_automation.pyx":406
+  /* "blum_automation.pyx":411
  * def friends(headers: dict):
  *     amountForClaim = get_friends_balance(headers, 3)
  *     if amountForClaim and float(amountForClaim) > 300:             # <<<<<<<<<<<<<<
  *         friends_claim_points(amountForClaim, headers, 3)
  *     else:
  */
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_amountForClaim); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 406, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_amountForClaim); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 411, __pyx_L1_error)
   if (__pyx_t_3) {
   } else {
     __pyx_t_2 = __pyx_t_3;
     goto __pyx_L4_bool_binop_done;
   }
-  __pyx_t_4 = __Pyx_PyObject_AsDouble(__pyx_v_amountForClaim); if (unlikely(__pyx_t_4 == ((double)((double)-1)) && PyErr_Occurred())) __PYX_ERR(0, 406, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_AsDouble(__pyx_v_amountForClaim); if (unlikely(__pyx_t_4 == ((double)((double)-1)) && PyErr_Occurred())) __PYX_ERR(0, 411, __pyx_L1_error)
   __pyx_t_3 = (__pyx_t_4 > 300.0);
   __pyx_t_2 = __pyx_t_3;
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_2) {
 
-    /* "blum_automation.pyx":407
+    /* "blum_automation.pyx":412
  *     amountForClaim = get_friends_balance(headers, 3)
  *     if amountForClaim and float(amountForClaim) > 300:
  *         friends_claim_points(amountForClaim, headers, 3)             # <<<<<<<<<<<<<<
  *     else:
  *         print(Fore.LIGHTBLACK_EX + "Points for friends already received or not available!")
  */
-    if (!(likely(PyUnicode_CheckExact(__pyx_v_amountForClaim))||((__pyx_v_amountForClaim) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_v_amountForClaim))) __PYX_ERR(0, 407, __pyx_L1_error)
-    if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 407, __pyx_L1_error)
-    __pyx_t_1 = __pyx_f_15blum_automation_friends_claim_points(((PyObject*)__pyx_v_amountForClaim), __pyx_v_headers, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 407, __pyx_L1_error)
+    if (!(likely(PyUnicode_CheckExact(__pyx_v_amountForClaim))||((__pyx_v_amountForClaim) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_v_amountForClaim))) __PYX_ERR(0, 412, __pyx_L1_error)
+    if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 412, __pyx_L1_error)
+    __pyx_t_1 = __pyx_f_15blum_automation_friends_claim_points(((PyObject*)__pyx_v_amountForClaim), __pyx_v_headers, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 412, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "blum_automation.pyx":406
+    /* "blum_automation.pyx":411
  * def friends(headers: dict):
  *     amountForClaim = get_friends_balance(headers, 3)
  *     if amountForClaim and float(amountForClaim) > 300:             # <<<<<<<<<<<<<<
@@ -11231,7 +11414,7 @@ static PyObject *__pyx_f_15blum_automation_friends(PyObject *__pyx_v_headers) {
     goto __pyx_L3;
   }
 
-  /* "blum_automation.pyx":409
+  /* "blum_automation.pyx":414
  *         friends_claim_points(amountForClaim, headers, 3)
  *     else:
  *         print(Fore.LIGHTBLACK_EX + "Points for friends already received or not available!")             # <<<<<<<<<<<<<<
@@ -11239,29 +11422,29 @@ static PyObject *__pyx_f_15blum_automation_friends(PyObject *__pyx_v_headers) {
  * 
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Fore); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 409, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Fore); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 414, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 409, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_LIGHTBLACK_EX); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 414, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyNumber_Add(__pyx_t_5, __pyx_kp_u_Points_for_friends_already_recei); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 409, __pyx_L1_error)
+    __pyx_t_1 = PyNumber_Add(__pyx_t_5, __pyx_kp_u_Points_for_friends_already_recei); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 414, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 409, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 414, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "blum_automation.pyx":410
+    /* "blum_automation.pyx":415
  *     else:
  *         print(Fore.LIGHTBLACK_EX + "Points for friends already received or not available!")
  *         time.sleep(2)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_time); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 410, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_time); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 415, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 410, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 415, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_1 = NULL;
@@ -11282,7 +11465,7 @@ static PyObject *__pyx_f_15blum_automation_friends(PyObject *__pyx_v_headers) {
       PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_int_2};
       __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 410, __pyx_L1_error)
+      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 415, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     }
@@ -11290,7 +11473,7 @@ static PyObject *__pyx_f_15blum_automation_friends(PyObject *__pyx_v_headers) {
   }
   __pyx_L3:;
 
-  /* "blum_automation.pyx":403
+  /* "blum_automation.pyx":408
  * 
  * 
  * @cython.cfunc             # <<<<<<<<<<<<<<
@@ -11314,7 +11497,7 @@ static PyObject *__pyx_f_15blum_automation_friends(PyObject *__pyx_v_headers) {
   return __pyx_r;
 }
 
-/* "blum_automation.pyx":414
+/* "blum_automation.pyx":419
  * 
  * 
  * cpdef void automation():             # <<<<<<<<<<<<<<
@@ -11357,25 +11540,26 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
   PyObject *__pyx_t_15 = NULL;
   Py_ssize_t __pyx_t_16;
   Py_UCS4 __pyx_t_17;
-  int __pyx_t_18;
-  PyObject *__pyx_t_19 = NULL;
+  PyObject *__pyx_t_18 = NULL;
+  int __pyx_t_19;
   PyObject *__pyx_t_20 = NULL;
   PyObject *__pyx_t_21 = NULL;
-  int __pyx_t_22;
-  char const *__pyx_t_23;
-  PyObject *__pyx_t_24 = NULL;
+  PyObject *__pyx_t_22 = NULL;
+  int __pyx_t_23;
+  char const *__pyx_t_24;
   PyObject *__pyx_t_25 = NULL;
   PyObject *__pyx_t_26 = NULL;
   PyObject *__pyx_t_27 = NULL;
   PyObject *__pyx_t_28 = NULL;
   PyObject *__pyx_t_29 = NULL;
-  char const *__pyx_t_30;
+  PyObject *__pyx_t_30 = NULL;
+  char const *__pyx_t_31;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("automation", 1);
 
-  /* "blum_automation.pyx":415
+  /* "blum_automation.pyx":420
  * 
  * cpdef void automation():
  *     try:             # <<<<<<<<<<<<<<
@@ -11391,19 +11575,19 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "blum_automation.pyx":416
+      /* "blum_automation.pyx":421
  * cpdef void automation():
  *     try:
  *         user_folder = os.path.expanduser("~")             # <<<<<<<<<<<<<<
  *         tokens_file_path = os.path.join(user_folder, "refresh_tokens.json")
  * 
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 416, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 421, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 416, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 421, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_expanduser); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 416, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_expanduser); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 421, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = NULL;
@@ -11421,29 +11605,29 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
       }
       #endif
       {
-        PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u__7};
+        PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_kp_u__9};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 416, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 421, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_v_user_folder = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "blum_automation.pyx":417
+      /* "blum_automation.pyx":422
  *     try:
  *         user_folder = os.path.expanduser("~")
  *         tokens_file_path = os.path.join(user_folder, "refresh_tokens.json")             # <<<<<<<<<<<<<<
  * 
  *         print_name()
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 417, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_os); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 422, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 417, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_path); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 422, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_join); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 417, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_join); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 422, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = NULL;
@@ -11464,21 +11648,21 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
         PyObject *__pyx_callargs[3] = {__pyx_t_6, __pyx_v_user_folder, __pyx_kp_u_refresh_tokens_json};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 2+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 417, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 422, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __pyx_v_tokens_file_path = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "blum_automation.pyx":419
+      /* "blum_automation.pyx":424
  *         tokens_file_path = os.path.join(user_folder, "refresh_tokens.json")
  * 
  *         print_name()             # <<<<<<<<<<<<<<
  *         clear_console()
  *         time.sleep(1)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_print_name); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 419, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_print_name); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 424, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -11498,20 +11682,20 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 419, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 424, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "blum_automation.pyx":420
+      /* "blum_automation.pyx":425
  * 
  *         print_name()
  *         clear_console()             # <<<<<<<<<<<<<<
  *         time.sleep(1)
  * 
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_clear_console); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 420, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_clear_console); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 425, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
@@ -11531,22 +11715,22 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
         PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 420, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 425, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "blum_automation.pyx":421
+      /* "blum_automation.pyx":426
  *         print_name()
  *         clear_console()
  *         time.sleep(1)             # <<<<<<<<<<<<<<
  * 
  *         data = get_refresh_token(tokens_file_path)  # return [tokens, list(accounts_names)]
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 421, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 426, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 421, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 426, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_5 = NULL;
@@ -11567,37 +11751,37 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
         PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_int_1};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 421, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 426, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "blum_automation.pyx":423
+      /* "blum_automation.pyx":428
  *         time.sleep(1)
  * 
  *         data = get_refresh_token(tokens_file_path)  # return [tokens, list(accounts_names)]             # <<<<<<<<<<<<<<
  *         if not data:
  *             return
  */
-      if (!(likely(PyUnicode_CheckExact(__pyx_v_tokens_file_path))||((__pyx_v_tokens_file_path) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_v_tokens_file_path))) __PYX_ERR(0, 423, __pyx_L3_error)
-      __pyx_t_4 = __pyx_f_15blum_automation_get_refresh_token(((PyObject*)__pyx_v_tokens_file_path)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 423, __pyx_L3_error)
+      if (!(likely(PyUnicode_CheckExact(__pyx_v_tokens_file_path))||((__pyx_v_tokens_file_path) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_v_tokens_file_path))) __PYX_ERR(0, 428, __pyx_L3_error)
+      __pyx_t_4 = __pyx_f_15blum_automation_get_refresh_token(((PyObject*)__pyx_v_tokens_file_path)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 428, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_v_data = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "blum_automation.pyx":424
+      /* "blum_automation.pyx":429
  * 
  *         data = get_refresh_token(tokens_file_path)  # return [tokens, list(accounts_names)]
  *         if not data:             # <<<<<<<<<<<<<<
  *             return
  * 
  */
-      __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_v_data); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 424, __pyx_L3_error)
+      __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_v_data); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 429, __pyx_L3_error)
       __pyx_t_9 = (!__pyx_t_8);
       if (__pyx_t_9) {
 
-        /* "blum_automation.pyx":425
+        /* "blum_automation.pyx":430
  *         data = get_refresh_token(tokens_file_path)  # return [tokens, list(accounts_names)]
  *         if not data:
  *             return             # <<<<<<<<<<<<<<
@@ -11606,7 +11790,7 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
  */
         goto __pyx_L7_try_return;
 
-        /* "blum_automation.pyx":424
+        /* "blum_automation.pyx":429
  * 
  *         data = get_refresh_token(tokens_file_path)  # return [tokens, list(accounts_names)]
  *         if not data:             # <<<<<<<<<<<<<<
@@ -11615,26 +11799,26 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
  */
       }
 
-      /* "blum_automation.pyx":427
+      /* "blum_automation.pyx":432
  *             return
  * 
  *         tokens = data[0]             # <<<<<<<<<<<<<<
  *         tokens_names = list(tokens.keys())
  *         account_names = data[1]
  */
-      __pyx_t_4 = __Pyx_GetItemInt(__pyx_v_data, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 427, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_GetItemInt(__pyx_v_data, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 432, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_v_tokens = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "blum_automation.pyx":428
+      /* "blum_automation.pyx":433
  * 
  *         tokens = data[0]
  *         tokens_names = list(tokens.keys())             # <<<<<<<<<<<<<<
  *         account_names = data[1]
  * 
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_tokens, __pyx_n_s_keys); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 428, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_tokens, __pyx_n_s_keys); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 433, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_5 = NULL;
       __pyx_t_7 = 0;
@@ -11654,73 +11838,73 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
         PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 428, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 433, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
-      __pyx_t_6 = __Pyx_PySequence_ListKeepNew(__pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 428, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PySequence_ListKeepNew(__pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 433, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __pyx_v_tokens_names = ((PyObject*)__pyx_t_6);
       __pyx_t_6 = 0;
 
-      /* "blum_automation.pyx":429
+      /* "blum_automation.pyx":434
  *         tokens = data[0]
  *         tokens_names = list(tokens.keys())
  *         account_names = data[1]             # <<<<<<<<<<<<<<
  * 
  *         print(Style.BRIGHT + Fore.LIGHTWHITE_EX + f"Available accounts: {' '.join(account_names)}")
  */
-      __pyx_t_6 = __Pyx_GetItemInt(__pyx_v_data, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 429, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_GetItemInt(__pyx_v_data, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 434, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_v_account_names = __pyx_t_6;
       __pyx_t_6 = 0;
 
-      /* "blum_automation.pyx":431
+      /* "blum_automation.pyx":436
  *         account_names = data[1]
  * 
  *         print(Style.BRIGHT + Fore.LIGHTWHITE_EX + f"Available accounts: {' '.join(account_names)}")             # <<<<<<<<<<<<<<
  *         time.sleep(1)
  *         StrExcludedAccounts = input(Fore.LIGHTCYAN_EX + "Which accounts to exclude from the automation list?: ")
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Style); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 431, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Style); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 436, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 431, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 436, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 431, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 436, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTWHITE_EX); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 431, __pyx_L3_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTWHITE_EX); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 436, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = PyNumber_Add(__pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 431, __pyx_L3_error)
+      __pyx_t_6 = PyNumber_Add(__pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 436, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = PyUnicode_Join(__pyx_kp_u__8, __pyx_v_account_names); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 431, __pyx_L3_error)
+      __pyx_t_5 = PyUnicode_Join(__pyx_kp_u__10, __pyx_v_account_names); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 436, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_4 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Available_accounts, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 431, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Available_accounts, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 436, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = PyNumber_Add(__pyx_t_6, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 431, __pyx_L3_error)
+      __pyx_t_5 = PyNumber_Add(__pyx_t_6, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 436, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 431, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 436, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "blum_automation.pyx":432
+      /* "blum_automation.pyx":437
  * 
  *         print(Style.BRIGHT + Fore.LIGHTWHITE_EX + f"Available accounts: {' '.join(account_names)}")
  *         time.sleep(1)             # <<<<<<<<<<<<<<
  *         StrExcludedAccounts = input(Fore.LIGHTCYAN_EX + "Which accounts to exclude from the automation list?: ")
  *         ExcludeAccounts = StrExcludedAccounts.split()
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 432, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 437, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 432, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 437, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_5 = NULL;
@@ -11741,41 +11925,41 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
         PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_int_1};
         __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 432, __pyx_L3_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 437, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "blum_automation.pyx":433
+      /* "blum_automation.pyx":438
  *         print(Style.BRIGHT + Fore.LIGHTWHITE_EX + f"Available accounts: {' '.join(account_names)}")
  *         time.sleep(1)
  *         StrExcludedAccounts = input(Fore.LIGHTCYAN_EX + "Which accounts to exclude from the automation list?: ")             # <<<<<<<<<<<<<<
  *         ExcludeAccounts = StrExcludedAccounts.split()
  * 
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_Fore); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 433, __pyx_L3_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_Fore); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 438, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_LIGHTCYAN_EX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 433, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_LIGHTCYAN_EX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 438, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = PyNumber_Add(__pyx_t_6, __pyx_kp_u_Which_accounts_to_exclude_from_t); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 433, __pyx_L3_error)
+      __pyx_t_4 = PyNumber_Add(__pyx_t_6, __pyx_kp_u_Which_accounts_to_exclude_from_t); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 438, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_input, __pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 433, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_input, __pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 438, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __pyx_v_StrExcludedAccounts = __pyx_t_6;
       __pyx_t_6 = 0;
 
-      /* "blum_automation.pyx":434
+      /* "blum_automation.pyx":439
  *         time.sleep(1)
  *         StrExcludedAccounts = input(Fore.LIGHTCYAN_EX + "Which accounts to exclude from the automation list?: ")
  *         ExcludeAccounts = StrExcludedAccounts.split()             # <<<<<<<<<<<<<<
  * 
  *         for i in range(len(tokens_names)):
  */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_StrExcludedAccounts, __pyx_n_s_split); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 434, __pyx_L3_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_StrExcludedAccounts, __pyx_n_s_split); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 439, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_5 = NULL;
       __pyx_t_7 = 0;
@@ -11795,26 +11979,26 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
         PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
         __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 434, __pyx_L3_error)
+        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 439, __pyx_L3_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
       __pyx_v_ExcludeAccounts = __pyx_t_6;
       __pyx_t_6 = 0;
 
-      /* "blum_automation.pyx":436
+      /* "blum_automation.pyx":441
  *         ExcludeAccounts = StrExcludedAccounts.split()
  * 
  *         for i in range(len(tokens_names)):             # <<<<<<<<<<<<<<
  *             try:
  *                 name = tokens[tokens_names[i]][0]
  */
-      __pyx_t_10 = __Pyx_PyList_GET_SIZE(__pyx_v_tokens_names); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 436, __pyx_L3_error)
+      __pyx_t_10 = __Pyx_PyList_GET_SIZE(__pyx_v_tokens_names); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 441, __pyx_L3_error)
       __pyx_t_11 = __pyx_t_10;
       for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
         __pyx_v_i = __pyx_t_12;
 
-        /* "blum_automation.pyx":437
+        /* "blum_automation.pyx":442
  * 
  *         for i in range(len(tokens_names)):
  *             try:             # <<<<<<<<<<<<<<
@@ -11830,35 +12014,35 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
           __Pyx_XGOTREF(__pyx_t_15);
           /*try:*/ {
 
-            /* "blum_automation.pyx":438
+            /* "blum_automation.pyx":443
  *         for i in range(len(tokens_names)):
  *             try:
  *                 name = tokens[tokens_names[i]][0]             # <<<<<<<<<<<<<<
  *                 if name in ExcludeAccounts:
  *                     continue
  */
-            __pyx_t_6 = __Pyx_GetItemInt_List(__pyx_v_tokens_names, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 1, 1, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 438, __pyx_L12_error)
+            __pyx_t_6 = __Pyx_GetItemInt_List(__pyx_v_tokens_names, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 1, 1, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 443, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_6);
-            __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_v_tokens, __pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 438, __pyx_L12_error)
+            __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_v_tokens, __pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 443, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_4);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-            __pyx_t_6 = __Pyx_GetItemInt(__pyx_t_4, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 438, __pyx_L12_error)
+            __pyx_t_6 = __Pyx_GetItemInt(__pyx_t_4, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 443, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_6);
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
             __Pyx_XDECREF_SET(__pyx_v_name, __pyx_t_6);
             __pyx_t_6 = 0;
 
-            /* "blum_automation.pyx":439
+            /* "blum_automation.pyx":444
  *             try:
  *                 name = tokens[tokens_names[i]][0]
  *                 if name in ExcludeAccounts:             # <<<<<<<<<<<<<<
  *                     continue
  *                 clear_console()
  */
-            __pyx_t_9 = (__Pyx_PySequence_ContainsTF(__pyx_v_name, __pyx_v_ExcludeAccounts, Py_EQ)); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 439, __pyx_L12_error)
+            __pyx_t_9 = (__Pyx_PySequence_ContainsTF(__pyx_v_name, __pyx_v_ExcludeAccounts, Py_EQ)); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 444, __pyx_L12_error)
             if (__pyx_t_9) {
 
-              /* "blum_automation.pyx":440
+              /* "blum_automation.pyx":445
  *                 name = tokens[tokens_names[i]][0]
  *                 if name in ExcludeAccounts:
  *                     continue             # <<<<<<<<<<<<<<
@@ -11867,7 +12051,7 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
  */
               goto __pyx_L18_try_continue;
 
-              /* "blum_automation.pyx":439
+              /* "blum_automation.pyx":444
  *             try:
  *                 name = tokens[tokens_names[i]][0]
  *                 if name in ExcludeAccounts:             # <<<<<<<<<<<<<<
@@ -11876,14 +12060,14 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
  */
             }
 
-            /* "blum_automation.pyx":441
+            /* "blum_automation.pyx":446
  *                 if name in ExcludeAccounts:
  *                     continue
  *                 clear_console()             # <<<<<<<<<<<<<<
  *                 print(Fore.BLUE + Style.BRIGHT + f"The account begins: {name}\n")
  *                 if tokens[tokens_names[i]][1] == "refresh":
  */
-            __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_clear_console); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 441, __pyx_L12_error)
+            __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_clear_console); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 446, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_4);
             __pyx_t_5 = NULL;
             __pyx_t_7 = 0;
@@ -11903,34 +12087,34 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
               PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
               __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
               __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-              if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 441, __pyx_L12_error)
+              if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 446, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_6);
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
             }
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-            /* "blum_automation.pyx":442
+            /* "blum_automation.pyx":447
  *                     continue
  *                 clear_console()
  *                 print(Fore.BLUE + Style.BRIGHT + f"The account begins: {name}\n")             # <<<<<<<<<<<<<<
  *                 if tokens[tokens_names[i]][1] == "refresh":
  *                     access_token = get_access_tokens(tokens[tokens_names[i]][2], tokens_names[i], name,
  */
-            __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 442, __pyx_L12_error)
+            __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 447, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_6);
-            __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_BLUE); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 442, __pyx_L12_error)
+            __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_BLUE); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 447, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_4);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-            __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Style); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 442, __pyx_L12_error)
+            __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Style); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 447, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_6);
-            __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 442, __pyx_L12_error)
+            __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_BRIGHT); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 447, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_5);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-            __pyx_t_6 = PyNumber_Add(__pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 442, __pyx_L12_error)
+            __pyx_t_6 = PyNumber_Add(__pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 447, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_6);
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-            __pyx_t_5 = PyTuple_New(3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 442, __pyx_L12_error)
+            __pyx_t_5 = PyTuple_New(3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 447, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_5);
             __pyx_t_16 = 0;
             __pyx_t_17 = 127;
@@ -11938,94 +12122,94 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
             __pyx_t_16 += 20;
             __Pyx_GIVEREF(__pyx_kp_u_The_account_begins);
             PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_kp_u_The_account_begins);
-            __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_v_name, __pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 442, __pyx_L12_error)
+            __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_v_name, __pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 447, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_4);
             __pyx_t_17 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_4) > __pyx_t_17) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_4) : __pyx_t_17;
             __pyx_t_16 += __Pyx_PyUnicode_GET_LENGTH(__pyx_t_4);
             __Pyx_GIVEREF(__pyx_t_4);
             PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_t_4);
             __pyx_t_4 = 0;
-            __Pyx_INCREF(__pyx_kp_u__9);
+            __Pyx_INCREF(__pyx_kp_u__11);
             __pyx_t_16 += 1;
-            __Pyx_GIVEREF(__pyx_kp_u__9);
-            PyTuple_SET_ITEM(__pyx_t_5, 2, __pyx_kp_u__9);
-            __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_5, 3, __pyx_t_16, __pyx_t_17); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 442, __pyx_L12_error)
+            __Pyx_GIVEREF(__pyx_kp_u__11);
+            PyTuple_SET_ITEM(__pyx_t_5, 2, __pyx_kp_u__11);
+            __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_5, 3, __pyx_t_16, __pyx_t_17); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 447, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_4);
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-            __pyx_t_5 = PyNumber_Add(__pyx_t_6, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 442, __pyx_L12_error)
+            __pyx_t_5 = PyNumber_Add(__pyx_t_6, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 447, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_5);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-            __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 442, __pyx_L12_error)
+            __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 447, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_4);
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-            /* "blum_automation.pyx":443
+            /* "blum_automation.pyx":448
  *                 clear_console()
  *                 print(Fore.BLUE + Style.BRIGHT + f"The account begins: {name}\n")
  *                 if tokens[tokens_names[i]][1] == "refresh":             # <<<<<<<<<<<<<<
  *                     access_token = get_access_tokens(tokens[tokens_names[i]][2], tokens_names[i], name,
  *                                                      tokens_file_path, 4)
  */
-            __pyx_t_4 = __Pyx_GetItemInt_List(__pyx_v_tokens_names, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 1, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 443, __pyx_L12_error)
+            __pyx_t_4 = __Pyx_GetItemInt_List(__pyx_v_tokens_names, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 1, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 448, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_4);
-            __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_tokens, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 443, __pyx_L12_error)
+            __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_tokens, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 448, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_5);
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-            __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_5, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 443, __pyx_L12_error)
+            __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_5, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 448, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_4);
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-            __pyx_t_9 = (__Pyx_PyUnicode_Equals(__pyx_t_4, __pyx_n_u_refresh, Py_EQ)); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 443, __pyx_L12_error)
+            __pyx_t_9 = (__Pyx_PyUnicode_Equals(__pyx_t_4, __pyx_n_u_refresh, Py_EQ)); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 448, __pyx_L12_error)
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
             if (__pyx_t_9) {
 
-              /* "blum_automation.pyx":444
+              /* "blum_automation.pyx":449
  *                 print(Fore.BLUE + Style.BRIGHT + f"The account begins: {name}\n")
  *                 if tokens[tokens_names[i]][1] == "refresh":
  *                     access_token = get_access_tokens(tokens[tokens_names[i]][2], tokens_names[i], name,             # <<<<<<<<<<<<<<
  *                                                      tokens_file_path, 4)
  *                 else:
  */
-              __pyx_t_4 = __Pyx_GetItemInt_List(__pyx_v_tokens_names, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 1, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 444, __pyx_L12_error)
+              __pyx_t_4 = __Pyx_GetItemInt_List(__pyx_v_tokens_names, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 1, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 449, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_4);
-              __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_tokens, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 444, __pyx_L12_error)
+              __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_tokens, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 449, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_5);
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-              __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_5, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 444, __pyx_L12_error)
+              __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_5, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 449, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_4);
               __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-              if (!(likely(PyUnicode_CheckExact(__pyx_t_4))||((__pyx_t_4) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_t_4))) __PYX_ERR(0, 444, __pyx_L12_error)
-              __pyx_t_5 = __Pyx_GetItemInt_List(__pyx_v_tokens_names, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 1, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 444, __pyx_L12_error)
+              if (!(likely(PyUnicode_CheckExact(__pyx_t_4))||((__pyx_t_4) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_t_4))) __PYX_ERR(0, 449, __pyx_L12_error)
+              __pyx_t_5 = __Pyx_GetItemInt_List(__pyx_v_tokens_names, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 1, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 449, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_5);
-              if (!(likely(PyUnicode_CheckExact(__pyx_t_5))||((__pyx_t_5) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_t_5))) __PYX_ERR(0, 444, __pyx_L12_error)
-              if (!(likely(PyUnicode_CheckExact(__pyx_v_name))||((__pyx_v_name) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_v_name))) __PYX_ERR(0, 444, __pyx_L12_error)
+              if (!(likely(PyUnicode_CheckExact(__pyx_t_5))||((__pyx_t_5) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_t_5))) __PYX_ERR(0, 449, __pyx_L12_error)
+              if (!(likely(PyUnicode_CheckExact(__pyx_v_name))||((__pyx_v_name) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_v_name))) __PYX_ERR(0, 449, __pyx_L12_error)
 
-              /* "blum_automation.pyx":445
+              /* "blum_automation.pyx":450
  *                 if tokens[tokens_names[i]][1] == "refresh":
  *                     access_token = get_access_tokens(tokens[tokens_names[i]][2], tokens_names[i], name,
  *                                                      tokens_file_path, 4)             # <<<<<<<<<<<<<<
  *                 else:
  *                     access_token = tokens_names[i]
  */
-              if (!(likely(PyUnicode_CheckExact(__pyx_v_tokens_file_path))||((__pyx_v_tokens_file_path) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_v_tokens_file_path))) __PYX_ERR(0, 445, __pyx_L12_error)
-              if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_4)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_4))) __PYX_ERR(0, 445, __pyx_L12_error)
+              if (!(likely(PyUnicode_CheckExact(__pyx_v_tokens_file_path))||((__pyx_v_tokens_file_path) == Py_None) || __Pyx_RaiseUnexpectedTypeError("unicode", __pyx_v_tokens_file_path))) __PYX_ERR(0, 450, __pyx_L12_error)
+              if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_4)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_4))) __PYX_ERR(0, 450, __pyx_L12_error)
 
-              /* "blum_automation.pyx":444
+              /* "blum_automation.pyx":449
  *                 print(Fore.BLUE + Style.BRIGHT + f"The account begins: {name}\n")
  *                 if tokens[tokens_names[i]][1] == "refresh":
  *                     access_token = get_access_tokens(tokens[tokens_names[i]][2], tokens_names[i], name,             # <<<<<<<<<<<<<<
  *                                                      tokens_file_path, 4)
  *                 else:
  */
-              __pyx_t_6 = __pyx_f_15blum_automation_get_access_tokens(((PyObject*)__pyx_t_4), ((PyObject*)__pyx_t_5), ((PyObject*)__pyx_v_name), ((PyObject*)__pyx_v_tokens_file_path), ((PyObject*)__pyx_int_4)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 444, __pyx_L12_error)
+              __pyx_t_6 = __pyx_f_15blum_automation_get_access_tokens(((PyObject*)__pyx_t_4), ((PyObject*)__pyx_t_5), ((PyObject*)__pyx_v_name), ((PyObject*)__pyx_v_tokens_file_path), ((PyObject*)__pyx_int_4)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 449, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_6);
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
               __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
               __Pyx_XDECREF_SET(__pyx_v_access_token, __pyx_t_6);
               __pyx_t_6 = 0;
 
-              /* "blum_automation.pyx":443
+              /* "blum_automation.pyx":448
  *                 clear_console()
  *                 print(Fore.BLUE + Style.BRIGHT + f"The account begins: {name}\n")
  *                 if tokens[tokens_names[i]][1] == "refresh":             # <<<<<<<<<<<<<<
@@ -12035,7 +12219,7 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
               goto __pyx_L21;
             }
 
-            /* "blum_automation.pyx":447
+            /* "blum_automation.pyx":452
  *                                                      tokens_file_path, 4)
  *                 else:
  *                     access_token = tokens_names[i]             # <<<<<<<<<<<<<<
@@ -12043,37 +12227,37 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
  *                 if not access_token:
  */
             /*else*/ {
-              __pyx_t_6 = __Pyx_GetItemInt_List(__pyx_v_tokens_names, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 1, 1, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 447, __pyx_L12_error)
+              __pyx_t_6 = __Pyx_GetItemInt_List(__pyx_v_tokens_names, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 1, 1, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 452, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_6);
               __Pyx_XDECREF_SET(__pyx_v_access_token, __pyx_t_6);
               __pyx_t_6 = 0;
             }
             __pyx_L21:;
 
-            /* "blum_automation.pyx":449
+            /* "blum_automation.pyx":454
  *                     access_token = tokens_names[i]
  * 
  *                 if not access_token:             # <<<<<<<<<<<<<<
  *                     print(Fore.LIGHTRED_EX + f"Failed to get access account token {name} . Try again later!")
  *                     continue
  */
-            __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_v_access_token); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 449, __pyx_L12_error)
+            __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_v_access_token); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 454, __pyx_L12_error)
             __pyx_t_8 = (!__pyx_t_9);
             if (__pyx_t_8) {
 
-              /* "blum_automation.pyx":450
+              /* "blum_automation.pyx":455
  * 
  *                 if not access_token:
  *                     print(Fore.LIGHTRED_EX + f"Failed to get access account token {name} . Try again later!")             # <<<<<<<<<<<<<<
  *                     continue
  * 
  */
-              __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 450, __pyx_L12_error)
+              __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_Fore); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 455, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_6);
-              __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 450, __pyx_L12_error)
+              __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_LIGHTRED_EX); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 455, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_5);
               __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-              __pyx_t_6 = PyTuple_New(3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 450, __pyx_L12_error)
+              __pyx_t_6 = PyTuple_New(3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 455, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_6);
               __pyx_t_16 = 0;
               __pyx_t_17 = 127;
@@ -12081,7 +12265,7 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
               __pyx_t_16 += 35;
               __Pyx_GIVEREF(__pyx_kp_u_Failed_to_get_access_account_tok);
               PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_kp_u_Failed_to_get_access_account_tok);
-              __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_v_name, __pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 450, __pyx_L12_error)
+              __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_v_name, __pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 455, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_4);
               __pyx_t_17 = (__Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_4) > __pyx_t_17) ? __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_4) : __pyx_t_17;
               __pyx_t_16 += __Pyx_PyUnicode_GET_LENGTH(__pyx_t_4);
@@ -12092,19 +12276,19 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
               __pyx_t_16 += 19;
               __Pyx_GIVEREF(__pyx_kp_u_Try_again_later);
               PyTuple_SET_ITEM(__pyx_t_6, 2, __pyx_kp_u_Try_again_later);
-              __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_6, 3, __pyx_t_16, __pyx_t_17); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 450, __pyx_L12_error)
+              __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_6, 3, __pyx_t_16, __pyx_t_17); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 455, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_4);
               __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-              __pyx_t_6 = PyNumber_Add(__pyx_t_5, __pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 450, __pyx_L12_error)
+              __pyx_t_6 = PyNumber_Add(__pyx_t_5, __pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 455, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_6);
               __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-              __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 450, __pyx_L12_error)
+              __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 455, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_4);
               __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-              /* "blum_automation.pyx":451
+              /* "blum_automation.pyx":456
  *                 if not access_token:
  *                     print(Fore.LIGHTRED_EX + f"Failed to get access account token {name} . Try again later!")
  *                     continue             # <<<<<<<<<<<<<<
@@ -12113,7 +12297,7 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
  */
               goto __pyx_L18_try_continue;
 
-              /* "blum_automation.pyx":449
+              /* "blum_automation.pyx":454
  *                     access_token = tokens_names[i]
  * 
  *                 if not access_token:             # <<<<<<<<<<<<<<
@@ -12122,64 +12306,64 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
  */
             }
 
-            /* "blum_automation.pyx":454
+            /* "blum_automation.pyx":459
  * 
  *                 headers = {
  *                     "Authorization": f"Bearer {access_token}",             # <<<<<<<<<<<<<<
  *                     "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
  *                     "accept": "application/json, text/plain, *[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*",
  */
-            __pyx_t_4 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 454, __pyx_L12_error)
+            __pyx_t_4 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 459, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_4);
-            __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_v_access_token, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 454, __pyx_L12_error)
+            __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_v_access_token, __pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 459, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_6);
-            __pyx_t_5 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Bearer, __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 454, __pyx_L12_error)
+            __pyx_t_5 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Bearer, __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 459, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_5);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-            if (PyDict_SetItem(__pyx_t_4, __pyx_n_u_Authorization, __pyx_t_5) < 0) __PYX_ERR(0, 454, __pyx_L12_error)
+            if (PyDict_SetItem(__pyx_t_4, __pyx_n_u_Authorization, __pyx_t_5) < 0) __PYX_ERR(0, 459, __pyx_L12_error)
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-            if (PyDict_SetItem(__pyx_t_4, __pyx_kp_u_user_agent, __pyx_kp_u_Mozilla_5_0_iPhone_CPU_iPhone_OS) < 0) __PYX_ERR(0, 454, __pyx_L12_error)
-            if (PyDict_SetItem(__pyx_t_4, __pyx_n_u_accept, __pyx_kp_u_application_json_text_plain) < 0) __PYX_ERR(0, 454, __pyx_L12_error)
-            if (PyDict_SetItem(__pyx_t_4, __pyx_n_u_origin, __pyx_kp_u_https_telegram_blum_codes) < 0) __PYX_ERR(0, 454, __pyx_L12_error)
+            if (PyDict_SetItem(__pyx_t_4, __pyx_kp_u_user_agent, __pyx_kp_u_Mozilla_5_0_iPhone_CPU_iPhone_OS) < 0) __PYX_ERR(0, 459, __pyx_L12_error)
+            if (PyDict_SetItem(__pyx_t_4, __pyx_n_u_accept, __pyx_kp_u_application_json_text_plain) < 0) __PYX_ERR(0, 459, __pyx_L12_error)
+            if (PyDict_SetItem(__pyx_t_4, __pyx_n_u_origin, __pyx_kp_u_https_telegram_blum_codes) < 0) __PYX_ERR(0, 459, __pyx_L12_error)
             __Pyx_XDECREF_SET(__pyx_v_headers, ((PyObject*)__pyx_t_4));
             __pyx_t_4 = 0;
 
-            /* "blum_automation.pyx":460
+            /* "blum_automation.pyx":465
  *                 }
  * 
  *                 if not get_daily_reward(headers, 2):             # <<<<<<<<<<<<<<
  *                     print(Fore.LIGHTMAGENTA_EX + "The daily reward has already been received!")
  *                 account_info = get_account_info(headers, 3)
  */
-            if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_2)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_2))) __PYX_ERR(0, 460, __pyx_L12_error)
-            __pyx_t_4 = __pyx_f_15blum_automation_get_daily_reward(__pyx_v_headers, ((PyObject*)__pyx_int_2)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 460, __pyx_L12_error)
+            if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_2)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_2))) __PYX_ERR(0, 465, __pyx_L12_error)
+            __pyx_t_4 = __pyx_f_15blum_automation_get_daily_reward(__pyx_v_headers, ((PyObject*)__pyx_int_2)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 465, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_4);
-            __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 460, __pyx_L12_error)
+            __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 465, __pyx_L12_error)
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
             __pyx_t_9 = (!__pyx_t_8);
             if (__pyx_t_9) {
 
-              /* "blum_automation.pyx":461
+              /* "blum_automation.pyx":466
  * 
  *                 if not get_daily_reward(headers, 2):
  *                     print(Fore.LIGHTMAGENTA_EX + "The daily reward has already been received!")             # <<<<<<<<<<<<<<
  *                 account_info = get_account_info(headers, 3)
  *                 if not account_info:
  */
-              __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_Fore); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 461, __pyx_L12_error)
+              __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_Fore); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 466, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_4);
-              __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_LIGHTMAGENTA_EX); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 461, __pyx_L12_error)
+              __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_LIGHTMAGENTA_EX); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 466, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_5);
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-              __pyx_t_4 = PyNumber_Add(__pyx_t_5, __pyx_kp_u_The_daily_reward_has_already_bee); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 461, __pyx_L12_error)
+              __pyx_t_4 = PyNumber_Add(__pyx_t_5, __pyx_kp_u_The_daily_reward_has_already_bee); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 466, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_4);
               __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-              __pyx_t_5 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 461, __pyx_L12_error)
+              __pyx_t_5 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 466, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_5);
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
               __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-              /* "blum_automation.pyx":460
+              /* "blum_automation.pyx":465
  *                 }
  * 
  *                 if not get_daily_reward(headers, 2):             # <<<<<<<<<<<<<<
@@ -12188,59 +12372,64 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
  */
             }
 
-            /* "blum_automation.pyx":462
+            /* "blum_automation.pyx":467
  *                 if not get_daily_reward(headers, 2):
  *                     print(Fore.LIGHTMAGENTA_EX + "The daily reward has already been received!")
  *                 account_info = get_account_info(headers, 3)             # <<<<<<<<<<<<<<
  *                 if not account_info:
  *                     continue
  */
-            if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 462, __pyx_L12_error)
-            __pyx_t_5 = __pyx_f_15blum_automation_get_account_info(__pyx_v_headers, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 462, __pyx_L12_error)
+            if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 467, __pyx_L12_error)
+            __pyx_t_5 = __pyx_f_15blum_automation_get_account_info(__pyx_v_headers, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 467, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_5);
             __Pyx_XDECREF_SET(__pyx_v_account_info, __pyx_t_5);
             __pyx_t_5 = 0;
 
-            /* "blum_automation.pyx":463
+            /* "blum_automation.pyx":468
  *                     print(Fore.LIGHTMAGENTA_EX + "The daily reward has already been received!")
  *                 account_info = get_account_info(headers, 3)
  *                 if not account_info:             # <<<<<<<<<<<<<<
  *                     continue
- *                 time.sleep(1)
+ *                 time.sleep(uniform(1.5,2.5))
  */
-            __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_v_account_info); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 463, __pyx_L12_error)
+            __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_v_account_info); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 468, __pyx_L12_error)
             __pyx_t_8 = (!__pyx_t_9);
             if (__pyx_t_8) {
 
-              /* "blum_automation.pyx":464
+              /* "blum_automation.pyx":469
  *                 account_info = get_account_info(headers, 3)
  *                 if not account_info:
  *                     continue             # <<<<<<<<<<<<<<
- *                 time.sleep(1)
+ *                 time.sleep(uniform(1.5,2.5))
  *                 farm(account_info, headers)
  */
               goto __pyx_L18_try_continue;
 
-              /* "blum_automation.pyx":463
+              /* "blum_automation.pyx":468
  *                     print(Fore.LIGHTMAGENTA_EX + "The daily reward has already been received!")
  *                 account_info = get_account_info(headers, 3)
  *                 if not account_info:             # <<<<<<<<<<<<<<
  *                     continue
- *                 time.sleep(1)
+ *                 time.sleep(uniform(1.5,2.5))
  */
             }
 
-            /* "blum_automation.pyx":465
+            /* "blum_automation.pyx":470
  *                 if not account_info:
  *                     continue
- *                 time.sleep(1)             # <<<<<<<<<<<<<<
+ *                 time.sleep(uniform(1.5,2.5))             # <<<<<<<<<<<<<<
  *                 farm(account_info, headers)
  *                 status = game(account_info, headers)
  */
-            __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 465, __pyx_L12_error)
+            __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 470, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_4);
-            __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 465, __pyx_L12_error)
+            __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_sleep); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 470, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_6);
+            __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+            __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_uniform); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 470, __pyx_L12_error)
+            __Pyx_GOTREF(__pyx_t_4);
+            __pyx_t_18 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 470, __pyx_L12_error)
+            __Pyx_GOTREF(__pyx_t_18);
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
             __pyx_t_4 = NULL;
             __pyx_t_7 = 0;
@@ -12257,72 +12446,73 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
             }
             #endif
             {
-              PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_int_1};
+              PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_t_18};
               __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
               __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-              if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 465, __pyx_L12_error)
+              __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+              if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 470, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_5);
               __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
             }
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-            /* "blum_automation.pyx":466
+            /* "blum_automation.pyx":471
  *                     continue
- *                 time.sleep(1)
+ *                 time.sleep(uniform(1.5,2.5))
  *                 farm(account_info, headers)             # <<<<<<<<<<<<<<
  *                 status = game(account_info, headers)
  *                 if not status:
  */
-            if (!(likely(PyDict_CheckExact(__pyx_v_account_info))||((__pyx_v_account_info) == Py_None) || __Pyx_RaiseUnexpectedTypeError("dict", __pyx_v_account_info))) __PYX_ERR(0, 466, __pyx_L12_error)
-            __pyx_t_5 = __pyx_f_15blum_automation_farm(((PyObject*)__pyx_v_account_info), __pyx_v_headers); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 466, __pyx_L12_error)
+            if (!(likely(PyDict_CheckExact(__pyx_v_account_info))||((__pyx_v_account_info) == Py_None) || __Pyx_RaiseUnexpectedTypeError("dict", __pyx_v_account_info))) __PYX_ERR(0, 471, __pyx_L12_error)
+            __pyx_t_5 = __pyx_f_15blum_automation_farm(((PyObject*)__pyx_v_account_info), __pyx_v_headers); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 471, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_5);
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-            /* "blum_automation.pyx":467
- *                 time.sleep(1)
+            /* "blum_automation.pyx":472
+ *                 time.sleep(uniform(1.5,2.5))
  *                 farm(account_info, headers)
  *                 status = game(account_info, headers)             # <<<<<<<<<<<<<<
  *                 if not status:
  *                     print(Fore.LIGHTMAGENTA_EX + "The number of tickets is 0!")
  */
-            if (!(likely(PyDict_CheckExact(__pyx_v_account_info))||((__pyx_v_account_info) == Py_None) || __Pyx_RaiseUnexpectedTypeError("dict", __pyx_v_account_info))) __PYX_ERR(0, 467, __pyx_L12_error)
-            __pyx_t_5 = __pyx_f_15blum_automation_game(((PyObject*)__pyx_v_account_info), __pyx_v_headers); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 467, __pyx_L12_error)
+            if (!(likely(PyDict_CheckExact(__pyx_v_account_info))||((__pyx_v_account_info) == Py_None) || __Pyx_RaiseUnexpectedTypeError("dict", __pyx_v_account_info))) __PYX_ERR(0, 472, __pyx_L12_error)
+            __pyx_t_5 = __pyx_f_15blum_automation_game(((PyObject*)__pyx_v_account_info), __pyx_v_headers); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 472, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_5);
             __Pyx_XDECREF_SET(__pyx_v_status, __pyx_t_5);
             __pyx_t_5 = 0;
 
-            /* "blum_automation.pyx":468
+            /* "blum_automation.pyx":473
  *                 farm(account_info, headers)
  *                 status = game(account_info, headers)
  *                 if not status:             # <<<<<<<<<<<<<<
  *                     print(Fore.LIGHTMAGENTA_EX + "The number of tickets is 0!")
  * 
  */
-            __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_v_status); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 468, __pyx_L12_error)
+            __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_v_status); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 473, __pyx_L12_error)
             __pyx_t_9 = (!__pyx_t_8);
             if (__pyx_t_9) {
 
-              /* "blum_automation.pyx":469
+              /* "blum_automation.pyx":474
  *                 status = game(account_info, headers)
  *                 if not status:
  *                     print(Fore.LIGHTMAGENTA_EX + "The number of tickets is 0!")             # <<<<<<<<<<<<<<
  * 
  *                 friends(headers)
  */
-              __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_Fore); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 469, __pyx_L12_error)
+              __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_Fore); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 474, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_5);
-              __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_LIGHTMAGENTA_EX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 469, __pyx_L12_error)
+              __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_LIGHTMAGENTA_EX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 474, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_6);
               __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-              __pyx_t_5 = PyNumber_Add(__pyx_t_6, __pyx_kp_u_The_number_of_tickets_is_0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 469, __pyx_L12_error)
+              __pyx_t_5 = PyNumber_Add(__pyx_t_6, __pyx_kp_u_The_number_of_tickets_is_0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 474, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_5);
               __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-              __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 469, __pyx_L12_error)
+              __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 474, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_6);
               __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
               __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-              /* "blum_automation.pyx":468
+              /* "blum_automation.pyx":473
  *                 farm(account_info, headers)
  *                 status = game(account_info, headers)
  *                 if not status:             # <<<<<<<<<<<<<<
@@ -12331,118 +12521,27 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
  */
             }
 
-            /* "blum_automation.pyx":471
+            /* "blum_automation.pyx":476
  *                     print(Fore.LIGHTMAGENTA_EX + "The number of tickets is 0!")
  * 
  *                 friends(headers)             # <<<<<<<<<<<<<<
  *                 if not failed_request["claim farm"]:
  *                     account_info = get_account_info(headers, 3)
  */
-            __pyx_t_6 = __pyx_f_15blum_automation_friends(__pyx_v_headers); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 471, __pyx_L12_error)
+            __pyx_t_6 = __pyx_f_15blum_automation_friends(__pyx_v_headers); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 476, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_6);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-            /* "blum_automation.pyx":472
- * 
- *                 friends(headers)
- *                 if not failed_request["claim farm"]:             # <<<<<<<<<<<<<<
- *                     account_info = get_account_info(headers, 3)
- *                     farm(account_info, headers)
- */
-            __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_failed_request); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 472, __pyx_L12_error)
-            __Pyx_GOTREF(__pyx_t_6);
-            __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_t_6, __pyx_kp_u_claim_farm); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 472, __pyx_L12_error)
-            __Pyx_GOTREF(__pyx_t_5);
-            __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-            __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 472, __pyx_L12_error)
-            __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-            __pyx_t_8 = (!__pyx_t_9);
-            if (__pyx_t_8) {
-
-              /* "blum_automation.pyx":473
- *                 friends(headers)
- *                 if not failed_request["claim farm"]:
- *                     account_info = get_account_info(headers, 3)             # <<<<<<<<<<<<<<
- *                     farm(account_info, headers)
- *                 elif not failed_request["start farm"]:
- */
-              if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 473, __pyx_L12_error)
-              __pyx_t_5 = __pyx_f_15blum_automation_get_account_info(__pyx_v_headers, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 473, __pyx_L12_error)
-              __Pyx_GOTREF(__pyx_t_5);
-              __Pyx_DECREF_SET(__pyx_v_account_info, __pyx_t_5);
-              __pyx_t_5 = 0;
-
-              /* "blum_automation.pyx":474
- *                 if not failed_request["claim farm"]:
- *                     account_info = get_account_info(headers, 3)
- *                     farm(account_info, headers)             # <<<<<<<<<<<<<<
- *                 elif not failed_request["start farm"]:
- *                     farming_start(headers, 3)
- */
-              if (!(likely(PyDict_CheckExact(__pyx_v_account_info))||((__pyx_v_account_info) == Py_None) || __Pyx_RaiseUnexpectedTypeError("dict", __pyx_v_account_info))) __PYX_ERR(0, 474, __pyx_L12_error)
-              __pyx_t_5 = __pyx_f_15blum_automation_farm(((PyObject*)__pyx_v_account_info), __pyx_v_headers); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 474, __pyx_L12_error)
-              __Pyx_GOTREF(__pyx_t_5);
-              __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-
-              /* "blum_automation.pyx":472
- * 
- *                 friends(headers)
- *                 if not failed_request["claim farm"]:             # <<<<<<<<<<<<<<
- *                     account_info = get_account_info(headers, 3)
- *                     farm(account_info, headers)
- */
-              goto __pyx_L26;
-            }
-
-            /* "blum_automation.pyx":475
- *                     account_info = get_account_info(headers, 3)
- *                     farm(account_info, headers)
- *                 elif not failed_request["start farm"]:             # <<<<<<<<<<<<<<
- *                     farming_start(headers, 3)
- *                 elif not failed_request["get game id"]:
- */
-            __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_failed_request); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 475, __pyx_L12_error)
-            __Pyx_GOTREF(__pyx_t_5);
-            __pyx_t_6 = __Pyx_PyObject_Dict_GetItem(__pyx_t_5, __pyx_kp_u_start_farm); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 475, __pyx_L12_error)
-            __Pyx_GOTREF(__pyx_t_6);
-            __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-            __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 475, __pyx_L12_error)
-            __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-            __pyx_t_9 = (!__pyx_t_8);
-            if (__pyx_t_9) {
-
-              /* "blum_automation.pyx":476
- *                     farm(account_info, headers)
- *                 elif not failed_request["start farm"]:
- *                     farming_start(headers, 3)             # <<<<<<<<<<<<<<
- *                 elif not failed_request["get game id"]:
- *                     get_account_info(headers, 3)
- */
-              if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 476, __pyx_L12_error)
-              __pyx_t_6 = __pyx_f_15blum_automation_farming_start(__pyx_v_headers, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 476, __pyx_L12_error)
-              __Pyx_GOTREF(__pyx_t_6);
-              __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-              /* "blum_automation.pyx":475
- *                     account_info = get_account_info(headers, 3)
- *                     farm(account_info, headers)
- *                 elif not failed_request["start farm"]:             # <<<<<<<<<<<<<<
- *                     farming_start(headers, 3)
- *                 elif not failed_request["get game id"]:
- */
-              goto __pyx_L26;
-            }
 
             /* "blum_automation.pyx":477
- *                 elif not failed_request["start farm"]:
- *                     farming_start(headers, 3)
- *                 elif not failed_request["get game id"]:             # <<<<<<<<<<<<<<
- *                     get_account_info(headers, 3)
- *                     game(account_info, headers)
+ * 
+ *                 friends(headers)
+ *                 if not failed_request["claim farm"]:             # <<<<<<<<<<<<<<
+ *                     account_info = get_account_info(headers, 3)
+ *                     farm(account_info, headers)
  */
             __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_failed_request); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 477, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_6);
-            __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_t_6, __pyx_kp_u_get_game_id); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 477, __pyx_L12_error)
+            __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_t_6, __pyx_kp_u_claim_farm); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 477, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_5);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
             __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 477, __pyx_L12_error)
@@ -12451,30 +12550,121 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
             if (__pyx_t_8) {
 
               /* "blum_automation.pyx":478
+ *                 friends(headers)
+ *                 if not failed_request["claim farm"]:
+ *                     account_info = get_account_info(headers, 3)             # <<<<<<<<<<<<<<
+ *                     farm(account_info, headers)
+ *                 elif not failed_request["start farm"]:
+ */
+              if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 478, __pyx_L12_error)
+              __pyx_t_5 = __pyx_f_15blum_automation_get_account_info(__pyx_v_headers, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 478, __pyx_L12_error)
+              __Pyx_GOTREF(__pyx_t_5);
+              __Pyx_DECREF_SET(__pyx_v_account_info, __pyx_t_5);
+              __pyx_t_5 = 0;
+
+              /* "blum_automation.pyx":479
+ *                 if not failed_request["claim farm"]:
+ *                     account_info = get_account_info(headers, 3)
+ *                     farm(account_info, headers)             # <<<<<<<<<<<<<<
+ *                 elif not failed_request["start farm"]:
+ *                     farming_start(headers, 3)
+ */
+              if (!(likely(PyDict_CheckExact(__pyx_v_account_info))||((__pyx_v_account_info) == Py_None) || __Pyx_RaiseUnexpectedTypeError("dict", __pyx_v_account_info))) __PYX_ERR(0, 479, __pyx_L12_error)
+              __pyx_t_5 = __pyx_f_15blum_automation_farm(((PyObject*)__pyx_v_account_info), __pyx_v_headers); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 479, __pyx_L12_error)
+              __Pyx_GOTREF(__pyx_t_5);
+              __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+              /* "blum_automation.pyx":477
+ * 
+ *                 friends(headers)
+ *                 if not failed_request["claim farm"]:             # <<<<<<<<<<<<<<
+ *                     account_info = get_account_info(headers, 3)
+ *                     farm(account_info, headers)
+ */
+              goto __pyx_L26;
+            }
+
+            /* "blum_automation.pyx":480
+ *                     account_info = get_account_info(headers, 3)
+ *                     farm(account_info, headers)
+ *                 elif not failed_request["start farm"]:             # <<<<<<<<<<<<<<
+ *                     farming_start(headers, 3)
+ *                 elif not failed_request["get game id"]:
+ */
+            __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_failed_request); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 480, __pyx_L12_error)
+            __Pyx_GOTREF(__pyx_t_5);
+            __pyx_t_6 = __Pyx_PyObject_Dict_GetItem(__pyx_t_5, __pyx_kp_u_start_farm); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 480, __pyx_L12_error)
+            __Pyx_GOTREF(__pyx_t_6);
+            __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+            __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 480, __pyx_L12_error)
+            __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+            __pyx_t_9 = (!__pyx_t_8);
+            if (__pyx_t_9) {
+
+              /* "blum_automation.pyx":481
+ *                     farm(account_info, headers)
+ *                 elif not failed_request["start farm"]:
+ *                     farming_start(headers, 3)             # <<<<<<<<<<<<<<
+ *                 elif not failed_request["get game id"]:
+ *                     get_account_info(headers, 3)
+ */
+              if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 481, __pyx_L12_error)
+              __pyx_t_6 = __pyx_f_15blum_automation_farming_start(__pyx_v_headers, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 481, __pyx_L12_error)
+              __Pyx_GOTREF(__pyx_t_6);
+              __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+
+              /* "blum_automation.pyx":480
+ *                     account_info = get_account_info(headers, 3)
+ *                     farm(account_info, headers)
+ *                 elif not failed_request["start farm"]:             # <<<<<<<<<<<<<<
+ *                     farming_start(headers, 3)
+ *                 elif not failed_request["get game id"]:
+ */
+              goto __pyx_L26;
+            }
+
+            /* "blum_automation.pyx":482
+ *                 elif not failed_request["start farm"]:
+ *                     farming_start(headers, 3)
+ *                 elif not failed_request["get game id"]:             # <<<<<<<<<<<<<<
+ *                     get_account_info(headers, 3)
+ *                     game(account_info, headers)
+ */
+            __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_failed_request); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 482, __pyx_L12_error)
+            __Pyx_GOTREF(__pyx_t_6);
+            __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_t_6, __pyx_kp_u_get_game_id); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 482, __pyx_L12_error)
+            __Pyx_GOTREF(__pyx_t_5);
+            __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+            __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 482, __pyx_L12_error)
+            __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+            __pyx_t_8 = (!__pyx_t_9);
+            if (__pyx_t_8) {
+
+              /* "blum_automation.pyx":483
  *                     farming_start(headers, 3)
  *                 elif not failed_request["get game id"]:
  *                     get_account_info(headers, 3)             # <<<<<<<<<<<<<<
  *                     game(account_info, headers)
  *                 elif not failed_request["get balance points for friends"]:
  */
-              if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 478, __pyx_L12_error)
-              __pyx_t_5 = __pyx_f_15blum_automation_get_account_info(__pyx_v_headers, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 478, __pyx_L12_error)
+              if (!(likely(__Pyx_Py3Int_CheckExact(__pyx_int_3)) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_int_3))) __PYX_ERR(0, 483, __pyx_L12_error)
+              __pyx_t_5 = __pyx_f_15blum_automation_get_account_info(__pyx_v_headers, ((PyObject*)__pyx_int_3)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 483, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_5);
               __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-              /* "blum_automation.pyx":479
+              /* "blum_automation.pyx":484
  *                 elif not failed_request["get game id"]:
  *                     get_account_info(headers, 3)
  *                     game(account_info, headers)             # <<<<<<<<<<<<<<
  *                 elif not failed_request["get balance points for friends"]:
  *                     friends(headers)
  */
-              if (!(likely(PyDict_CheckExact(__pyx_v_account_info))||((__pyx_v_account_info) == Py_None) || __Pyx_RaiseUnexpectedTypeError("dict", __pyx_v_account_info))) __PYX_ERR(0, 479, __pyx_L12_error)
-              __pyx_t_5 = __pyx_f_15blum_automation_game(((PyObject*)__pyx_v_account_info), __pyx_v_headers); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 479, __pyx_L12_error)
+              if (!(likely(PyDict_CheckExact(__pyx_v_account_info))||((__pyx_v_account_info) == Py_None) || __Pyx_RaiseUnexpectedTypeError("dict", __pyx_v_account_info))) __PYX_ERR(0, 484, __pyx_L12_error)
+              __pyx_t_5 = __pyx_f_15blum_automation_game(((PyObject*)__pyx_v_account_info), __pyx_v_headers); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 484, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_5);
               __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-              /* "blum_automation.pyx":477
+              /* "blum_automation.pyx":482
  *                 elif not failed_request["start farm"]:
  *                     farming_start(headers, 3)
  *                 elif not failed_request["get game id"]:             # <<<<<<<<<<<<<<
@@ -12484,35 +12674,35 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
               goto __pyx_L26;
             }
 
-            /* "blum_automation.pyx":480
+            /* "blum_automation.pyx":485
  *                     get_account_info(headers, 3)
  *                     game(account_info, headers)
  *                 elif not failed_request["get balance points for friends"]:             # <<<<<<<<<<<<<<
  *                     friends(headers)
  *                 elif not failed_request["claim points for friends"]:
  */
-            __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_failed_request); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 480, __pyx_L12_error)
+            __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_failed_request); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 485, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_5);
-            __pyx_t_6 = __Pyx_PyObject_Dict_GetItem(__pyx_t_5, __pyx_kp_u_get_balance_points_for_friends); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 480, __pyx_L12_error)
+            __pyx_t_6 = __Pyx_PyObject_Dict_GetItem(__pyx_t_5, __pyx_kp_u_get_balance_points_for_friends); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 485, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_6);
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-            __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 480, __pyx_L12_error)
+            __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 485, __pyx_L12_error)
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
             __pyx_t_9 = (!__pyx_t_8);
             if (__pyx_t_9) {
 
-              /* "blum_automation.pyx":481
+              /* "blum_automation.pyx":486
  *                     game(account_info, headers)
  *                 elif not failed_request["get balance points for friends"]:
  *                     friends(headers)             # <<<<<<<<<<<<<<
  *                 elif not failed_request["claim points for friends"]:
  *                     friends(headers)
  */
-              __pyx_t_6 = __pyx_f_15blum_automation_friends(__pyx_v_headers); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 481, __pyx_L12_error)
+              __pyx_t_6 = __pyx_f_15blum_automation_friends(__pyx_v_headers); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 486, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_6);
               __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-              /* "blum_automation.pyx":480
+              /* "blum_automation.pyx":485
  *                     get_account_info(headers, 3)
  *                     game(account_info, headers)
  *                 elif not failed_request["get balance points for friends"]:             # <<<<<<<<<<<<<<
@@ -12522,35 +12712,35 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
               goto __pyx_L26;
             }
 
-            /* "blum_automation.pyx":482
+            /* "blum_automation.pyx":487
  *                 elif not failed_request["get balance points for friends"]:
  *                     friends(headers)
  *                 elif not failed_request["claim points for friends"]:             # <<<<<<<<<<<<<<
  *                     friends(headers)
  * 
  */
-            __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_failed_request); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 482, __pyx_L12_error)
+            __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_failed_request); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 487, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_6);
-            __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_t_6, __pyx_kp_u_claim_points_for_friends); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 482, __pyx_L12_error)
+            __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_t_6, __pyx_kp_u_claim_points_for_friends); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 487, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_5);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-            __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 482, __pyx_L12_error)
+            __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 487, __pyx_L12_error)
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
             __pyx_t_8 = (!__pyx_t_9);
             if (__pyx_t_8) {
 
-              /* "blum_automation.pyx":483
+              /* "blum_automation.pyx":488
  *                     friends(headers)
  *                 elif not failed_request["claim points for friends"]:
  *                     friends(headers)             # <<<<<<<<<<<<<<
  * 
- *                 time.sleep(1.5)
+ *                 time.sleep(3.5)
  */
-              __pyx_t_5 = __pyx_f_15blum_automation_friends(__pyx_v_headers); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 483, __pyx_L12_error)
+              __pyx_t_5 = __pyx_f_15blum_automation_friends(__pyx_v_headers); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 488, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_5);
               __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-              /* "blum_automation.pyx":482
+              /* "blum_automation.pyx":487
  *                 elif not failed_request["get balance points for friends"]:
  *                     friends(headers)
  *                 elif not failed_request["claim points for friends"]:             # <<<<<<<<<<<<<<
@@ -12560,43 +12750,43 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
             }
             __pyx_L26:;
 
-            /* "blum_automation.pyx":485
+            /* "blum_automation.pyx":490
  *                     friends(headers)
  * 
- *                 time.sleep(1.5)             # <<<<<<<<<<<<<<
+ *                 time.sleep(3.5)             # <<<<<<<<<<<<<<
  * 
  *             except Exception as e:
  */
-            __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_time); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 485, __pyx_L12_error)
+            __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_time); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 490, __pyx_L12_error)
             __Pyx_GOTREF(__pyx_t_6);
-            __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_sleep); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 485, __pyx_L12_error)
-            __Pyx_GOTREF(__pyx_t_4);
+            __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_sleep); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 490, __pyx_L12_error)
+            __Pyx_GOTREF(__pyx_t_18);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
             __pyx_t_6 = NULL;
             __pyx_t_7 = 0;
             #if CYTHON_UNPACK_METHODS
-            if (unlikely(PyMethod_Check(__pyx_t_4))) {
-              __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_4);
+            if (unlikely(PyMethod_Check(__pyx_t_18))) {
+              __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_18);
               if (likely(__pyx_t_6)) {
-                PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+                PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_18);
                 __Pyx_INCREF(__pyx_t_6);
                 __Pyx_INCREF(function);
-                __Pyx_DECREF_SET(__pyx_t_4, function);
+                __Pyx_DECREF_SET(__pyx_t_18, function);
                 __pyx_t_7 = 1;
               }
             }
             #endif
             {
-              PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_float_1_5};
-              __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
+              PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_float_3_5};
+              __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_18, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
               __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-              if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 485, __pyx_L12_error)
+              if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 490, __pyx_L12_error)
               __Pyx_GOTREF(__pyx_t_5);
-              __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+              __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
             }
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-            /* "blum_automation.pyx":437
+            /* "blum_automation.pyx":442
  * 
  *         for i in range(len(tokens_names)):
  *             try:             # <<<<<<<<<<<<<<
@@ -12609,56 +12799,62 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
           __Pyx_XDECREF(__pyx_t_15); __pyx_t_15 = 0;
           goto __pyx_L19_try_end;
           __pyx_L12_error:;
+          __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-          /* "blum_automation.pyx":487
- *                 time.sleep(1.5)
+          /* "blum_automation.pyx":492
+ *                 time.sleep(3.5)
  * 
  *             except Exception as e:             # <<<<<<<<<<<<<<
  *                 print(f"Error: {e}")
- *                 time.sleep(1.5)
+ *                 time.sleep(uniform(1.5,2.5))
  */
-          __pyx_t_18 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
-          if (__pyx_t_18) {
+          __pyx_t_19 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
+          if (__pyx_t_19) {
             __Pyx_AddTraceback("blum_automation.automation", __pyx_clineno, __pyx_lineno, __pyx_filename);
-            if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_4, &__pyx_t_6) < 0) __PYX_ERR(0, 487, __pyx_L14_except_error)
+            if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_18, &__pyx_t_6) < 0) __PYX_ERR(0, 492, __pyx_L14_except_error)
             __Pyx_XGOTREF(__pyx_t_5);
-            __Pyx_XGOTREF(__pyx_t_4);
+            __Pyx_XGOTREF(__pyx_t_18);
             __Pyx_XGOTREF(__pyx_t_6);
-            __Pyx_INCREF(__pyx_t_4);
-            __pyx_v_e = __pyx_t_4;
+            __Pyx_INCREF(__pyx_t_18);
+            __pyx_v_e = __pyx_t_18;
             /*try:*/ {
 
-              /* "blum_automation.pyx":488
+              /* "blum_automation.pyx":493
  * 
  *             except Exception as e:
  *                 print(f"Error: {e}")             # <<<<<<<<<<<<<<
- *                 time.sleep(1.5)
+ *                 time.sleep(uniform(1.5,2.5))
  *                 continue
  */
-              __pyx_t_19 = __Pyx_PyObject_FormatSimple(__pyx_v_e, __pyx_empty_unicode); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 488, __pyx_L32_error)
-              __Pyx_GOTREF(__pyx_t_19);
-              __pyx_t_20 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error, __pyx_t_19); if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 488, __pyx_L32_error)
+              __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_v_e, __pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 493, __pyx_L32_error)
+              __Pyx_GOTREF(__pyx_t_4);
+              __pyx_t_20 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error, __pyx_t_4); if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 493, __pyx_L32_error)
               __Pyx_GOTREF(__pyx_t_20);
-              __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
-              __pyx_t_19 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_20); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 488, __pyx_L32_error)
-              __Pyx_GOTREF(__pyx_t_19);
+              __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+              __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_20); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 493, __pyx_L32_error)
+              __Pyx_GOTREF(__pyx_t_4);
               __Pyx_DECREF(__pyx_t_20); __pyx_t_20 = 0;
-              __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+              __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-              /* "blum_automation.pyx":489
+              /* "blum_automation.pyx":494
  *             except Exception as e:
  *                 print(f"Error: {e}")
- *                 time.sleep(1.5)             # <<<<<<<<<<<<<<
+ *                 time.sleep(uniform(1.5,2.5))             # <<<<<<<<<<<<<<
  *                 continue
  * 
  */
-              __Pyx_GetModuleGlobalName(__pyx_t_20, __pyx_n_s_time); if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 489, __pyx_L32_error)
+              __Pyx_GetModuleGlobalName(__pyx_t_20, __pyx_n_s_time); if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 494, __pyx_L32_error)
               __Pyx_GOTREF(__pyx_t_20);
-              __pyx_t_21 = __Pyx_PyObject_GetAttrStr(__pyx_t_20, __pyx_n_s_sleep); if (unlikely(!__pyx_t_21)) __PYX_ERR(0, 489, __pyx_L32_error)
+              __pyx_t_21 = __Pyx_PyObject_GetAttrStr(__pyx_t_20, __pyx_n_s_sleep); if (unlikely(!__pyx_t_21)) __PYX_ERR(0, 494, __pyx_L32_error)
               __Pyx_GOTREF(__pyx_t_21);
+              __Pyx_DECREF(__pyx_t_20); __pyx_t_20 = 0;
+              __Pyx_GetModuleGlobalName(__pyx_t_20, __pyx_n_s_uniform); if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 494, __pyx_L32_error)
+              __Pyx_GOTREF(__pyx_t_20);
+              __pyx_t_22 = __Pyx_PyObject_Call(__pyx_t_20, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 494, __pyx_L32_error)
+              __Pyx_GOTREF(__pyx_t_22);
               __Pyx_DECREF(__pyx_t_20); __pyx_t_20 = 0;
               __pyx_t_20 = NULL;
               __pyx_t_7 = 0;
@@ -12675,18 +12871,19 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
               }
               #endif
               {
-                PyObject *__pyx_callargs[2] = {__pyx_t_20, __pyx_float_1_5};
-                __pyx_t_19 = __Pyx_PyObject_FastCall(__pyx_t_21, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
+                PyObject *__pyx_callargs[2] = {__pyx_t_20, __pyx_t_22};
+                __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_21, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
                 __Pyx_XDECREF(__pyx_t_20); __pyx_t_20 = 0;
-                if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 489, __pyx_L32_error)
-                __Pyx_GOTREF(__pyx_t_19);
+                __Pyx_DECREF(__pyx_t_22); __pyx_t_22 = 0;
+                if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 494, __pyx_L32_error)
+                __Pyx_GOTREF(__pyx_t_4);
                 __Pyx_DECREF(__pyx_t_21); __pyx_t_21 = 0;
               }
-              __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+              __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-              /* "blum_automation.pyx":490
+              /* "blum_automation.pyx":495
  *                 print(f"Error: {e}")
- *                 time.sleep(1.5)
+ *                 time.sleep(uniform(1.5,2.5))
  *                 continue             # <<<<<<<<<<<<<<
  * 
  *     except Exception as e:
@@ -12694,46 +12891,47 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
               goto __pyx_L29_continue;
             }
 
-            /* "blum_automation.pyx":487
- *                 time.sleep(1.5)
+            /* "blum_automation.pyx":492
+ *                 time.sleep(3.5)
  * 
  *             except Exception as e:             # <<<<<<<<<<<<<<
  *                 print(f"Error: {e}")
- *                 time.sleep(1.5)
+ *                 time.sleep(uniform(1.5,2.5))
  */
             /*finally:*/ {
               __pyx_L32_error:;
               /*exception exit:*/{
                 __Pyx_PyThreadState_declare
                 __Pyx_PyThreadState_assign
-                __pyx_t_24 = 0; __pyx_t_25 = 0; __pyx_t_26 = 0; __pyx_t_27 = 0; __pyx_t_28 = 0; __pyx_t_29 = 0;
-                __Pyx_XDECREF(__pyx_t_19); __pyx_t_19 = 0;
+                __pyx_t_25 = 0; __pyx_t_26 = 0; __pyx_t_27 = 0; __pyx_t_28 = 0; __pyx_t_29 = 0; __pyx_t_30 = 0;
                 __Pyx_XDECREF(__pyx_t_20); __pyx_t_20 = 0;
                 __Pyx_XDECREF(__pyx_t_21); __pyx_t_21 = 0;
-                if (PY_MAJOR_VERSION >= 3) __Pyx_ExceptionSwap(&__pyx_t_27, &__pyx_t_28, &__pyx_t_29);
-                if ((PY_MAJOR_VERSION < 3) || unlikely(__Pyx_GetException(&__pyx_t_24, &__pyx_t_25, &__pyx_t_26) < 0)) __Pyx_ErrFetch(&__pyx_t_24, &__pyx_t_25, &__pyx_t_26);
-                __Pyx_XGOTREF(__pyx_t_24);
+                __Pyx_XDECREF(__pyx_t_22); __pyx_t_22 = 0;
+                __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+                if (PY_MAJOR_VERSION >= 3) __Pyx_ExceptionSwap(&__pyx_t_28, &__pyx_t_29, &__pyx_t_30);
+                if ((PY_MAJOR_VERSION < 3) || unlikely(__Pyx_GetException(&__pyx_t_25, &__pyx_t_26, &__pyx_t_27) < 0)) __Pyx_ErrFetch(&__pyx_t_25, &__pyx_t_26, &__pyx_t_27);
                 __Pyx_XGOTREF(__pyx_t_25);
                 __Pyx_XGOTREF(__pyx_t_26);
                 __Pyx_XGOTREF(__pyx_t_27);
                 __Pyx_XGOTREF(__pyx_t_28);
                 __Pyx_XGOTREF(__pyx_t_29);
-                __pyx_t_18 = __pyx_lineno; __pyx_t_22 = __pyx_clineno; __pyx_t_23 = __pyx_filename;
+                __Pyx_XGOTREF(__pyx_t_30);
+                __pyx_t_19 = __pyx_lineno; __pyx_t_23 = __pyx_clineno; __pyx_t_24 = __pyx_filename;
                 {
                   __Pyx_DECREF(__pyx_v_e); __pyx_v_e = 0;
                 }
                 if (PY_MAJOR_VERSION >= 3) {
-                  __Pyx_XGIVEREF(__pyx_t_27);
                   __Pyx_XGIVEREF(__pyx_t_28);
                   __Pyx_XGIVEREF(__pyx_t_29);
-                  __Pyx_ExceptionReset(__pyx_t_27, __pyx_t_28, __pyx_t_29);
+                  __Pyx_XGIVEREF(__pyx_t_30);
+                  __Pyx_ExceptionReset(__pyx_t_28, __pyx_t_29, __pyx_t_30);
                 }
-                __Pyx_XGIVEREF(__pyx_t_24);
                 __Pyx_XGIVEREF(__pyx_t_25);
                 __Pyx_XGIVEREF(__pyx_t_26);
-                __Pyx_ErrRestore(__pyx_t_24, __pyx_t_25, __pyx_t_26);
-                __pyx_t_24 = 0; __pyx_t_25 = 0; __pyx_t_26 = 0; __pyx_t_27 = 0; __pyx_t_28 = 0; __pyx_t_29 = 0;
-                __pyx_lineno = __pyx_t_18; __pyx_clineno = __pyx_t_22; __pyx_filename = __pyx_t_23;
+                __Pyx_XGIVEREF(__pyx_t_27);
+                __Pyx_ErrRestore(__pyx_t_25, __pyx_t_26, __pyx_t_27);
+                __pyx_t_25 = 0; __pyx_t_26 = 0; __pyx_t_27 = 0; __pyx_t_28 = 0; __pyx_t_29 = 0; __pyx_t_30 = 0;
+                __pyx_lineno = __pyx_t_19; __pyx_clineno = __pyx_t_23; __pyx_filename = __pyx_t_24;
                 goto __pyx_L14_except_error;
               }
               __pyx_L29_continue: {
@@ -12743,13 +12941,13 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
             }
             __pyx_L27_except_continue:;
             __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-            __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+            __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
             __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
             goto __pyx_L18_try_continue;
           }
           goto __pyx_L14_except_error;
 
-          /* "blum_automation.pyx":437
+          /* "blum_automation.pyx":442
  * 
  *         for i in range(len(tokens_names)):
  *             try:             # <<<<<<<<<<<<<<
@@ -12773,7 +12971,7 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
         __pyx_L10_continue:;
       }
 
-      /* "blum_automation.pyx":415
+      /* "blum_automation.pyx":420
  * 
  * cpdef void automation():
  *     try:             # <<<<<<<<<<<<<<
@@ -12786,95 +12984,96 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
-    __Pyx_XDECREF(__pyx_t_19); __pyx_t_19 = 0;
+    __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
     __Pyx_XDECREF(__pyx_t_20); __pyx_t_20 = 0;
     __Pyx_XDECREF(__pyx_t_21); __pyx_t_21 = 0;
+    __Pyx_XDECREF(__pyx_t_22); __pyx_t_22 = 0;
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "blum_automation.pyx":492
+    /* "blum_automation.pyx":497
  *                 continue
  * 
  *     except Exception as e:             # <<<<<<<<<<<<<<
  *         print(f"Error: {e}")
  *         time.sleep(5)
  */
-    __pyx_t_22 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
-    if (__pyx_t_22) {
+    __pyx_t_23 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
+    if (__pyx_t_23) {
       __Pyx_AddTraceback("blum_automation.automation", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_6, &__pyx_t_4, &__pyx_t_5) < 0) __PYX_ERR(0, 492, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_6, &__pyx_t_18, &__pyx_t_5) < 0) __PYX_ERR(0, 497, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_6);
-      __Pyx_XGOTREF(__pyx_t_4);
+      __Pyx_XGOTREF(__pyx_t_18);
       __Pyx_XGOTREF(__pyx_t_5);
-      __Pyx_INCREF(__pyx_t_4);
-      __Pyx_XDECREF_SET(__pyx_v_e, __pyx_t_4);
+      __Pyx_INCREF(__pyx_t_18);
+      __Pyx_XDECREF_SET(__pyx_v_e, __pyx_t_18);
       /*try:*/ {
 
-        /* "blum_automation.pyx":493
+        /* "blum_automation.pyx":498
  * 
  *     except Exception as e:
  *         print(f"Error: {e}")             # <<<<<<<<<<<<<<
  *         time.sleep(5)
  *         return
  */
-        __pyx_t_19 = __Pyx_PyObject_FormatSimple(__pyx_v_e, __pyx_empty_unicode); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 493, __pyx_L43_error)
-        __Pyx_GOTREF(__pyx_t_19);
-        __pyx_t_21 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error, __pyx_t_19); if (unlikely(!__pyx_t_21)) __PYX_ERR(0, 493, __pyx_L43_error)
+        __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_v_e, __pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 498, __pyx_L43_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __pyx_t_21 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Error, __pyx_t_4); if (unlikely(!__pyx_t_21)) __PYX_ERR(0, 498, __pyx_L43_error)
         __Pyx_GOTREF(__pyx_t_21);
-        __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
-        __pyx_t_19 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_21); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 493, __pyx_L43_error)
-        __Pyx_GOTREF(__pyx_t_19);
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_21); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 498, __pyx_L43_error)
+        __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_21); __pyx_t_21 = 0;
-        __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "blum_automation.pyx":494
+        /* "blum_automation.pyx":499
  *     except Exception as e:
  *         print(f"Error: {e}")
  *         time.sleep(5)             # <<<<<<<<<<<<<<
  *         return
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_21, __pyx_n_s_time); if (unlikely(!__pyx_t_21)) __PYX_ERR(0, 494, __pyx_L43_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_21, __pyx_n_s_time); if (unlikely(!__pyx_t_21)) __PYX_ERR(0, 499, __pyx_L43_error)
         __Pyx_GOTREF(__pyx_t_21);
-        __pyx_t_20 = __Pyx_PyObject_GetAttrStr(__pyx_t_21, __pyx_n_s_sleep); if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 494, __pyx_L43_error)
-        __Pyx_GOTREF(__pyx_t_20);
+        __pyx_t_22 = __Pyx_PyObject_GetAttrStr(__pyx_t_21, __pyx_n_s_sleep); if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 499, __pyx_L43_error)
+        __Pyx_GOTREF(__pyx_t_22);
         __Pyx_DECREF(__pyx_t_21); __pyx_t_21 = 0;
         __pyx_t_21 = NULL;
         __pyx_t_7 = 0;
         #if CYTHON_UNPACK_METHODS
-        if (unlikely(PyMethod_Check(__pyx_t_20))) {
-          __pyx_t_21 = PyMethod_GET_SELF(__pyx_t_20);
+        if (unlikely(PyMethod_Check(__pyx_t_22))) {
+          __pyx_t_21 = PyMethod_GET_SELF(__pyx_t_22);
           if (likely(__pyx_t_21)) {
-            PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_20);
+            PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_22);
             __Pyx_INCREF(__pyx_t_21);
             __Pyx_INCREF(function);
-            __Pyx_DECREF_SET(__pyx_t_20, function);
+            __Pyx_DECREF_SET(__pyx_t_22, function);
             __pyx_t_7 = 1;
           }
         }
         #endif
         {
           PyObject *__pyx_callargs[2] = {__pyx_t_21, __pyx_int_5};
-          __pyx_t_19 = __Pyx_PyObject_FastCall(__pyx_t_20, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
+          __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_22, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_21); __pyx_t_21 = 0;
-          if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 494, __pyx_L43_error)
-          __Pyx_GOTREF(__pyx_t_19);
-          __Pyx_DECREF(__pyx_t_20); __pyx_t_20 = 0;
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 499, __pyx_L43_error)
+          __Pyx_GOTREF(__pyx_t_4);
+          __Pyx_DECREF(__pyx_t_22); __pyx_t_22 = 0;
         }
-        __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "blum_automation.pyx":495
+        /* "blum_automation.pyx":500
  *         print(f"Error: {e}")
  *         time.sleep(5)
  *         return             # <<<<<<<<<<<<<<
  */
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+        __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
         goto __pyx_L42_return;
       }
 
-      /* "blum_automation.pyx":492
+      /* "blum_automation.pyx":497
  *                 continue
  * 
  *     except Exception as e:             # <<<<<<<<<<<<<<
@@ -12886,34 +13085,35 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
         /*exception exit:*/{
           __Pyx_PyThreadState_declare
           __Pyx_PyThreadState_assign
-          __pyx_t_15 = 0; __pyx_t_14 = 0; __pyx_t_13 = 0; __pyx_t_29 = 0; __pyx_t_28 = 0; __pyx_t_27 = 0;
-          __Pyx_XDECREF(__pyx_t_19); __pyx_t_19 = 0;
+          __pyx_t_15 = 0; __pyx_t_14 = 0; __pyx_t_13 = 0; __pyx_t_30 = 0; __pyx_t_29 = 0; __pyx_t_28 = 0;
           __Pyx_XDECREF(__pyx_t_20); __pyx_t_20 = 0;
           __Pyx_XDECREF(__pyx_t_21); __pyx_t_21 = 0;
-          if (PY_MAJOR_VERSION >= 3) __Pyx_ExceptionSwap(&__pyx_t_29, &__pyx_t_28, &__pyx_t_27);
+          __Pyx_XDECREF(__pyx_t_22); __pyx_t_22 = 0;
+          __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+          if (PY_MAJOR_VERSION >= 3) __Pyx_ExceptionSwap(&__pyx_t_30, &__pyx_t_29, &__pyx_t_28);
           if ((PY_MAJOR_VERSION < 3) || unlikely(__Pyx_GetException(&__pyx_t_15, &__pyx_t_14, &__pyx_t_13) < 0)) __Pyx_ErrFetch(&__pyx_t_15, &__pyx_t_14, &__pyx_t_13);
           __Pyx_XGOTREF(__pyx_t_15);
           __Pyx_XGOTREF(__pyx_t_14);
           __Pyx_XGOTREF(__pyx_t_13);
+          __Pyx_XGOTREF(__pyx_t_30);
           __Pyx_XGOTREF(__pyx_t_29);
           __Pyx_XGOTREF(__pyx_t_28);
-          __Pyx_XGOTREF(__pyx_t_27);
-          __pyx_t_22 = __pyx_lineno; __pyx_t_18 = __pyx_clineno; __pyx_t_30 = __pyx_filename;
+          __pyx_t_23 = __pyx_lineno; __pyx_t_19 = __pyx_clineno; __pyx_t_31 = __pyx_filename;
           {
             __Pyx_DECREF(__pyx_v_e); __pyx_v_e = 0;
           }
           if (PY_MAJOR_VERSION >= 3) {
+            __Pyx_XGIVEREF(__pyx_t_30);
             __Pyx_XGIVEREF(__pyx_t_29);
             __Pyx_XGIVEREF(__pyx_t_28);
-            __Pyx_XGIVEREF(__pyx_t_27);
-            __Pyx_ExceptionReset(__pyx_t_29, __pyx_t_28, __pyx_t_27);
+            __Pyx_ExceptionReset(__pyx_t_30, __pyx_t_29, __pyx_t_28);
           }
           __Pyx_XGIVEREF(__pyx_t_15);
           __Pyx_XGIVEREF(__pyx_t_14);
           __Pyx_XGIVEREF(__pyx_t_13);
           __Pyx_ErrRestore(__pyx_t_15, __pyx_t_14, __pyx_t_13);
-          __pyx_t_15 = 0; __pyx_t_14 = 0; __pyx_t_13 = 0; __pyx_t_29 = 0; __pyx_t_28 = 0; __pyx_t_27 = 0;
-          __pyx_lineno = __pyx_t_22; __pyx_clineno = __pyx_t_18; __pyx_filename = __pyx_t_30;
+          __pyx_t_15 = 0; __pyx_t_14 = 0; __pyx_t_13 = 0; __pyx_t_30 = 0; __pyx_t_29 = 0; __pyx_t_28 = 0;
+          __pyx_lineno = __pyx_t_23; __pyx_clineno = __pyx_t_19; __pyx_filename = __pyx_t_31;
           goto __pyx_L5_except_error;
         }
         __pyx_L42_return: {
@@ -12924,7 +13124,7 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
     }
     goto __pyx_L5_except_error;
 
-    /* "blum_automation.pyx":415
+    /* "blum_automation.pyx":420
  * 
  * cpdef void automation():
  *     try:             # <<<<<<<<<<<<<<
@@ -12952,7 +13152,7 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
     __pyx_L8_try_end:;
   }
 
-  /* "blum_automation.pyx":414
+  /* "blum_automation.pyx":419
  * 
  * 
  * cpdef void automation():             # <<<<<<<<<<<<<<
@@ -12966,9 +13166,10 @@ static void __pyx_f_15blum_automation_automation(CYTHON_UNUSED int __pyx_skip_di
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_XDECREF(__pyx_t_19);
+  __Pyx_XDECREF(__pyx_t_18);
   __Pyx_XDECREF(__pyx_t_20);
   __Pyx_XDECREF(__pyx_t_21);
+  __Pyx_XDECREF(__pyx_t_22);
   __Pyx_AddTraceback("blum_automation.automation", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_user_folder);
@@ -13013,8 +13214,8 @@ static PyObject *__pyx_pf_15blum_automation_automation(CYTHON_UNUSED PyObject *_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("automation", 1);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_f_15blum_automation_automation(0); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 414, __pyx_L1_error)
-  __pyx_t_1 = __Pyx_void_to_None(NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 414, __pyx_L1_error)
+  __pyx_f_15blum_automation_automation(0); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 419, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_void_to_None(NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 419, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -13099,13 +13300,13 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_u_Trying_to_get_points_for_friends, __pyx_k_Trying_to_get_points_for_friends, sizeof(__pyx_k_Trying_to_get_points_for_friends), 0, 1, 0, 0},
     {&__pyx_kp_u_Which_accounts_to_exclude_from_t, __pyx_k_Which_accounts_to_exclude_from_t, sizeof(__pyx_k_Which_accounts_to_exclude_from_t), 0, 1, 0, 0},
     {&__pyx_n_s_YELLOW, __pyx_k_YELLOW, sizeof(__pyx_k_YELLOW), 0, 0, 1, 1},
-    {&__pyx_n_s__10, __pyx_k__10, sizeof(__pyx_k__10), 0, 0, 1, 1},
+    {&__pyx_kp_u__10, __pyx_k__10, sizeof(__pyx_k__10), 0, 1, 0, 0},
     {&__pyx_kp_u__11, __pyx_k__11, sizeof(__pyx_k__11), 0, 1, 0, 0},
-    {&__pyx_n_s__13, __pyx_k__13, sizeof(__pyx_k__13), 0, 0, 1, 1},
-    {&__pyx_kp_u__2, __pyx_k__2, sizeof(__pyx_k__2), 0, 1, 0, 0},
-    {&__pyx_kp_u__4, __pyx_k__4, sizeof(__pyx_k__4), 0, 1, 0, 0},
-    {&__pyx_kp_u__6, __pyx_k__6, sizeof(__pyx_k__6), 0, 1, 0, 0},
-    {&__pyx_kp_u__7, __pyx_k__7, sizeof(__pyx_k__7), 0, 1, 0, 0},
+    {&__pyx_n_s__12, __pyx_k__12, sizeof(__pyx_k__12), 0, 0, 1, 1},
+    {&__pyx_kp_u__13, __pyx_k__13, sizeof(__pyx_k__13), 0, 1, 0, 0},
+    {&__pyx_n_s__15, __pyx_k__15, sizeof(__pyx_k__15), 0, 0, 1, 1},
+    {&__pyx_kp_u__3, __pyx_k__3, sizeof(__pyx_k__3), 0, 1, 0, 0},
+    {&__pyx_kp_u__5, __pyx_k__5, sizeof(__pyx_k__5), 0, 1, 0, 0},
     {&__pyx_kp_u__8, __pyx_k__8, sizeof(__pyx_k__8), 0, 1, 0, 0},
     {&__pyx_kp_u__9, __pyx_k__9, sizeof(__pyx_k__9), 0, 1, 0, 0},
     {&__pyx_kp_u_a, __pyx_k_a, sizeof(__pyx_k_a), 0, 1, 0, 0},
@@ -13125,6 +13326,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_blum_automation, __pyx_k_blum_automation, sizeof(__pyx_k_blum_automation), 0, 0, 1, 1},
     {&__pyx_kp_s_blum_automation_pyx, __pyx_k_blum_automation_pyx, sizeof(__pyx_k_blum_automation_pyx), 0, 0, 1, 0},
     {&__pyx_n_u_c, __pyx_k_c, sizeof(__pyx_k_c), 0, 1, 0, 1},
+    {&__pyx_n_s_choices, __pyx_k_choices, sizeof(__pyx_k_choices), 0, 0, 1, 1},
     {&__pyx_n_u_claimBalance, __pyx_k_claimBalance, sizeof(__pyx_k_claimBalance), 0, 1, 0, 1},
     {&__pyx_kp_u_claim_farm, __pyx_k_claim_farm, sizeof(__pyx_k_claim_farm), 0, 1, 0, 0},
     {&__pyx_kp_u_claim_points_for_friends, __pyx_k_claim_points_for_friends, sizeof(__pyx_k_claim_points_for_friends), 0, 1, 0, 0},
@@ -13208,10 +13410,12 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_u_timestamp, __pyx_k_timestamp, sizeof(__pyx_k_timestamp), 0, 1, 0, 1},
     {&__pyx_kp_u_timestamp_2, __pyx_k_timestamp_2, sizeof(__pyx_k_timestamp_2), 0, 1, 0, 0},
     {&__pyx_n_u_token, __pyx_k_token, sizeof(__pyx_k_token), 0, 1, 0, 1},
+    {&__pyx_n_s_uniform, __pyx_k_uniform, sizeof(__pyx_k_uniform), 0, 0, 1, 1},
     {&__pyx_kp_u_user_agent, __pyx_k_user_agent, sizeof(__pyx_k_user_agent), 0, 1, 0, 0},
     {&__pyx_kp_u_utf_8, __pyx_k_utf_8, sizeof(__pyx_k_utf_8), 0, 1, 0, 0},
     {&__pyx_n_u_w, __pyx_k_w, sizeof(__pyx_k_w), 0, 1, 0, 1},
     {&__pyx_kp_u_was_not_found, __pyx_k_was_not_found, sizeof(__pyx_k_was_not_found), 0, 1, 0, 0},
+    {&__pyx_n_s_weights, __pyx_k_weights, sizeof(__pyx_k_weights), 0, 0, 1, 1},
     {0, 0, 0, 0, 0, 0, 0}
   };
   return __Pyx_InitStrings(__pyx_string_tab);
@@ -13221,7 +13425,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_open = __Pyx_GetBuiltinName(__pyx_n_s_open); if (!__pyx_builtin_open) __PYX_ERR(0, 38, __pyx_L1_error)
   __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_n_s_print); if (!__pyx_builtin_print) __PYX_ERR(0, 42, __pyx_L1_error)
   __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 107, __pyx_L1_error)
-  __pyx_builtin_input = __Pyx_GetBuiltinName(__pyx_n_s_input); if (!__pyx_builtin_input) __PYX_ERR(0, 433, __pyx_L1_error)
+  __pyx_builtin_input = __Pyx_GetBuiltinName(__pyx_n_s_input); if (!__pyx_builtin_input) __PYX_ERR(0, 438, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -13232,6 +13436,17 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
+  /* "blum_automation.pyx":43
+ *             if not data["accounts"]:
+ *                 print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "Accounts need to be added!")
+ *                 time.sleep(uniform(1.5,2.5))             # <<<<<<<<<<<<<<
+ *                 return False
+ * 
+ */
+  __pyx_tuple_ = PyTuple_Pack(2, __pyx_float_1_5, __pyx_float_2_5); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 43, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple_);
+  __Pyx_GIVEREF(__pyx_tuple_);
+
   /* "blum_automation.pyx":38
  * def get_refresh_token(tokens_file_path: str):
  *     if os.path.exists(tokens_file_path):
@@ -13239,9 +13454,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *             tokens = {}
  *             data = json.load(file)
  */
-  __pyx_tuple_ = PyTuple_Pack(3, Py_None, Py_None, Py_None); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 38, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple_);
-  __Pyx_GIVEREF(__pyx_tuple_);
+  __pyx_tuple__2 = PyTuple_Pack(3, Py_None, Py_None, Py_None); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(0, 38, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__2);
+  __Pyx_GIVEREF(__pyx_tuple__2);
 
   /* "blum_automation.pyx":286
  * 
@@ -13250,29 +13465,40 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     print(Fore.YELLOW + Style.BRIGHT + "Trying to get a game id......")
  *     url = "https://game-domain.blum.codes/api/v1/game/play"
  */
-  __pyx_tuple__3 = PyTuple_Pack(2, __pyx_int_1, __pyx_int_9); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 286, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__3);
-  __Pyx_GIVEREF(__pyx_tuple__3);
+  __pyx_tuple__4 = PyTuple_Pack(2, __pyx_int_1, __pyx_int_9); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(0, 286, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__4);
+  __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "blum_automation.pyx":311
- * 
- *     print(Fore.YELLOW + Style.BRIGHT + "Trying to claim points......")
- *     points = randint(230, 250)             # <<<<<<<<<<<<<<
+  /* "blum_automation.pyx":314
+ *     random_choice = choices([True,False], weights=weight)[0]
+ *     if random_choice:
+ *         points = randint(220, 240)             # <<<<<<<<<<<<<<
+ *     else:
+ *         points = randint(190,220)
+ */
+  __pyx_tuple__6 = PyTuple_Pack(2, __pyx_int_220, __pyx_int_240); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(0, 314, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__6);
+  __Pyx_GIVEREF(__pyx_tuple__6);
+
+  /* "blum_automation.pyx":316
+ *         points = randint(220, 240)
+ *     else:
+ *         points = randint(190,220)             # <<<<<<<<<<<<<<
  *     url = "https://game-domain.blum.codes/api/v1/game/claim"
  *     data = {
  */
-  __pyx_tuple__5 = PyTuple_Pack(2, __pyx_int_230, __pyx_int_250); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 311, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__5);
-  __Pyx_GIVEREF(__pyx_tuple__5);
+  __pyx_tuple__7 = PyTuple_Pack(2, __pyx_int_190, __pyx_int_220); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 316, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__7);
+  __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "blum_automation.pyx":414
+  /* "blum_automation.pyx":419
  * 
  * 
  * cpdef void automation():             # <<<<<<<<<<<<<<
  *     try:
  *         user_folder = os.path.expanduser("~")
  */
-  __pyx_codeobj__12 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_blum_automation_pyx, __pyx_n_s_automation, 414, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__12)) __PYX_ERR(0, 414, __pyx_L1_error)
+  __pyx_codeobj__14 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_blum_automation_pyx, __pyx_n_s_automation, 419, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__14)) __PYX_ERR(0, 419, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -13283,9 +13509,12 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
 static CYTHON_SMALL_CODE int __Pyx_InitConstants(void) {
   if (__Pyx_CreateStringTabAndInitStrings() < 0) __PYX_ERR(0, 1, __pyx_L1_error);
-  __pyx_float_0_4 = PyFloat_FromDouble(0.4); if (unlikely(!__pyx_float_0_4)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_float_0_8 = PyFloat_FromDouble(0.8); if (unlikely(!__pyx_float_0_8)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_float_1_5 = PyFloat_FromDouble(1.5); if (unlikely(!__pyx_float_1_5)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_float_2_5 = PyFloat_FromDouble(2.5); if (unlikely(!__pyx_float_2_5)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_float_3_5 = PyFloat_FromDouble(3.5); if (unlikely(!__pyx_float_3_5)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_float_0_38 = PyFloat_FromDouble(0.38); if (unlikely(!__pyx_float_0_38)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_float_0_62 = PyFloat_FromDouble(0.62); if (unlikely(!__pyx_float_0_62)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_float_30_5 = PyFloat_FromDouble(30.5); if (unlikely(!__pyx_float_30_5)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_0 = PyInt_FromLong(0); if (unlikely(!__pyx_int_0)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_1 = PyInt_FromLong(1); if (unlikely(!__pyx_int_1)) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -13294,9 +13523,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitConstants(void) {
   __pyx_int_4 = PyInt_FromLong(4); if (unlikely(!__pyx_int_4)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_5 = PyInt_FromLong(5); if (unlikely(!__pyx_int_5)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_9 = PyInt_FromLong(9); if (unlikely(!__pyx_int_9)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_190 = PyInt_FromLong(190); if (unlikely(!__pyx_int_190)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_200 = PyInt_FromLong(200); if (unlikely(!__pyx_int_200)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_230 = PyInt_FromLong(230); if (unlikely(!__pyx_int_230)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_250 = PyInt_FromLong(250); if (unlikely(!__pyx_int_250)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_220 = PyInt_FromLong(220); if (unlikely(!__pyx_int_220)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_240 = PyInt_FromLong(240); if (unlikely(!__pyx_int_240)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_1000 = PyInt_FromLong(1000); if (unlikely(!__pyx_int_1000)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_3600 = PyInt_FromLong(3600); if (unlikely(!__pyx_int_3600)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_28800000 = PyInt_FromLong(28800000L); if (unlikely(!__pyx_int_28800000)) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -13683,7 +13913,7 @@ if (!__Pyx_RefNanny) {
  * import os
  * import time             # <<<<<<<<<<<<<<
  * import cython
- * from random import randint
+ * from random import randint, choices, uniform
  */
   __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_n_s_time, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -13693,15 +13923,21 @@ if (!__Pyx_RefNanny) {
   /* "blum_automation.pyx":6
  * import time
  * import cython
- * from random import randint             # <<<<<<<<<<<<<<
+ * from random import randint, choices, uniform             # <<<<<<<<<<<<<<
  * 
  * import requests
  */
-  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
+  __pyx_t_2 = PyList_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_n_s_randint);
   __Pyx_GIVEREF(__pyx_n_s_randint);
   if (__Pyx_PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_randint)) __PYX_ERR(0, 6, __pyx_L1_error);
+  __Pyx_INCREF(__pyx_n_s_choices);
+  __Pyx_GIVEREF(__pyx_n_s_choices);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_2, 1, __pyx_n_s_choices)) __PYX_ERR(0, 6, __pyx_L1_error);
+  __Pyx_INCREF(__pyx_n_s_uniform);
+  __Pyx_GIVEREF(__pyx_n_s_uniform);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_2, 2, __pyx_n_s_uniform)) __PYX_ERR(0, 6, __pyx_L1_error);
   __pyx_t_3 = __Pyx_Import(__pyx_n_s_random, __pyx_t_2, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -13709,10 +13945,18 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_randint, __pyx_t_2) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_3, __pyx_n_s_choices); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_choices, __pyx_t_2) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_3, __pyx_n_s_uniform); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_uniform, __pyx_t_2) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
   /* "blum_automation.pyx":8
- * from random import randint
+ * from random import randint, choices, uniform
  * 
  * import requests             # <<<<<<<<<<<<<<
  * from colorama import Fore, Style
@@ -13828,16 +14072,16 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_failed_request, __pyx_t_3) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "blum_automation.pyx":414
+  /* "blum_automation.pyx":419
  * 
  * 
  * cpdef void automation():             # <<<<<<<<<<<<<<
  *     try:
  *         user_folder = os.path.expanduser("~")
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_15blum_automation_1automation, 0, __pyx_n_s_automation, NULL, __pyx_n_s_blum_automation, __pyx_d, ((PyObject *)__pyx_codeobj__12)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 414, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_15blum_automation_1automation, 0, __pyx_n_s_automation, NULL, __pyx_n_s_blum_automation, __pyx_d, ((PyObject *)__pyx_codeobj__14)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 419, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_automation, __pyx_t_3) < 0) __PYX_ERR(0, 414, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_automation, __pyx_t_3) < 0) __PYX_ERR(0, 419, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
   /* "blum_automation.pyx":1
@@ -15786,7 +16030,7 @@ static PyObject *__Pyx_ImportDottedModule_WalkParts(PyObject *module, PyObject *
 #endif
 static PyObject *__Pyx__ImportDottedModule(PyObject *name, PyObject *parts_tuple) {
 #if PY_MAJOR_VERSION < 3
-    PyObject *module, *from_list, *star = __pyx_n_s__10;
+    PyObject *module, *from_list, *star = __pyx_n_s__12;
     CYTHON_UNUSED_VAR(parts_tuple);
     from_list = PyList_New(1);
     if (unlikely(!from_list))
@@ -15849,7 +16093,7 @@ static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name) {
         if (unlikely(!module_name_str)) { goto modbad; }
         module_name = PyUnicode_FromString(module_name_str);
         if (unlikely(!module_name)) { goto modbad; }
-        module_dot = PyUnicode_Concat(module_name, __pyx_kp_u__11);
+        module_dot = PyUnicode_Concat(module_name, __pyx_kp_u__13);
         if (unlikely(!module_dot)) { goto modbad; }
         full_name = PyUnicode_Concat(module_dot, name);
         if (unlikely(!full_name)) { goto modbad; }
@@ -17530,7 +17774,7 @@ __Pyx_PyType_GetName(PyTypeObject* tp)
     if (unlikely(name == NULL) || unlikely(!PyUnicode_Check(name))) {
         PyErr_Clear();
         Py_XDECREF(name);
-        name = __Pyx_NewRef(__pyx_n_s__13);
+        name = __Pyx_NewRef(__pyx_n_s__15);
     }
     return name;
 }

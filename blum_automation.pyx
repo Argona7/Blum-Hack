@@ -3,7 +3,7 @@ import json
 import os
 import time
 import cython
-from random import randint
+from random import randint, choices, uniform
 
 import requests
 from colorama import Fore, Style
@@ -40,7 +40,7 @@ def get_refresh_token(tokens_file_path: str):
             data = json.load(file)
             if not data["accounts"]:
                 print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "Accounts need to be added!")
-                time.sleep(1)
+                time.sleep(uniform(1.5,2.5))
                 return False
 
             accounts_names = list(data["accounts"].keys())
@@ -65,7 +65,7 @@ def get_refresh_token(tokens_file_path: str):
             print(
                 Fore.LIGHTMAGENTA_EX + Style.BRIGHT + f"File not found. A new file has been created at the path: {tokens_file_path}")
             print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT + "Accounts need to be added!")
-            time.sleep(1)
+            time.sleep(uniform(1.5,2.5))
             return False
 
 @cython.cfunc
@@ -142,7 +142,7 @@ def get_access_tokens(query: str, refresh_token: str, account_name: str, tokens_
                 print(Fore.LIGHTWHITE_EX + Style.BRIGHT + f"File {tokens_file_path} was not found.")
                 print(
                     Fore.LIGHTWHITE_EX + Style.BRIGHT + f"Record refresh token manually: {response_data['refresh']}\ntimestamp: {timestamp}")
-                time.sleep(1)
+                time.sleep(uniform(1.5,2.5))
                 return True
         else:
             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
@@ -163,7 +163,7 @@ def get_account_info(headers: dict, max_attempts: int):
         response_data = response.json()
         if response.status_code == 200:
             print(Fore.LIGHTGREEN_EX + "Successful!")
-            time.sleep(1)
+            time.sleep(uniform(1.5,2.5))
             return response_data
         else:
             print(response_data)
@@ -188,7 +188,7 @@ def get_daily_reward(headers: dict, max_attempts: int):
         response = requests.post(url, headers=headers, params=params)
         if response.status_code == 200:
             print(Fore.LIGHTGREEN_EX + "Successful!")
-            time.sleep(1)
+            time.sleep(uniform(1.5,2.5))
             return True
         else:
             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
@@ -214,7 +214,7 @@ def farming_claim(headers: dict, account_info: dict, max_attempts: int):
         response = requests.post(url, json=data, headers=headers)
         if response.status_code == 200:
             print(Fore.LIGHTGREEN_EX + "Successful!")
-            time.sleep(1)
+            time.sleep(uniform(1.5,2.5))
             return True
         else:
             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
@@ -243,7 +243,7 @@ def farming_start(headers: dict, max_attempts: int):
         response = requests.post(url, json=data, headers=headers)
         if response.status_code == 200:
             print(Fore.LIGHTGREEN_EX + "Successful!")
-            time.sleep(1)
+            time.sleep(uniform(1.5,2.5))
             return True
         else:
             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
@@ -308,7 +308,12 @@ def get_game_id(headers: dict, game_id: str, max_attempts: int):
 def game_claim_points(headers, game_id, max_attempts: int):
 
     print(Fore.YELLOW + Style.BRIGHT + "Trying to claim points......")
-    points = randint(230, 250)
+    weight = [0.62, 0.38]
+    random_choice = choices([True,False], weights=weight)[0]
+    if random_choice:
+        points = randint(220, 240)
+    else:
+        points = randint(190,220)
     url = "https://game-domain.blum.codes/api/v1/game/claim"
     data = {
         "gameId": game_id,
@@ -319,12 +324,12 @@ def game_claim_points(headers, game_id, max_attempts: int):
         if response.status_code == 200:
             print(Fore.LIGHTGREEN_EX + "Successful!")
             print(Style.BRIGHT + Fore.LIGHTWHITE_EX + f"{response.text} : {points} points")
-            time.sleep(1)
+            time.sleep(uniform(1.5,2.5))
             return
         else:
             print(Fore.LIGHTBLACK_EX + f"Error: status code {response.status_code}")
             print(Fore.LIGHTBLACK_EX + "Attempting to reconnect")
-            time.sleep(0.4)
+            time.sleep(0.8)
 
     print(Fore.LIGHTRED_EX + "Failed to earn points!")
     return
@@ -462,7 +467,7 @@ cpdef void automation():
                 account_info = get_account_info(headers, 3)
                 if not account_info:
                     continue
-                time.sleep(1)
+                time.sleep(uniform(1.5,2.5))
                 farm(account_info, headers)
                 status = game(account_info, headers)
                 if not status:
@@ -482,11 +487,11 @@ cpdef void automation():
                 elif not failed_request["claim points for friends"]:
                     friends(headers)
 
-                time.sleep(1.5)
+                time.sleep(3.5)
 
             except Exception as e:
                 print(f"Error: {e}")
-                time.sleep(1.5)
+                time.sleep(uniform(1.5,2.5))
                 continue
 
     except Exception as e:
