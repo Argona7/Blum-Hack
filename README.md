@@ -15,7 +15,7 @@ A program that automates actions in the crypto game “Blum”
 * Start farming
 * Claim points for friends (> 300)
 * Start game
-* Claim points for game (230 - 250)
+* Claim points for game 
 
 Requests are sent to the server thanks to an access token, which can be obtained by sending a post **_refresh_** request with the body of the request:
 ```
