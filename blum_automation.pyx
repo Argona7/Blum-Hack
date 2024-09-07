@@ -308,12 +308,12 @@ def get_game_id(headers: dict, game_id: str, max_attempts: int):
 def game_claim_points(headers, game_id, max_attempts: int):
 
     print(Fore.YELLOW + Style.BRIGHT + "Trying to claim points......")
-    weight = [0.62, 0.38]
+    weight = [0.7, 0.3]
     random_choice = choices([True,False], weights=weight)[0]
     if random_choice:
-        points = randint(220, 240)
+        points = randint(230, 250)
     else:
-        points = randint(190,220)
+        points = randint(200,225)
     url = "https://game-domain.blum.codes/api/v1/game/claim"
     data = {
         "gameId": game_id,
@@ -423,7 +423,6 @@ cpdef void automation():
 
         print_name()
         clear_console()
-        time.sleep(1)
 
         data = get_refresh_token(tokens_file_path)  # return [tokens, list(accounts_names)]
         if not data:
@@ -490,11 +489,11 @@ cpdef void automation():
                 time.sleep(3.5)
 
             except Exception as e:
-                print(f"Error: {e}")
+                print(Fore.LIGHTRED_EX + Style.BRIGHT + f"Error: {e}")
                 time.sleep(uniform(1.5,2.5))
                 continue
 
     except Exception as e:
-        print(f"Error: {e}")
+        print(Fore.LIGHTRED_EX + Style.BRIGHT + f"Error: {e}")
         time.sleep(5)
         return
