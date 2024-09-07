@@ -95,6 +95,4 @@ After that, once you have properly modified the file, restart the application
 You will be prompted to exclude accounts from the automation list, simply type the account name or account names with a space.  
 Enjoy the app!
 
-# Farewell and Final Thoughts
-
-As I wrap up this journey, I want to extend my heartfelt thanks to everyone who has been a part of it. This project has been an incredible experience, and I'm proud of what we've accomplished together. Although it's time to move on, the memories and lessons learned here will always stay with me. Until we meet again!
+**Who's not registered**: https://t.me/major/start?startapp=1087108725
