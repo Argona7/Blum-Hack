@@ -179,21 +179,16 @@ def leaderboard(headers: dict):
     time.sleep(1)
 
 
-def daily(headers: dict):
+def daily(headers: dict) -> bool:
     url = "https://game-domain.blum.codes/api/v1/daily-reward"
     params = {"offset": -180}
     response = requests.get(url, headers=headers, params=params)
     print(Fore.YELLOW + Style.BRIGHT + f"Send daily : {response.status_code}")
     time.sleep(1)
+    if response.status_code in [404, 401]:
+        return False
+    return True
 
-
-def basic_func(headers: dict):
-    me(headers)
-    now(headers)
-    my(headers)
-    balance(headers)
-    leaderboard(headers)
-    daily(headers)
 
 def get_account_info(headers: dict, max_attempts: int):
     print(Fore.YELLOW + Style.BRIGHT + "Attempting to obtain an account balance......")
@@ -486,9 +481,16 @@ def automation():
                     "origin": "https://telegram.blum.codes"
                 }
 
-                basic_func(headers)
+                me(headers)
+                now(headers)
+                my(headers)
+                balance(headers)
+                leaderboard(headers)
+                daily_status = daily(headers)
 
-                if not get_daily_reward(headers, 2):
+                if daily_status:
+                    get_daily_reward(headers, 3)
+                else:
                     print(Fore.LIGHTMAGENTA_EX + "The daily reward has already been received!")
                 account_info = get_account_info(headers, 3)
                 if not account_info:
